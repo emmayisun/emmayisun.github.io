@@ -155,6 +155,7 @@ yat:
 header_pages:
   - about.html
   - index.html
+  - archives.html
   - categories.html
   - tags.html
   - fedsnotes.html
