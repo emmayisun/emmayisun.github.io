@@ -127,7 +127,7 @@ going to go down that far. Where we’re looking at being for the 12 months at t
 <a id="cut"></a>
 <span style="color:#ec5e2a;"><strong>Now, if you think about in central banking, we talk about a Taylor rule, or various types of Taylor rules to kind of give us a rule of thumb about how we think we should set policy, and every one of those things would say if inflation is coming down, you don’t need to keep . . . You know, once you get rates or inflation down low enough, you don’t necessarily have to keep rates up at those levels. So there are certainly good economic arguments from any kind of standard Taylor rule that would tell you if we see this inflation continuing for several more months, I don’t know how long that might be, three months, four months, five months, that we feel confident that inflation is really down, and on its way, that you could then start lowering the policy rate just because inflation is lower. It has nothing to do with trying to save the economy, or recession, it’s just consistent with every policy rule I know from my academic life, and as a policymaker, if inflation goes down, you would lower the policy rate.</strong></span>
 
-<span style="color: orange;"><strong>So yeah, there’s just no reason to say you would keep it really high, and inflation’s back at target, for example.</strong></span>
+<span style="color: #ec5e2a;"><strong>So yeah, there’s just no reason to say you would keep it really high, and inflation’s back at target, for example.</strong></span>
 
 <b>Michael R. Strain:</b> Other questions?
 
