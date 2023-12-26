@@ -3,10 +3,10 @@ layout: post
 title: 11/28/23 Waller 
 subtitle: Something Appears to Be Giving
 categories: Waller
-tags: [inflation, waller]
+tags: [inflation,waller]
+[speech](https://www.federalreserve.gov/newsevents/speech/waller20231128a.htm)
+[watch replay](https://www.youtube.com/live/kblOawJJ2X8?si=iA_GSD6ffmndTyuS)
 ---
-
-[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
 
 Last month, I gave a speech entitled "Something's Got to Give."1 That message was prompted by the fact that we were observing strong economic growth and employment data in the third quarter, while simultaneously seeing a clear moderation in core personal consumption expenditures (PCE) inflation. While this was good news for employment growth, the pace of real economic activity seemed inconsistent with continued progress toward the Federal Open Market Committee's (FOMC) goal of 2 percent inflation. It seemed clear to me then that something had to give— for inflation to continue falling to our 2 percent target, the economy needed to slow from its torrid third-quarter pace. If it did not cool off, then it was likely that progress on inflation would stop or even reverse. So, what remained to be seen was whether the economy would cool or inflation would heat up.
 
@@ -36,7 +36,7 @@ The question is whether inflation can continue to make progress toward 2 percent
 
 First, housing services inflation, based heavily on rents, has slowed from its peak last year, and the lagged effect of moderation in rental prices in the past year should keep this sizable component of inflation at a moderate level.5 Goods prices have contributed a lot to the decline in inflation recently and have moderated so much that they probably won't be contributing much more. But services excluding housing, which accounts for about half of PCE inflation, has not moderated as much as other categories, and there will have to be some improvement there for overall inflation to reach 2 percent.
 
-Labor costs are a significant share of these service price increases, and the moderation in wage growth I mentioned earlier should help lower this segment of inflation. The increase in average hourly earnings has slowed to an annualized rate of 3.2 percent over the past three months, below the 4.1 percent 12- month rate, a sign of continuing improvement. That is also the indication from the Atlanta Fed's Wage Growth Tracker, which uses household survey data to estimate annual wage increases. It was as high as 6.4 percent in March and was down to 5.2 percent in October. A broader measure of compensation, the quarterly employment cost index, has improved less dramatically this year. A services-oriented measure of wage increases constructed by the St. Louis Fed also showed slowing. This research, based on data from the payroll company Homebase, shows wage pressure continuing to moderate in a way that is similar to broader measures of wage growth.6
+Labor costs are a significant share of these service price increases, and the moderation in wage growth I mentioned earlier should help lower this segment of inflation. The increase in average hourly earnings has slowed to an annualized rate of 3.2 percent over the past three months, below the 4.1 percent 12-month rate, a sign of continuing improvement. That is also the indication from the Atlanta Fed's Wage Growth Tracker, which uses household survey data to estimate annual wage increases. It was as high as 6.4 percent in March and was down to 5.2 percent in October. A broader measure of compensation, the quarterly employment cost index, has improved less dramatically this year. A services-oriented measure of wage increases constructed by the St. Louis Fed also showed slowing. This research, based on data from the payroll company Homebase, shows wage pressure continuing to moderate in a way that is similar to broader measures of wage growth.6
 
 This is encouraging, but it is not enough evidence to be sure it will continue. Just a couple of months ago, inflation and economic activity bounced back up, and the future was looking less certain. And while it is encouraging to see inflation by the FOMC's preferred measure dipping below a 3 percent rate over the last three or six months, our target is 2 percent, and policy needs to be set a level that moves inflation to 2 percent in the medium term. I will be closely monitoring the pressure on various categories of goods and services prices in the coming weeks to help me decide if inflation is continuing on its downward path.
 
