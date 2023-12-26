@@ -4,6 +4,7 @@ title: 11/28/2023 Waller
 subtitle: Something Appears to Be Giving
 categories: Waller
 tags: [cut, waller]
+article_excerpt: "With Fed likely done hiking rates, Waller flags pivot ahead."
 ---
 #### Headline
 [FED'S WALLER: THERE'S GOOD ECONOMIC ARGUMENTS THAT IF INFLATION CONTINUES FALLING FOR SEVERAL MORE MONTHS, YOU COULD LOWER POLICY RATE](#cut)
