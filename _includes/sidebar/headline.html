@@ -20,3 +20,23 @@
         } 
      document.getElementsByTagName("head")[0].appendChild(jo);
 </script>
+
+
+<!-- Your Custom Filtering Script -->
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() {
+            const keyword = "Fed"; // Replace with your keyword
+            const newsItems = document.querySelectorAll('#financialjuice-news-widget-container .news-item'); // Replace with the actual selector
+
+            newsItems.forEach(item => {
+                if (!item.textContent.includes(keyword)) {
+                    item.style.display = 'none'; // Hide non-matching items
+                }
+            });
+        }, 3000); // Adjust delay time as needed
+    });
+</script>
+
+</body>
+</html>
