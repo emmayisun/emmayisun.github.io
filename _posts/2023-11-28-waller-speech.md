@@ -3,10 +3,11 @@ layout: post
 title: 11/28/2023 Waller 
 subtitle: Something Appears to Be Giving
 categories: Waller
-tags: [inflation,waller]
+tags: [cut,waller]
 ---
 #### Headline
-[FED'S WALLER: IF INFLATION CONSISTENTLY DECLINES, THERE IS NO REASON TO INSIST THAT RATES REMAIN REALLY HIGH](#cut)  
+[FED'S WALLER: THERE'S GOOD ECONOMIC ARGUMENTS THAT IF INFLATION CONTINUES FALLING FOR SEVERAL MORE MONTHS, YOU COULD LOWER POLICY RATE](#cut) 
+[FED'S WALLER: IF INFLATION CONSISTENTLY DECLINES, THERE IS NO REASON TO INSIST THAT RATES REMAIN REALLY HIGH](#cut) 
 #### Link
 [Speech](https://www.federalreserve.gov/newsevents/speech/waller20231128a.htm) ||
 [Replay](https://www.youtube.com/live/kblOawJJ2X8?si=iA_GSD6ffmndTyuS) ||
@@ -102,9 +103,9 @@ So with fiscal policy, you know, that’s Congress’s job, to do whatever they 
 
 <b>Michael R. Strain:</b> **What is your outlook for the longer term neutral rate?**
 
-<b>Christopher J. Waller:</b> I have a whole speech on this at some point. There’s so much chatter about the long run neutral rate, and my just general comment is if you look at the real return on safe liquid government debt, that thing has been falling for 40 years. Just go plot it out, it is just a long, long, long downward trend. The rate of return to capital, due to some work by one of my colleagues in St. Louis, Ravi Kumar, if you look at the real return, or the average real return to capital over the last 40 years, it’s constant. It’s very volatile, but there’s no secular downward trend. So there’s something unique about safe liquid government debt, treasuries in particular that is driving this long-term decline. So whenever people tell me it’s going to bounce back up, I always kind of ask, it’s been declining for 40 years. What is it that you suddenly think is now driving it up? 
+<b>Christopher J. Waller:</b> **I have a whole speech on this at some point. There’s so much chatter about the long run neutral rate, and my just general comment is if you look at the real return on safe liquid government debt, that thing has been falling for 40 years. Just go plot it out, it is just a long, long, long downward trend. The rate of return to capital, due to some work by one of my colleagues in St. Louis, Ravi Kumar, if you look at the real return, or the average real return to capital over the last 40 years, it’s constant. It’s very volatile, but there’s no secular downward trend. So there’s something unique about safe liquid government debt, treasuries in particular that is driving this long-term decline. So whenever people tell me it’s going to bounce back up, I always kind of ask, it’s been declining for 40 years. What is it that you suddenly think is now driving it up?**
 
-I mean, just a couple of weeks ago we heard it’s all the 10-year treasuries going up because R-star is higher. Well, now it’s fallen back six-tenths. Is R-star coming back down in three weeks? I mean, these just sound like . . . They’re just really not plausible stories. You’ve got to do a lot more work in thinking  about, and estimating, and understanding the causes of why it would suddenly start going back up.
+**I mean, just a couple of weeks ago we heard it’s all the 10-year treasuries going up because R-star is higher. Well, now it’s fallen back six-tenths. Is R-star coming back down in three weeks? I mean, these just sound like . . . They’re just really not plausible stories. You’ve got to do a lot more work in thinking  about, and estimating, and understanding the causes of why it would suddenly start going back up.**
 
 <b>Michael R. Strain:</b> Last question from me, and I know you want to stay focused on the economic outlook, but I want to ask you about the Basel Endgame capital requirement proposal, and your vote on that, and kind of how you’re thinking about how you might further engage with that.
 
@@ -114,7 +115,7 @@ So that was my argument. And I think when I looked at the numbers, operational r
 
 <b>Michael R. Strain:</b> Okay, let’s take questions. Yes, sir.
 
-<a id="cut"></a>
+
 <b>Nick Timiraos:</b> Hi, Nick Timiraos, with the *Wall Street Journal*. Governor Waller, I want to ask you about something you said at the beginning of the year. At the beginning of the year, there was a disconnect between what you and your colleagues were saying about the path of policy for this year, and what the markets were pricing at. And the markets were pricing in a lower policy rate by the end of this year, and you had said, you had kind of characterized this as a miraculous melting away of inflation that the market expected, that you didn’t see. Since June, we’ve now seen, with this week’s reading, perhaps five months of better behaved core PCE inflation could be annualized around 2.5 percent. And so I’m wondering if that continues, if that would count in your book as this miraculous melting away of inflation.
 
 **I guess the question I’m building up to is, at what point would you say maybe policy rates could be lowered, that a 5 3/8 percent policy rate wouldn’t be  appropriate if inflation could be sustained at 2.5 percent core inflation? Thank you.**
@@ -123,7 +124,7 @@ So that was my argument. And I think when I looked at the numbers, operational r
 
 The market, I argued, as Nick said, I viewed the market was thinking inflation was going to be at 2.5 percent by the summer. I didn’t think it was
 going to go down that far. Where we’re looking at being for the 12 months at the end of the year is about what I thought it would be back in January, somewhere between 3 percent to 3.5 percent. That’s kind of what I had in mind back in early January. So it’s kind of played out that way, but it’s been bumpy, you know? There have been months where it was much better, and looked like it was going to be a miraculous disinflation, and then it popped back up, like in September. So I think it’s heading . . . The inflation rate’s moving along pretty much like I thought.
-
+<a id="cut"></a>
 <span style="color:#ec5e2a;"><strong>Now, if you think about in central banking, we talk about a Taylor rule, or various types of Taylor rules to kind of give us a rule of thumb about how we think we should set policy, and every one of those things would say if inflation is coming down, you don’t need to keep . . . You know, once you get rates or inflation down low enough, you don’t necessarily have to keep rates up at those levels. So there are certainly good economic arguments from any kind of standard Taylor rule that would tell you if we see this inflation continuing for several more months, I don’t know how long that might be, three months, four months, five months, that we feel confident that inflation is really down, and on its way, that you could then start lowering the policy rate just because inflation is lower. It has nothing to do with trying to save the economy, or recession, it’s just consistent with every policy rule I know from my academic life, and as a policymaker, if inflation goes down, you would lower the policy rate.</strong></span>
 
 <span style="color: orange;"><strong>So yeah, there’s just no reason to say you would keep it really high, and inflation’s back at target, for example.</strong></span>
