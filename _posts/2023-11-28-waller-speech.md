@@ -2,23 +2,8 @@
 layout: post
 title: 11/28/23 Waller 
 subtitle: Something Appears to Be Giving
-speaker: Chris Waller
 categories: Waller
-banner:
-  video:
-  loop: true
-  volume: 0.8
-  start_at: 8.5
-  image:
-  opacity: 0.618
-  background: "#000"
-  height: "100vh"
-  min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
-  subheading_style: "color: gold"
-tags: jekyll theme yat
-top: 1
-sidebar: []
+tags: [inflation, waller]
 ---
 
 [![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
