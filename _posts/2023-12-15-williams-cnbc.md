@@ -8,7 +8,7 @@ tags: [cut, williams]
 [FED'S WILLIAMS: WE AREN'T REALLY TALKING ABOUT RATE CUTS RIGHT NOW](#cut1)  
 [FED'S WILLIAMS: WE ARE AT OR NEAR RIGHT PLACE FOR MONETORY POLICY](#restrive)  
 [FED'S WILLIAMS: IT'S PREMATURE TO EVEN BE THINKING ABOUT TIMING OR RATE CUTS](#cut2)  
-[FED'S WILLIAMS: WE ARE NOT READY TO SAY WHEN THE BALANCE SHEET WIND DOWN STOPS](#qt)  
+[FED'S WILLIAMS: WE ARE NOT READY TO SAY WHEN THE BALANCE SHEET WIND DOWN STOPS]  
 Fed's Williams: The market reacting maybe more strongly than forecasts show  
 Fed's Williams: We will need to move policy back to more normal levels over time  
 Fed's Williams: Big market moves are a pattern for last year  
@@ -50,7 +50,7 @@ But things can change. One thing we've learned, even over the past year, is that
 
 **Steve Liesman: Do you believe the Federal Reserve can cut interest rates next year?**
 
-**John Williams:** </strong></span>Well, again, we, of course, we can do whatever is appropriate for achieving our goals. The way I think about this is -- if we get the progress I'm hoping to see on inflation, on the economy, of course it will be kind of natural for us to move monetary policy over an extended period of time, over a few years, back to more normal levels.</strong></span>
+**John Williams:** <span style="color:#ec5e2a;"><strong>Well, again, we, of course, we can do whatever is appropriate for achieving our goals. The way I think about this is -- if we get the progress I'm hoping to see on inflation, on the economy, of course it will be kind of natural for us to move monetary policy over an extended period of time, over a few years, back to more normal levels.</strong></span>
 
 **That has to be in the context of us being confident that inflation is moving sustainably toward our 2% goal. It's absolutely essential to see that, but under those conditions, my baseline forecast, of course, we need to move policy back to normal levels over a period of time. We've got to be data-dependent and able to adjust according to what we're seeing.**
 
