@@ -2,7 +2,6 @@
 layout: post
 title: 12/15/2023 Williams CNBC Interview
 categories: Williams 
-author: "Emma Sun"
 tags: [cut, williams]
 top: 2
 new: 2
