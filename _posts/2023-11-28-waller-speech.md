@@ -8,7 +8,7 @@ tags: [cut, waller]
 #### Headline
 [FED'S WALLER: THERE'S GOOD ECONOMIC ARGUMENTS THAT IF INFLATION CONTINUES FALLING FOR SEVERAL MORE MONTHS, YOU COULD LOWER POLICY RATE](#cut)
 
-[FED'S WALLER: IF INFLATION CONSISTENTLY DECLINES, THERE IS NO REASON TO INSIST THAT RATES REMAIN REALLY HIGH](#cut) 
+[FED'S WALLER: IF INFLATION CONSISTENTLY DECLINES, THERE IS NO REASON TO INSIST THAT RATES REMAIN REALLY HIGH](#cut)
 #### Link
 [Speech](https://www.federalreserve.gov/newsevents/speech/waller20231128a.htm) ||
 [Replay](https://www.youtube.com/live/kblOawJJ2X8?si=iA_GSD6ffmndTyuS) ||
@@ -16,7 +16,6 @@ tags: [cut, waller]
 **Press Coverage:**
 [Reuters](https://www.reuters.com/markets/us/feds-waller-increasingly-confident-policy-is-right-spot-2023-11-28/) 
 [AEI](https://www.aei.org/op-eds/fed-governor-waller-says-hes-confident-inflation-is-headed-back-to-2-percent/)
-
 #### Speech and Q&A Text
 Last month, I gave a speech entitled "Something's Got to Give."1 That message was prompted by the fact that we were observing strong economic growth and employment data in the third quarter, while simultaneously seeing a clear moderation in core personal consumption expenditures (PCE) inflation. While this was good news for employment growth, the pace of real economic activity seemed inconsistent with continued progress toward the Federal Open Market Committee's (FOMC) goal of 2 percent inflation. It seemed clear to me then that something had to give— for inflation to continue falling to our 2 percent target, the economy needed to slow from its torrid third-quarter pace. If it did not cool off, then it was likely that progress on inflation would stop or even reverse. So, what remained to be seen was whether the economy would cool or inflation would heat up.
 
