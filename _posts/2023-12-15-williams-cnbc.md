@@ -5,7 +5,7 @@ categories: Williams
 tags: [cut, williams]
 top: 2
 new: 2
-article_excerpt: "this is to see if it would work or not."
+article_excerpt: "New York Federal Reserve President John Williams said Friday rate cuts are not a topic of discussion at the moment for the central bank."
 ---
 #### Headline
 [FED'S WILLIAMS: WE AREN'T REALLY TALKING ABOUT RATE CUTS RIGHT NOW](#cut1)  
