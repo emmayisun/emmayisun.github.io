@@ -8,7 +8,7 @@ tags: [inflation,waller]
 
 ["FED'S WALLER: IF INFLATION CONSISTENTLY DECLINES, THERE IS NO REASON TO INSIST THAT RATES REMAIN REALLY HIGH"](#cut)  
 [Speech](https://www.federalreserve.gov/newsevents/speech/waller20231128a.htm)  
-[Replay](https://www.youtube.com/live/kblOawJJ2X8?si=iA_GSD6ffmndTyuS)
+[Replay](https://www.youtube.com/live/kblOawJJ2X8?si=iA_GSD6ffmndTyuS)  
 [Full Transcript](https://www.aei.org/wp-content/uploads/2023/11/231128-The-Federal-Reserve-and-the-Economic-Outlook-A-Conversation-with-Christopher-J.-Waller-transcript.pdf?x91208)
 
 Last month, I gave a speech entitled "Something's Got to Give."1 That message was prompted by the fact that we were observing strong economic growth and employment data in the third quarter, while simultaneously seeing a clear moderation in core personal consumption expenditures (PCE) inflation. While this was good news for employment growth, the pace of real economic activity seemed inconsistent with continued progress toward the Federal Open Market Committee's (FOMC) goal of 2 percent inflation. It seemed clear to me then that something had to give— for inflation to continue falling to our 2 percent target, the economy needed to slow from its torrid third-quarter pace. If it did not cool off, then it was likely that progress on inflation would stop or even reverse. So, what remained to be seen was whether the economy would cool or inflation would heat up.
