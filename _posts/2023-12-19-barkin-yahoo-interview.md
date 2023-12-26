@@ -4,14 +4,14 @@ title: 12/19/2023 Barkin Yahoo Interview
 categories: Barkin
 tags: [cut, dot, barkin]
 article_excerpt: "Richmond Federal Reserve President Tom Barkin said Tuesday the central bank has made good progress on bringing down inflation, but he needs to see more consistency in the data before rate cuts can begin."
-top: 2
+top: false
 new: 1
 ---
 #### Headline
-Fed's Barkin: Inflation data has been going the right direction. We're making good progress
-Fed's Barkin: The Fed is nicely positioned given the outlook for the economy
-Fed's Barkin: I think inflation is more stubborn than the average Fed official
-Fed's Barkin: If inflation comes down nicely the Fed will respond
+Fed's Barkin: Inflation data has been going the right direction. We're making good progress  
+Fed's Barkin: The Fed is nicely positioned given the outlook for the economy  
+Fed's Barkin: I think inflation is more stubborn than the average Fed official  
+Fed's Barkin: If inflation comes down nicely the Fed will respond  
 <details>
   <summary>more headlines</summary>
 Fed's Barkin: I expect inflation to cool further
@@ -25,7 +25,7 @@ Fed's Barkin: I see signs of weakening in some parts of consumer economy
 </details>
 
 #### Link
-[Replay](https://finance.yahoo.com/video/feds-barkin-seeking-conviction-inflation-175331865.html)
+[Replay](https://finance.yahoo.com/video/feds-barkin-seeking-conviction-inflation-175331865.html) ||
 [Transcript](https://finance.yahoo.com/video/feds-barkin-seeking-conviction-inflation-175331865.html)
 #### Q&A Text
 <b>JENNIFER SCHONBERGER:</b> Thanks Seana. For more on last week's Fed decision, I want to welcome into the program Richmond Fed President Tom Barkin. Tom, thank you so much for joining me. It's great to have you on the program.
