@@ -8,7 +8,7 @@ tags: [cut, williams]
 [FED'S WILLIAMS: WE AREN'T REALLY TALKING ABOUT RATE CUTS RIGHT NOW](#cut1)  
 [FED'S WILLIAMS: WE ARE AT OR NEAR RIGHT PLACE FOR MONETORY POLICY](#restrive)  
 [FED'S WILLIAMS: IT'S PREMATURE TO EVEN BE THINKING ABOUT TIMING OR RATE CUTS](#cut2)  
-[FED'S WILLIAMS: WE ARE NOT READY TO SAY WHEN THE BALANCE SHEET WIND DOWN STOPS]  
+FED'S WILLIAMS: WE ARE NOT READY TO SAY WHEN THE BALANCE SHEET WIND DOWN STOPS  
 Fed's Williams: The market reacting maybe more strongly than forecasts show  
 Fed's Williams: We will need to move policy back to more normal levels over time  
 Fed's Williams: Big market moves are a pattern for last year  
