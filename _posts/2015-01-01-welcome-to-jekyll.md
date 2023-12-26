@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 11/28/23 Waller 
+title: 11.28.23 Waller 
 subtitle: Something Appears to Be Giving
 author: Chris Waller
 categories: jekyll
