@@ -5,8 +5,13 @@
 {%- include functions.html func='get_reading_time' -%}
 {%- assign reading_time = return -%}
 
-{%- include functions.html func='get_article_excerpt' -%}
-{%- assign article_excerpt = return -%}
+{%- assign post_url = post.url | relative_url -%}
+{% if post.article_excerpt %}
+  {% assign article_excerpt = post.article_excerpt %}
+{% else %}
+  {%- include functions.html func='get_article_excerpt' -%}
+  {%- assign article_excerpt = return -%}
+{% endif %}
 {%- assign post_url = post.url | relative_url -%}
 
 {%- assign name = 'excerpt.image_width' -%}
