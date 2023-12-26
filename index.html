@@ -6,3 +6,25 @@ layout: home
 title: Home
 banner: "/assets/images/banners/home.jpeg"
 ---
+<!-- FinancialJuice Widget-->
+<div id="financialjuice-news-widget-container"  ></div>
+<!--Place this script after </body> -->
+<script type="text/javascript">
+    var jo = document.createElement("script");
+    jo.type = "text/javascript";
+    jo.id= "FJ-Widgets";
+    var r = Math.floor(Math.random() * (9999 - 0 + 1) + 0);
+    jo.src = "https://feed.financialjuice.com/widgets/widgets.js?r=" + r + "";
+    jo.onload = function(){ 
+    var options = {};
+     options.container = "financialjuice-news-widget-container";
+    options.mode = "Light";
+    options.width= "500px";
+    options.height= "600px";
+    options.backColor= "1e222d";
+    options.fontColor= "b2b5be";
+    options.widgetType= "NEWS";
+   new window.FJWidgets.createWidget(options);
+        } 
+     document.getElementsByTagName("head")[0].appendChild(jo);
+</script>
