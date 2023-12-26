@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-subtitle: A awesome static site generator.
-author: Jeffrey
-categories: jekyll
+title: 11/28/23 Waller 
+subtitle: Something Appears to Be Giving
+speaker: Chris Waller
+categories: Waller
 banner:
-  video: https://vjs.zencdn.net/v/oceans.mp4
+  video: [https://vjs.zencdn.net/v/oceans.mp4](https://www.youtube.com/live/kblOawJJ2X8?si=Sd_EzS0-wRni0fN3)
   loop: true
   volume: 0.8
   start_at: 8.5
