@@ -5,7 +5,7 @@ subtitle: Something Appears to Be Giving
 categories: Waller
 tags: [inflation,waller]
 ---
-["policy rate is restrictive"](#policy)
+["policy rate is restrictive"](#policy)  
 [speech](https://www.federalreserve.gov/newsevents/speech/waller20231128a.htm)  
 [watch replay](https://www.youtube.com/live/kblOawJJ2X8?si=iA_GSD6ffmndTyuS)
 
