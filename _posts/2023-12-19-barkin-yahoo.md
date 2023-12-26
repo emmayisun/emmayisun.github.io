@@ -14,14 +14,14 @@ Fed's Barkin: I think inflation is more stubborn than the average Fed official
 Fed's Barkin: If inflation comes down nicely the Fed will respond  
 <details>
   <summary>more headlines</summary>
-Fed's Barkin: I expect inflation to cool further  
-Fed's Barkin: The retreat in inflation is remarkable  
-Fed's Barkin: The economy is not as frothy as data had suggested  
-Fed's Barkin: I am looking for consistency and breadth in inflation data  
-Fed's Barkin: Demand and inflation are normalizing  
-Fed's Barkin: The Fed SEP are not guidance, just a forecast  
-Fed's Barkin: I am looking for conviction that inflation is coming back to target  
-Fed's Barkin: I see signs of weakening in some parts of consumer economy  
+Fed's Barkin: I expect inflation to cool further<br>
+Fed's Barkin: The retreat in inflation is remarkable<br> 
+Fed's Barkin: The economy is not as frothy as data had suggested<br> 
+Fed's Barkin: I am looking for consistency and breadth in inflation data<br>
+Fed's Barkin: Demand and inflation are normalizing<br>
+Fed's Barkin: The Fed SEP are not guidance, just a forecast<br>
+Fed's Barkin: I am looking for conviction that inflation is coming back to target<br>
+Fed's Barkin: I see signs of weakening in some parts of consumer economy<br>
 </details>
 
 #### Link
