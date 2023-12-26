@@ -10,7 +10,7 @@ tags: [cut, williams]
 [FED'S WILLIAMS: IT'S PREMATURE TO EVEN BE THINKING ABOUT TIMING OR RATE CUTS](#cut2)  
 FED'S WILLIAMS: WE ARE NOT READY TO SAY WHEN THE BALANCE SHEET WIND DOWN STOPS
 <details>
-  <summary>More Headlines</summary>
+  <summary>more headlines</summary>
   Fed's Williams: The market reacting maybe more strongly than forecasts show<br>
   Fed's Williams: We will need to move policy back to more normal levels over time<br>
   Fed's Williams: Big market moves are a pattern for last year<br>
