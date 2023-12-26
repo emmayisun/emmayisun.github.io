@@ -5,21 +5,14 @@ subtitle: Something Appears to Be Giving
 speaker: Chris Waller
 categories: Waller
 banner:
-  video: https://www.youtube.com/live/kblOawJJ2X8?si=Sd_EzS0-wRni0fN3
-  loop: true
-  volume: 0.8
-  start_at: 8.5
-  image:
-  opacity: 0.618
-  background: "#000"
-  height: "100vh"
-  min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: black"
 tags: waller cut inflation
 top: 1
 sidebar: []
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kblOawJJ2X8?si=U1X1hD_DktBFr7II" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Last month, I gave a speech entitled "Something's Got to Give."1 That message was prompted by the fact that we were observing strong economic growth and employment data in the third quarter, while simultaneously seeing a clear moderation in core personal consumption expenditures (PCE) inflation. While this was good news for employment growth, the pace of real economic activity seemed inconsistent with continued progress toward the Federal Open Market Committee's (FOMC) goal of 2 percent inflation. It seemed clear to me then that something had to give— for inflation to continue falling to our 2 percent target, the economy needed to slow from its torrid third-quarter pace. If it did not cool off, then it was likely that progress on inflation would stop or even reverse. So, what remained to be seen was whether the economy would cool or inflation would heat up.
 
