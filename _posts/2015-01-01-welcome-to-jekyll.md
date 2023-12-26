@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 11.28.23 Waller 
+title: 11/28/23 Waller 
 subtitle: Something Appears to Be Giving
-author: Chris Waller
-categories: jekyll
+speaker: Chris Waller
+categories: Waller
 banner:
   video: https://www.youtube.com/live/kblOawJJ2X8?si=Sd_EzS0-wRni0fN3
   loop: true
