@@ -13,3 +13,19 @@ title: Paper
 Interested in Collaborating? Get in touch.
 </p>
 
+<script src="https://unpkg.com/rss-parser/dist/rss-parser.min.js"></script>
+<div id="rss-feed-content"></div> <!-- Container to display the feed -->
+
+<script>
+let parser = new RSSParser();
+const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
+
+parser.parseURL(CORS_PROXY + 'https://www.federalreserve.gov/feeds/feds_notes.xml', function(err, feed) {
+  if (err) throw err;
+  const feedContainer = document.getElementById('rss-feed-content');
+  feed.items.forEach(item => {
+    const content = `<h3><a href="${item.link}">${item.title}</a></h3><p>${item.contentSnippet}</p>`;
+    feedContainer.innerHTML += content;
+  });
+});
+</script>
