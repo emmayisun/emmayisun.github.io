@@ -2,8 +2,10 @@
 layout: post
 title: 12/15/2023 Williams CNBC Interview
 categories: Williams 
+author: "Emma Sun"
 tags: [cut, williams]
 top: 2
+new: 2
 ---
 #### Headline
 [FED'S WILLIAMS: WE AREN'T REALLY TALKING ABOUT RATE CUTS RIGHT NOW](#cut1)  
