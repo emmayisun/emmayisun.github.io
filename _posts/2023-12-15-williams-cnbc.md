@@ -28,9 +28,9 @@ FED'S WILLIAMS: WE ARE NOT READY TO SAY WHEN THE BALANCE SHEET WIND DOWN STOPS
 [Replay](https://www.cnbc.com/2023/12/15/feds-john-williams-says-the-central-bank-isnt-really-talking-about-rate-cuts-right-now.html)
 #### Q&A Text
 
+<a id="cut1"></a>
 **Steve Liesman:** Start with the question I'm getting from a lot of people in the markets and the questions I have myself, which is -- what changed between, say, the end of November when it sounded like you and the chair were both saying, hey, it wasn't time to talk about rate cuts, and then what happened at the meeting where **it sounded like the committee was talking about rate cuts.**
 
-<a id="cut1"></a>
 **John Williams:** <span style="color:#ec5e2a;"><strong> First of all, we aren't really talking about rate cuts right now. We're very focused on the question in front of us, which as Chair Powell said, have we gotten monetary policy to restrictive stands to ensure inflation comes back down to 2%? That's the question in front of us and what we've been really thinking about for the past five months and I think we'll continue to think about for some time.</strong></span>
 
 That's the topic of discussion for the committee. That's a decision we made, to hold the fed funds target where it is. Clearly, we all put in projections for interest rates and inflation and growth and unemployment as well. Those are individuals thinking about what may happen over the next three years on a baseline path. The discussion really from the FOMC right now, do we have monetary policy today in the right place, not speculating on what will happen at some point in the future.
@@ -39,9 +39,9 @@ That's the topic of discussion for the committee. That's a decision we made, to 
 
 **John Williams:** We have projections. We submit summaries of those projections, they're shared with committee participants and some committee participants talk about their projections, but this is not the topic of discussion about what are we going to do, or plans around this. Again, the committee doesn't have plans around that. This is really each committee participant thinking, okay， over the next three years, if the economy evolves in a certain way, what do you think of the appropriate path where interest rates are.
 
+<a id="restrictive"></a>
 **Steve Liesman:** So what was the answer to the question? Are you sufficiently restrictive?
 
-<a id="restrictive"></a>
 **John Williams:** I think in the -- this gets to the uncertainties we face. It's still a highly uncertain situation, both in terms of inflation and progress in the economy. Right now I think the base case, speaking from my own view, the base case is looking pretty good. Economy is strong, unemployment is low. <span style="color:#ec5e2a;"><strong>When you think about how we have gotten policy to kind of the appropriate place, it's looking like we are at or near that in terms of sufficient restrictive.</strong></span>
 
 But things can change. One thing we've learned, even over the past year, is that the data can move and in surprising ways. We need to be ready to tighten policy further, if inflation, the progress of inflation were to stall or reverse, and, you know, the committee is clearly focused in making sure we bring inflation back down to 2% on a sustained basis. We need to be data-dependent and make the right policy decisions depending on what transpires. 
@@ -62,9 +62,9 @@ But things can change. One thing we've learned, even over the past year, is that
 
 **John Williams:** I don't think the monetary policy that simplistically. One of the principles of monetary policy, is to focus on *real interest rates*, which are nominal interest rates adjusted for inflation I think about... in terms of the totality of the data, what's happening in terms of our maximum employment mandate, what's happening in terms of inflation, what's how what's the outlook look like, and what are the balance of risks. To my mind, it's not as simple as that and really about all of the information that suggests over time, as the economy, hopefully, you know, moves in operation right back to our 2% goal, with the economy still being strong and labor market strong it will over time, we'll want to get monetary policy back to more normal levels.
 
+<a id="cut2"></a>
 **Steve Liesman:** I have to ask more openly. Rates coming down by March. How do you respond?
 
-<a id="cut2"></a>
 **John Williams:** <span style="color:#ec5e2a;"><strong>Well, I just think it's just premature to be even thinking about that question. Right now the question we're thinking about at the FOMC, do we have the level of rates right as chair Powell said, there's these phases of how we've thought about monetary policy you know have we got this the stance of policy uh sufficiently restrictive and then of course we'll be watching the data to make sure that we're getting that appropriate policy. To me the debate is not... it is premature to really think about like what we will be doing sometime well into the future. That's not the question that's in front of us. </strong></span>
 
 **Steve Liesman:** That's what markets do. Right? Try to forecast what's going to happen six months down the road. Not necessarily three years. It's not crazy to be thinking, hey, we have inflation under control, as you've suggested. And as Governor Waller said, you've conceded sort of that inflation comes down, the funds rate would come down to, what? Remain restrictive, as restrictive as you've been or do you have to be as restrictive as you've been?
