@@ -3,12 +3,11 @@ layout: post
 title: 11/28/2023 Waller 
 subtitle: Something Appears to Be Giving
 categories: Waller
-tags: [cut,waller]
+tags: [cut, waller]
 ---
 #### Headline
 [FED'S WALLER: THERE'S GOOD ECONOMIC ARGUMENTS THAT IF INFLATION CONTINUES FALLING FOR SEVERAL MORE MONTHS, YOU COULD LOWER POLICY RATE](#cut) 
-[FED'S WALLER: IF INFLATION CONSISTENTLY DECLINES, THERE IS NO REASON TO INSIST THAT RATES REMAIN REALLY HIGH](#cut) 
-#### Link
+[FED'S WALLER: IF INFLATION CONSISTENTLY DECLINES, THERE IS NO REASON TO INSIST THAT RATES REMAIN REALLY HIGH](#cut) #### Link
 [Speech](https://www.federalreserve.gov/newsevents/speech/waller20231128a.htm) ||
 [Replay](https://www.youtube.com/live/kblOawJJ2X8?si=iA_GSD6ffmndTyuS) ||
 [Full Transcript](https://www.aei.org/wp-content/uploads/2023/11/231128-The-Federal-Reserve-and-the-Economic-Outlook-A-Conversation-with-Christopher-J.-Waller-transcript.pdf?x91208) ||
