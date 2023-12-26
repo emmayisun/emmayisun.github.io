@@ -6,9 +6,11 @@ tags: [cut, williams]
 ---
 #### Headline
 [FED'S WILLIAMS: WE AREN'T REALLY TALKING ABOUT RATE CUTS RIGHT NOW](#cut1)  
-[FED'S WILLIAMS: WE ARE AT OR NEAR RIGHT PLACE FOR MONETORY POLICY](#restrive)  
+[FED'S WILLIAMS: WE ARE AT OR NEAR RIGHT PLACE FOR MONETORY POLICY](#restrictive)  
 [FED'S WILLIAMS: IT'S PREMATURE TO EVEN BE THINKING ABOUT TIMING OR RATE CUTS](#cut2)  
-FED'S WILLIAMS: WE ARE NOT READY TO SAY WHEN THE BALANCE SHEET WIND DOWN STOPS  
+FED'S WILLIAMS: WE ARE NOT READY TO SAY WHEN THE BALANCE SHEET WIND DOWN STOPS
+<details>
+  <summary>More Headlines</summary>
 Fed's Williams: The market reacting maybe more strongly than forecasts show  
 Fed's Williams: We will need to move policy back to more normal levels over time  
 Fed's Williams: Big market moves are a pattern for last year  
@@ -20,6 +22,8 @@ Fed's Williams: I am still highly uncertain for the economy, and inflation
 Fed's Williams: Fed rate cut views depend on individual officials' views  
 Fed's Williams: I am not speculating on what will happen on rates  
 Fed's Williams: I'm focused on whether rate policy is in right place
+</details>
+
 #### Link
 [Replay](https://www.cnbc.com/2023/12/15/feds-john-williams-says-the-central-bank-isnt-really-talking-about-rate-cuts-right-now.html)
 #### Q&A Text
