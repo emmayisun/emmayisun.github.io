@@ -5,7 +5,7 @@ subtitle: Something Appears to Be Giving
 speaker: Chris Waller
 categories: Waller
 banner:
-  video: https://vjs.zencdn.net/v/oceans.mp4
+  video:
   loop: true
   volume: 0.8
   start_at: 8.5
