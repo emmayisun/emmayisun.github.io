@@ -5,7 +5,7 @@ categories: Barkin
 tags: [cut, dot, barkin]
 article_excerpt: "Richmond Federal Reserve President Tom Barkin said Tuesday the central bank has made good progress on bringing down inflation, but he needs to see more consistency in the data before rate cuts can begin."
 top: false
-new: 1
+new: 2
 ---
 #### Headline
 Fed's Barkin: Inflation data has been going the right direction. We're making good progress  
