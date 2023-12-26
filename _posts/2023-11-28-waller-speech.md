@@ -6,7 +6,8 @@ categories: Waller
 tags: [cut, waller]
 ---
 #### Headline
-[FED'S WALLER: THERE'S GOOD ECONOMIC ARGUMENTS THAT IF INFLATION CONTINUES FALLING FOR SEVERAL MORE MONTHS, YOU COULD LOWER POLICY RATE](#cut) 
+[FED'S WALLER: THERE'S GOOD ECONOMIC ARGUMENTS THAT IF INFLATION CONTINUES FALLING FOR SEVERAL MORE MONTHS, YOU COULD LOWER POLICY RATE](#cut)
+
 [FED'S WALLER: IF INFLATION CONSISTENTLY DECLINES, THERE IS NO REASON TO INSIST THAT RATES REMAIN REALLY HIGH](#cut) 
 #### Link
 [Speech](https://www.federalreserve.gov/newsevents/speech/waller20231128a.htm) ||
@@ -56,7 +57,7 @@ There has been chatter that robust economic growth and falling inflation may be 
 There has also been a lot of discussion about the overall easing of financial conditions this month, as reflected in market interest rates and the prices of other assets. To put this easing into perspective, from July to the end of October, the yield on the ten-year Treasury increased about 1 percentage point. Since the FOMC's last meeting, which ended November 1, the ten-year rate has fallen six tenths of a percentage point. Long-term interest rates are still higher than they were before the middle of the year, and overall financial conditions are tighter, which should be putting downward pressure on household and business spending. But the recent loosening of financial conditions is a reminder that many factors can affect these conditions and that policymakers must be careful about relying on such tightening to do our job.
 
 The October data I have cited on economic activity and inflation are consistent with the kind of moderating demand and easing price pressure that will help move inflation back to 2 percent, and I will be looking to see that confirmed in upcoming data releases. Before the next FOMC meeting we will get data on PCE inflation and job openings, and a job report and supply manager's survey for November. CPI inflation will come out on December 12, the first day of the FOMC meeting. All of that data will tell us whether inflation and aggregate demand are continuing to move in the right direction and inflation is on a path to our 2 percent goal.
-
+#### [Q&A]
 <b>Michael R. Strain:</b> Okay. A lot to talk about. Thank you, thank you for those remarks. Let me begin by offering some of my reflections on the soft landing scenario, and get your reaction to those. I agree with you, something has to give. I agree with you that we’re seeing a softening in aggregate demand. That seems clear both in terms of business investment, and in terms of consumer spending, and in terms of the labor market. So if that were to continue, then we could tip into recession, or we could have a soft landing, or we could re-accelerate, and those
 seem like three mutually exclusive and collectively exhaustive possibilities. There seems to be a lot of hope around the soft landing. 
 
