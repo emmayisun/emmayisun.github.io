@@ -5,6 +5,8 @@ categories: Presser
 tags: [fomc, powell]
 article_excerpt: "Transcript of Chair Powell’s Press Conference on December 13, 2023."
 ---
+#### Link
+[Transcript](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20231213.pdf) 
 
 **CHAIR POWELL:** Good afternoon. My colleagues and I remain squarely focused on our dual mandate to promote maximum employment and stable prices for the American people. As we approach the end of the year, it is natural to look back on the progress that has been made toward our dual mandate objectives. Inflation has eased from its highs, and this has come without a significant increase in unemployment. That is very good news. But inflation is still too high, ongoing progress in bringing it down is not assured, and the path forward is uncertain. As we look ahead to next year, I want to assure the American people that we are fully committed to returning inflation to our 2 percent goal. Restoring price stability is essential to achieve a sustained period of strong labor market conditions that benefit all.
 
