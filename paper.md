@@ -3,6 +3,7 @@ layout: post
 title: Paper
 categories: wiki
 tags: [test]
+sidebar: false
 ---
 
 <h2>Paper from Fed board and regional Feds</h2>
