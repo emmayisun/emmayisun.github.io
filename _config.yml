@@ -159,7 +159,7 @@ header_pages:
  # - categories.html
   - tags.html
   - paper.html
-  - wiki.md
+  - others.md
   - about.html
   
 # Page default value
