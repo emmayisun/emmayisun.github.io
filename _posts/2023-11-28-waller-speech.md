@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 11/28/2023 Waller 
+title: 11/28/2023 Waller AEI Discussion
 subtitle: Something Appears to Be Giving
 categories: Waller
 tags: [cut, waller]
