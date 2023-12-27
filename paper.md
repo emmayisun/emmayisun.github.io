@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: post
 title: Paper
 categories: wiki
 tags: [test]
