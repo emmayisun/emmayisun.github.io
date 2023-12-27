@@ -78,7 +78,9 @@ tags: [test]
 
 ## Primary Dealer Holdings update (Every Thursday at 4:15pm ET)
 - [Primary Dealer Holdings Homepage](https://www.newyorkfed.org/markets/counterparties/primary-dealers-statistics)
+
 ## H.4.1 update (every thursday at 4:30pm ET)
 - [H.4.1 Homepage](https://www.federalreserve.gov/releases/h41/)
+
 ## H.8 update (every friday at 4:15pm ET)
 - [H.8 Homepage](https://www.federalreserve.gov/releases/h8/)
