@@ -156,9 +156,9 @@ header_pages:
 
   - index.html
   - archives.html
- # - categories.html
+  - categories.html
   - tags.html
-  - paper.html
+  - paper.md
   - others.md
   - about.html
   
