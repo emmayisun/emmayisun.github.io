@@ -83,10 +83,13 @@ tags: [test]
 
 <div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/fv5l6/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/fv5l6/full.png" alt="" /></noscript></div>
 
-## H.4.1 update (every thursday at 4:30pm ET)
+## H.4.1 update (every Thursday at 4:30pm ET)
 - [H.4.1 Homepage](https://www.federalreserve.gov/releases/h41/)
+- [H.4.1 Current Release](https://www.federalreserve.gov/releases/h41/current/default.htm/)
 
-## H.8 update (every friday at 4:15pm ET)
+<div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/OZh7N/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/OZh7N/full.png" alt="" /></noscript></div>
+
+## H.8 update (every Friday at 4:15pm ET)
 - [H.8 Homepage](https://www.federalreserve.gov/releases/h8/)
 
   
