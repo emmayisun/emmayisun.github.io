@@ -86,3 +86,7 @@ tags: [test]
 
 ## H.8 update (every friday at 4:15pm ET)
 - [H.8 Homepage](https://www.federalreserve.gov/releases/h8/)
+- 
+
+<div style="min-height:461px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/kUX7Q/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/kUX7Q/full.png" alt="" /></noscript></div>
+
