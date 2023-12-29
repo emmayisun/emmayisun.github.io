@@ -206,8 +206,10 @@ tags: [test]
   <td class="data" headers="xt1a4 xt1b15 xt1r9 xt1r10">2.4–3.8</td>
   </tr>
   <tr>
-  {{ html_table | safe }}
 </div>
+
+
+
 
 
 | Year | Meeting Date | Link |
