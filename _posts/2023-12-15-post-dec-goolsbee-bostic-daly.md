@@ -4,7 +4,7 @@ title: 12/15/23 Recent Fedspeak from Goolsbee, Bostic, and Daly
 subtitle: Jotting down some quick notes.
 categories: Fedspeak
 tags: [dot, Goolsbee, Daly, Bostic]
-article_excerpt: "With Fed likely done hiking rates, Waller flags pivot ahead."
+article_excerpt: "Dot detective: Goolsbee - 4 cuts...? Bostic - 2 cuts in Q3. Daly - Median"
 ---
 (the below Fedspeak update is for recording keeping) 
 
