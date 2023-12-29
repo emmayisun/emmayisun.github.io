@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: about
 title: Others
 categories: wiki
+sidebar: True
 tags: [test]
 ---
 ## Fed Links
@@ -102,7 +103,7 @@ tags: [test]
 
 ## Recent SEP stats
 
-<div class="table-responsive">
+<div>
   <table aria-labelledby="xt1 xt1p1b" class="pubtables" data-sticky-columns="1" data-sticky-rows="2">
     <thead>
     <tr>
