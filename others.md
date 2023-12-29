@@ -8,7 +8,7 @@ tags: [test]
 - [Schedule for Board Governor Speech](https://www.federalreserve.gov/newsevents/calendar.htm)  
 - [FOMC Meeting Materials(statement, minutes, SEP etc)](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)
 
-## Where to find Fedspeak
+## Where to find Fedspeak(paused)
 - [Chicago Fed](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-media-appearances)
 
 | Year | Meeting Date | Link |
@@ -83,9 +83,10 @@ tags: [test]
 
 <div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/fv5l6/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/fv5l6/full.png" alt="" /></noscript></div>
 
-## H.4.1 update (every Thursday at 4:30pm ET)
+## H.4.1 update (Every Thursday at 4:30pm ET)
 - [H.4.1 Homepage](https://www.federalreserve.gov/releases/h41/)
 - [H.4.1 Current Release](https://www.federalreserve.gov/releases/h41/current/default.htm/)
+- [H.4.1 Official Explainer](https://www.federalreserve.gov/monetarypolicy/bst_fedsbalancesheet.htm)
 
 <div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/OZh7N/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/OZh7N/full.png" alt="" /></noscript></div>
 
