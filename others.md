@@ -11,6 +11,8 @@ tags: [test]
 ## Recent SEP stats
 
 <div style="min-height:231px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ey0vl/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/ey0vl/full.png" alt="" /></noscript></div>
+<br>
+<br>
 
 
 
@@ -130,6 +132,7 @@ tags: [test]
 
 ## Primary Dealer Holdings update (Every Thursday at 4:15pm ET)
 - [Primary Dealer Holdings Homepage](https://www.newyorkfed.org/markets/counterparties/primary-dealers-statistics)
+- [NY Fed Liberty Economics Blog(Feb 6th, 2023):](https://libertystreeteconomics.newyorkfed.org/2023/02/understanding-the-inconvenience-of-u-s-treasury-bonds/) PD net holdings corr with swap spreads
 
 <div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/fv5l6/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/fv5l6/full.png" alt="" /></noscript></div>
 
