@@ -146,6 +146,9 @@ tags: [test]
 ## H.8 update (every Friday at 4:15pm ET)
 - [H.8 Homepage](https://www.federalreserve.gov/releases/h8/)
 
+## Fed APIs
+- [NY Fed Markets Data API](https://markets.newyorkfed.org/static/docs/markets-api.html)
+  
 ## Where to find Fedspeak(paused)
 - [Chicago Fed](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-media-appearances)
 
