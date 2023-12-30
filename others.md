@@ -13,6 +13,9 @@ tags: [test]
 <div style="min-height:231px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ey0vl/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/ey0vl/full.png" alt="" /></noscript></div>
 
 
+
+
+    
 | Federal funds rate | 2023 | 2024 | 2025 | 2026 | Longer run |
 |--------------------|------|------|------|------|------------|
 | Dec 2023           | 5.4  | 4.6  | 3.6  | 2.9  | 2.5        |
