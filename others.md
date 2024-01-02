@@ -14,8 +14,39 @@ tags: [test]
 <br>
 <br>
 
+#### Sellside Projection
+
+| Bank                | First cut | Cuts in 2024 | Publish date |
+|---------------------|-----------|--------------|--------------|
+| Bank of America     | March     | 100 BPS      | 12/18/2023   |
+| Barclays            | June      | 75 BPS       | 12/13/2023   |
+| BNPP                | May       | 100 BPS      | 12/5/2023    |
+| Citigroup           | July      | 100 BPS      | 12/6/2023    |
+| Deutsche Bank       | June      | 175 BPS      | 11/27/2023   |
+| Evercore ISI        | June      | 125 BPS      | 12/13/2023   |
+| Goldman Sachs       | March     | 125 BPS      | 12/13/2023   |
+| HSBC                | June      | 75 BPS       | 12/17/2023   |
+| Jefferies           | March     | 225 BPS      | 12/13/2023   |
+| JP Morgan           | June      | 125 BPS      | 12/13/2023   |
+| LH Meyer            | June      | 75 BPS       | 12/13/2023   |
+| Morgan Stanley      | June      | 100 BPS      | 11/12/2023   |
+| MUFG                | March     | 175 BPS      | 12/21/2023   |
+| Nomura              | June      | 100 BPS      | 12/14/2023   |
+| Oxford Economics    | July      | 50 BPS       | 12/21/2023   |
+| TD Securities       | May       | 200 BPS      | 12/15/2023   |
+| UBS                 | March     | 275 BPS      | 12/15/2023   |
+| Wells Fargo         | June      | 225 BPS      | 11/9/2023    |
 
 
+## Detailed SEP stats
+**Common q: When are the projections collected?** [Source](https://www.federalreserve.gov/monetarypolicy/fomc_projectionsfaqs.htm)
+
+Initial projections are due by the end of the day on the Friday before the FOMC meeting. Policymakers may revise their projections at any time until the evening of the first day of the meeting. Once the projections are finalized, the charts and figures are assembled for public release.
+
+**BUT** according to the press conference of the Dec 2023 meeting[(Page 19)](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20231213.pdf), Participants are allowed to update till "mid to late morning" on the second day of the meeting. Here's the quote:
+
+"CHAIR POWELL: Right. So we got—we got CPI the morning of the first day, and we got PPI the next day, which informs the, you know, the translation into PCE [inflation]. So it’s very late in the game, you know, to—but **nonetheless, participants are allowed to, encouraged to update their SEP forecast until probably midmorning today. After that, so staff has to—has to cumulate all of that and create the documents that you see. So until about midmorning, a little, maybe late morning, it’s okay to update, and I believe some people did update their forecast
+based on what we saw today.**"
 
     
 | Federal funds rate | 2023 | 2024 | 2025 | 2026 | Longer run |
@@ -151,5 +182,13 @@ tags: [test]
   
 ## Where to find Fedspeak(paused)
 - [Chicago Fed](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-media-appearances)
+- [Dalls Fed](https://www.dallasfed.org/fed/leadership/logan/speaking#n24)
+
+## Other useful links
+- Minutes Dictionary
+  - [Updated version(2017, added some > several)](https://www.federalreserve.gov/econres/notes/feds-notes/the-fomc-meeting-minutes-an-update-of-counting-words-20170803.html)
+  - [The original(2015)](https://www.federalreserve.gov/econresdata/notes/feds-notes/2015/fomc-meeting-minutes-an-assessment-of-counting-words-and-the-diversity-of-views-20150526.html)
+- [Minutes revision, official note(2005)](https://www.federalreserve.gov/pubs/bulletin/2005/spring05_fomc.pdf)
+- [Minutes revision timeline chart, page 273(2012)](https://www.federalreserve.gov/foia/files/FOIA-response-september-2012-FOMC-meeting.pdf#page=273)
 
 
