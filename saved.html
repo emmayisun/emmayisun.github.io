@@ -3,21 +3,26 @@ layout: default
 title: Bookmark
 ---
 
-<div id="savedTextDisplay"></div>
+<div id="savedQuotesContainer" style="margin: 20px;"> <!-- Updated ID and added some basic styling -->
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var savedQuotes = JSON.parse(localStorage.getItem('savedText')) || [];
-    var container = document.getElementById('savedQuotesContainer');
+    var container = document.getElementById('savedQuotesContainer'); // Corrected ID
 
     savedQuotes.forEach(function(quote) {
         var div = document.createElement('div');
+        div.style.marginBottom = '15px'; // Optional styling
+
         var p = document.createElement('p');
         p.textContent = quote.text;
+
         var a = document.createElement('a');
         a.href = quote.url;
         a.textContent = 'Go to article';
         a.target = '_blank';
+        a.style.color = 'blue'; // Optional styling
 
         div.appendChild(p);
         div.appendChild(a);
