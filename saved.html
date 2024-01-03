@@ -3,31 +3,36 @@ layout: default
 title: Bookmark
 ---
 
-<div id="savedQuotesContainer" style="margin: 20px;"> <!-- Updated ID and added some basic styling -->
+<div id="savedQuotesContainer" style="margin: 20px;">
+    <!-- Saved items will be displayed here -->
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var savedQuotes = JSON.parse(localStorage.getItem('savedText')) || [];
-    var container = document.getElementById('savedQuotesContainer'); // Corrected ID
+    var container = document.getElementById('savedQuotesContainer');
 
     savedQuotes.forEach(function(quote) {
         var div = document.createElement('div');
         div.style.marginBottom = '15px'; // Optional styling
 
+        var title = document.createElement('h3');
+        var a = document.createElement('a');
+        a.href = quote.url;
+        a.textContent = quote.title || 'Article'; // Replace 'Article' with a default title if needed
+        a.target = '_blank';
+        title.appendChild(a);
+
         var p = document.createElement('p');
         p.textContent = quote.text;
 
-        var a = document.createElement('a');
-        a.href = quote.url;
-        a.textContent = 'Go to article';
-        a.target = '_blank';
-        a.style.color = 'blue'; // Optional styling
+        var comment = document.createElement('p');
+        comment.textContent = 'Comment: ' + quote.comment;
 
+        div.appendChild(title);
         div.appendChild(p);
-        div.appendChild(a);
+        div.appendChild(comment);
         container.appendChild(div);
     });
 });
 </script>
-
