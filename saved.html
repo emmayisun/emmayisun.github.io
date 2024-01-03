@@ -5,20 +5,24 @@ title: Bookmark
 
 <div id="savedTextDisplay"></div>
 
+<script>
 document.addEventListener('DOMContentLoaded', function() {
-    var savedItems = JSON.parse(localStorage.getItem('savedText')) || [];
-    var displayArea = document.getElementById('savedTextDisplay');
+    var savedQuotes = JSON.parse(localStorage.getItem('savedText')) || [];
+    var container = document.getElementById('savedQuotesContainer');
 
-    savedItems.forEach(function(item) {
+    savedQuotes.forEach(function(quote) {
         var div = document.createElement('div');
-        var link = document.createElement('a');
-        link.href = item.url;
-        link.textContent = 'View Article';
-        var paragraph = document.createElement('p');
-        paragraph.textContent = item.text;
+        var p = document.createElement('p');
+        p.textContent = quote.text;
+        var a = document.createElement('a');
+        a.href = quote.url;
+        a.textContent = 'Go to article';
+        a.target = '_blank';
 
-        div.appendChild(link);
-        div.appendChild(paragraph);
-        displayArea.appendChild(div);
+        div.appendChild(p);
+        div.appendChild(a);
+        container.appendChild(div);
     });
 });
+</script>
+
