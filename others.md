@@ -39,7 +39,7 @@ tags: [test]
 | Wells Fargo         | June      | 225 BPS      | 11/9/2023    |
 
 
-## Detailed SEP stats
+#### Detailed SEP stats
 **Common q: When are the projections collected?** [Source](https://www.federalreserve.gov/monetarypolicy/fomc_projectionsfaqs.htm)
 
 Initial projections are due by the end of the day on the Friday before the FOMC meeting. Policymakers may revise their projections at any time until the evening of the first day of the meeting. Once the projections are finalized, the charts and figures are assembled for public release.
