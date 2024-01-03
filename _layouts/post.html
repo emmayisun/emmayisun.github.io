@@ -24,7 +24,11 @@ sidebar:
     {%- endif -%}
 
     {%- include views/article.html -%}
-
+   
+    <!-- Save Button -->
+    <button id="saveButton" style="display: none;">Save</button>
+    <!-- End Save Button -->
+    
     {%- assign result = hidden | where_exp: "item", "item == 'navigator'" -%}
     {%- if result.size == 0 -%}
     <div class="post-nav">
