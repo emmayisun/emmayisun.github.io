@@ -28,17 +28,21 @@ function hideSaveButton() {
 }
 
 function saveTextAndComment(selectedText) {
-    var commentInput = prompt("Please enter your comment:", "");
-    if (commentInput != null) {
-        saveToLocalStorage(selectedText, commentInput);
+    var comment = prompt("Please enter your comment:", "");
+    var url = window.location.href; // Gets the current page's URL
+    var title = document.title; // Gets the current page's title
+
+    if (comment !== null) {
+        saveToLocalStorage(selectedText, comment, url, title);
     }
 }
 
-function saveToLocalStorage(text, comment) {
-    var savedItems = JSON.parse(localStorage.getItem("savedText")) || [];
-    savedItems.push({ text: text, comment: comment });
-    localStorage.setItem("savedText", JSON.stringify(savedItems));
+function saveToLocalStorage(text, comment, url, title) {
+    var savedItems = JSON.parse(localStorage.getItem('savedText')) || [];
+    savedItems.push({ text: text, comment: comment, url: url, title: title });
+    localStorage.setItem('savedText', JSON.stringify(savedItems));
 }
+
 
 // Retrieving saved items from local storage (use this in your saved-item.html)
 function getSavedItems() {
