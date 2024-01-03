@@ -1,5 +1,3 @@
-// textSelection.js
-
 document.addEventListener('mouseup', function(e) {
     let selection = window.getSelection();
     if (selection.toString().length > 0) {
@@ -17,8 +15,9 @@ function showSaveButton(x, y, selectedText) {
     saveButton.style.top = `${y}px`;
     saveButton.style.display = "block";
 
-    // Attach selected text to the button for later use
-    saveButton.setAttribute('data-selected-text', selectedText);
+    saveButton.onclick = function() {
+        saveTextAndComment(selectedText);
+    };
 }
 
 function hideSaveButton() {
@@ -28,33 +27,27 @@ function hideSaveButton() {
     }
 }
 
-// This function will be triggered when the save button is clicked
-function saveTextAndComment() {
-    var saveButton = document.getElementById("saveButton");
-    var selectedText = saveButton.getAttribute('data-selected-text');
-    
-    // Show comment input field
-    var commentInput = document.getElementById("commentInput");
-    commentInput.style.display = "block";
-    commentInput.focus();
-
-    // You can modify this to handle the saving of text and comments as needed
-    // For example, saving to local storage
-    // localStorage.setItem('savedText', JSON.stringify({ text: selectedText, comment: 'Your comment here' }));
+function saveTextAndComment(selectedText) {
+    var commentInput = prompt("Please enter your comment:", "");
+    if (commentInput != null) {
+        saveToLocalStorage(selectedText, commentInput);
+    }
 }
 
-// Example function to handle comment submission
-function submitComment() {
-    var commentInput = document.getElementById("commentInput");
-    var comment = commentInput.value;
-    var saveButton = document.getElementById("saveButton");
-    var selectedText = saveButton.getAttribute('data-selected-text');
+function saveToLocalStorage(text, comment) {
+    var savedItems = JSON.parse(localStorage.getItem("savedText")) || [];
+    savedItems.push({ text: text, comment: comment });
+    localStorage.setItem("savedText", JSON.stringify(savedItems));
+}
 
-    // Logic to save the selected text and comment
-    // For example, saving to local storage
-    // localStorage.setItem('savedText', JSON.stringify({ text: selectedText, comment: comment }));
+// Retrieving saved items from local storage (use this in your saved-item.html)
+function getSavedItems() {
+    return JSON.parse(localStorage.getItem("savedText")) || [];
+}
 
-    // Hide the comment input field after saving
-    commentInput.style.display = "none";
-    hideSaveButton();
+// Function to delete an item from local storage (you can call this from your delete button)
+function deleteSavedItem(index) {
+    var savedItems = JSON.parse(localStorage.getItem("savedText")) || [];
+    savedItems.splice(index, 1);
+    localStorage.setItem("savedText", JSON.stringify(savedItems));
 }
