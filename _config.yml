@@ -158,7 +158,8 @@ header_pages:
   - archives.html
 # - categories.html
   - tags.html
-  - paper.md
+  - saved.html
+ # - paper.md
   - others.md
   - about.html
   
