@@ -3,6 +3,16 @@ layout: default
 title: Bookmark
 ---
 
+<style>
+    .selected-text {
+        color: grey;
+    }
+
+    .article-link {
+        font-size: smaller;
+    }
+</style>
+
 <div id="savedQuotesContainer" style="margin: 20px;">
     <!-- Saved items will be displayed here -->
 </div>
@@ -16,24 +26,26 @@ document.addEventListener('DOMContentLoaded', function() {
         var div = document.createElement('div');
         div.style.marginBottom = '15px'; // Optional styling
 
+        // Create and append the comment element
+        var commentElement = document.createElement('p');
+        commentElement.textContent = 'Comment: ' + quote.comment; // User comment
+        div.appendChild(commentElement);
+
+        // Create and append the selected text element
+        var textElement = document.createElement('p');
+        textElement.textContent = quote.text; // Selected text
+        textElement.className = 'selected-text'; // Apply grey color
+        div.appendChild(textElement);
+
         // Create and append the title element (clickable link)
         var titleElement = document.createElement('h3');
         var link = document.createElement('a');
         link.href = quote.url; // URL of the article
         link.textContent = quote.title || 'Read Article'; // Title of the article
         link.target = '_blank';
+        link.className = 'article-link'; // Smaller font size
         titleElement.appendChild(link);
         div.appendChild(titleElement);
-
-        // Create and append the selected text element
-        var textElement = document.createElement('p');
-        textElement.textContent = quote.text; // Selected text
-        div.appendChild(textElement);
-
-        // Create and append the comment element
-        var commentElement = document.createElement('p');
-        commentElement.textContent = 'Comment: ' + quote.comment; // User comment
-        div.appendChild(commentElement);
 
         container.appendChild(div);
     });
