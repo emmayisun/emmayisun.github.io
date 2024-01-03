@@ -16,22 +16,25 @@ document.addEventListener('DOMContentLoaded', function() {
         var div = document.createElement('div');
         div.style.marginBottom = '15px'; // Optional styling
 
-        var title = document.createElement('h3');
-        var a = document.createElement('a');
-        a.href = quote.url;
-        a.textContent = quote.title || 'Article'; // Replace 'Article' with a default title if needed
-        a.target = '_blank';
-        title.appendChild(a);
+        // Create and append the title element (clickable link)
+        var titleElement = document.createElement('h3');
+        var link = document.createElement('a');
+        link.href = quote.url; // URL of the article
+        link.textContent = quote.title || 'Read Article'; // Title of the article
+        link.target = '_blank';
+        titleElement.appendChild(link);
+        div.appendChild(titleElement);
 
-        var p = document.createElement('p');
-        p.textContent = quote.text;
+        // Create and append the selected text element
+        var textElement = document.createElement('p');
+        textElement.textContent = quote.text; // Selected text
+        div.appendChild(textElement);
 
-        var comment = document.createElement('p');
-        comment.textContent = 'Comment: ' + quote.comment;
+        // Create and append the comment element
+        var commentElement = document.createElement('p');
+        commentElement.textContent = 'Comment: ' + quote.comment; // User comment
+        div.appendChild(commentElement);
 
-        div.appendChild(title);
-        div.appendChild(p);
-        div.appendChild(comment);
         container.appendChild(div);
     });
 });
