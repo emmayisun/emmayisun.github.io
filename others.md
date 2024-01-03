@@ -13,7 +13,7 @@ tags: [test]
 <div style="min-height:231px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ey0vl/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/ey0vl/full.png" alt="" /></noscript></div>
 <br>
 <br>
-{% include plot.html %}
+{% include chart/plot.html %}
 
 #### Sellside Projection
 
