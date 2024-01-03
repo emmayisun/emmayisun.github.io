@@ -11,9 +11,9 @@ article_excerpt: "Dot detective: Goolsbee - 4 cuts...? Bostic - 2 cuts in Q3. Da
 tbu
 
 #### Goolsbee
-[12/17/2023 Face the Nation]("https://www.cbsnews.com/news/austan-goolsbee-face-the-nation-transcript-12-17-2023/")  
-[12/15/2023 WSJ article]("https://www.wsj.com/livecoverage/stock-market-today-dow-jones-12-15-2023/card/chicago-fed-s-goolsbee-says-fed-may-need-to-shift-its-focus-to-jobs-W1Q2P0Lp6eV0rXOtdxU7"), 
-[WSJ podcast(with transcript)]("https://www.wsj.com/podcasts/take-on-the-week/interest-rate-cuts-coming-chicago-feds-austan-goolsbee-has-thoughts/aba32fdb-f69c-4643-b8b5-66588a4669f4")
+[12/17/2023 Face the Nation](https://www.cbsnews.com/news/austan-goolsbee-face-the-nation-transcript-12-17-2023/)  
+[12/15/2023 WSJ article](https://www.wsj.com/livecoverage/stock-market-today-dow-jones-12-15-2023/card/chicago-fed-s-goolsbee-says-fed-may-need-to-shift-its-focus-to-jobs-W1Q2P0Lp6eV0rXOtdxU7), 
+[WSJ podcast(with transcript)](https://www.wsj.com/podcasts/take-on-the-week/interest-rate-cuts-coming-chicago-feds-austan-goolsbee-has-thoughts/aba32fdb-f69c-4643-b8b5-66588a4669f4)
 
 **On dot:** *"No, I'm not one of the extremes on that. I'm closer to the median. "*
 
