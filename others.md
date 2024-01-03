@@ -14,6 +14,7 @@ tags: [test]
 
 #### Dot Detective(Dec 2023 update - disclosed)
 {% include charts/dot_detective_disclosed.html %}
+
 #### Dot Detective(Dec 2023 update - my guesses)
 {% include charts/dot_detective_full.html %}
 
