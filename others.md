@@ -11,9 +11,10 @@ tags: [test]
 ## Recent SEP stats
 
 <div style="min-height:231px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ey0vl/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/ey0vl/full.png" alt="" /></noscript></div>
-<br>
-<br>
+
+#### Dot Detective(Dec 2023 update - disclosed)
 {% include charts/dot_detective_disclosed.html %}
+#### Dot Detective(Dec 2023 update - my guesses)
 {% include charts/dot_detective_full.html %}
 
 #### Sellside Projection
