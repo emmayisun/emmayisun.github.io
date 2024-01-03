@@ -1,0 +1,19 @@
+<div id="savedTextDisplay"></div>
+
+document.addEventListener('DOMContentLoaded', function() {
+    var savedItems = JSON.parse(localStorage.getItem('savedText')) || [];
+    var displayArea = document.getElementById('savedTextDisplay');
+
+    savedItems.forEach(function(item) {
+        var div = document.createElement('div');
+        var link = document.createElement('a');
+        link.href = item.url;
+        link.textContent = 'View Article';
+        var paragraph = document.createElement('p');
+        paragraph.textContent = item.text;
+
+        div.appendChild(link);
+        div.appendChild(paragraph);
+        displayArea.appendChild(div);
+    });
+});
