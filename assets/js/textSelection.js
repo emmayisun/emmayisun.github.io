@@ -28,13 +28,21 @@ function hideSaveButton() {
 }
 
 function saveTextAndComment(selectedText) {
-    var comment = prompt("Please enter your comment:", "");
+    var comment = prompt("Your note(press enter to save/pass):", "");
     var url = window.location.href; // Gets the current page's URL
     var title = document.title; // Gets the current page's title
 
     if (comment !== null) {
         saveToLocalStorage(selectedText, comment, url, title);
     }
+}
+function highlightSelectedText() {
+    var selection = window.getSelection();
+    var range = selection.getRangeAt(0);
+    var span = document.createElement("span");
+    span.classList.add("highlighted-text");
+    span.appendChild(range.extractContents());
+    range.insertNode(span);
 }
 
 function saveToLocalStorage(text, comment, url, title) {
