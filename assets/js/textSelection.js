@@ -1,10 +1,11 @@
 document.addEventListener('mouseup', function(e) {
     let selection = window.getSelection();
     if (selection.toString().length > 0) {
-        highlightSelectedText(); // Call the highlight function
         let range = selection.getRangeAt(0);
         let rect = range.getBoundingClientRect();
         showSaveButton(rect.right + window.scrollX, rect.top + window.scrollY, selection.toString());
+    } else {
+        hideSaveButton();
     }
 });
 
@@ -19,14 +20,22 @@ function showSaveButton(x, y, selectedText) {
     };
 }
 
-function saveTextAndComment(selectedText) {
-    var comment = prompt("Please enter your comment:", "");
-    if (comment !== null) {
-        // Save the selected text, comment, and other data to local storage
+function hideSaveButton() {
+    var saveButton = document.getElementById("saveButton");
+    if (saveButton) {
+        saveButton.style.display = "none";
     }
 }
 
-// Additional code for saving to local storage, etc.
+function saveTextAndComment(selectedText) {
+    var comment = prompt("Please enter your comment:", "");
+    var url = window.location.href; // Gets the current page's URL
+    var title = document.title; // Gets the current page's title
+
+    if (comment !== null) {
+        saveToLocalStorage(selectedText, comment, url, title);
+    }
+}
 
 function saveToLocalStorage(text, comment, url, title) {
     var savedItems = JSON.parse(localStorage.getItem('savedText')) || [];
