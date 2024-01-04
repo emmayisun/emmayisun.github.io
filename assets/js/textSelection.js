@@ -43,15 +43,13 @@ function saveToLocalStorage(text, comment, url, title) {
     localStorage.setItem('savedText', JSON.stringify(savedItems));
 }
 
+// The delete functionality should be handled where the saved items are displayed
+// For instance, in a script tag in your saved-items.html
 
-// Retrieving saved items from local storage (use this in your saved-item.html)
-function getSavedItems() {
-    return JSON.parse(localStorage.getItem("savedText")) || [];
-}
-
-// Function to delete an item from local storage (you can call this from your delete button)
+// Function to delete an item from local storage
 function deleteSavedItem(index) {
     var savedItems = JSON.parse(localStorage.getItem("savedText")) || [];
     savedItems.splice(index, 1);
     localStorage.setItem("savedText", JSON.stringify(savedItems));
+    // Optionally, refresh the displayed items
 }
