@@ -6,6 +6,10 @@ hidden: []
 sidebar:
   - article-menu
 ---
+<button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
+<input type="text" id="commentInput" style="display: none;" />
+    
+<script src="/assets/js/textSelection.js"></script>
 
 <div class="post">
   <section>
@@ -24,11 +28,6 @@ sidebar:
     {%- endif -%}
 
     {%- include views/article.html -%}
-    
-       <!-- Save Button and Related Script -->
-    <button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
-    <input type="text" id="commentInput" style="display: none;" />
-    <script src="/assets/js/textSelection.js"></script>
     
     {%- assign result = hidden | where_exp: "item", "item == 'navigator'" -%}
     {%- if result.size == 0 -%}
