@@ -2,17 +2,17 @@
 layout: default
 ---
 
+<button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
+<input type="text" id="commentInput" style="display: none;" />
+    
+<script src="/assets/js/textSelection.js"></script>
+
 <div class="framework">
   <section class="main">
 
      {{ content }}
 
   </section>
-
-    <!-- Save Button and Related Script -->
-  <button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
-  <input type="text" id="commentInput" style="display: none;" />
-  <script src="/assets/js/textSelection.js"></script>
   
   <section class="sidebar" style="margin-left: 15px;">
     <!-- Get sidebar items -->
