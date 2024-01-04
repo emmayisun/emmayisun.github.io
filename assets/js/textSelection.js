@@ -26,17 +26,6 @@ function saveTextAndComment(selectedText) {
     }
 }
 
-function highlightSelectedText() {
-    var selection = window.getSelection();
-    if (!selection.rangeCount) return;
-    var range = selection.getRangeAt(0);
-    var span = document.createElement("span");
-    span.classList.add("highlighted-text");
-    span.appendChild(range.extractContents());
-    range.insertNode(span);
-    selection.removeAllRanges(); // Remove selection after highlighting
-}
-
 // Additional code for saving to local storage, etc.
 
 function saveToLocalStorage(text, comment, url, title) {
