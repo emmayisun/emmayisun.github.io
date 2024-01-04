@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function displaySavedQuotes() {
     var savedQuotes = JSON.parse(localStorage.getItem('savedText')) || [];
     var container = document.getElementById('savedQuotesContainer');
-    container.innerHTML = ''; // Clear existing content
+  //  container.innerHTML = ''; // Clear existing content
 
     savedQuotes.forEach(function(quote, index) {
         var div = document.createElement('div');
