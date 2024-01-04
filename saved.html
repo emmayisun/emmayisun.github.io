@@ -9,7 +9,7 @@ title: Bookmark
     }
 
     .article-link {
-        font-size: smaller;
+        font-size: 0.8em;
     }
 </style>
 
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Create and append the comment element
         var commentElement = document.createElement('p');
-        commentElement.textContent = 'Comment: ' + quote.comment; // User comment
+        commentElement.textContent = 'My notes: ' + quote.comment; // User comment
         div.appendChild(commentElement);
 
         // Create and append the selected text element
