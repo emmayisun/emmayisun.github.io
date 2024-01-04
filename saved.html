@@ -8,10 +8,9 @@ title: Bookmark
         color: grey;
     }
 
-    #savedQuotesContainer .article-link {
+   #savedQuotesContainer .article-link {
         font-size: 0.8em;
-    }
-
+     
     .delete-button {
         /* Style your delete button here */
         cursor: pointer;
@@ -21,18 +20,16 @@ title: Bookmark
     }
 </style>
 
+<div id="savedQuotesContainer" style="margin: 20px;">
+    <!-- Saved items will be displayed here -->
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    displaySavedQuotes();
-});
-
-function displaySavedQuotes() {
     var savedQuotes = JSON.parse(localStorage.getItem('savedText')) || [];
     var container = document.getElementById('savedQuotesContainer');
-  //  container.innerHTML = ''; // Clear existing content
 
-    savedQuotes.forEach(function(quote, index) {
+    savedQuotes.forEach(function(quote) {
         var div = document.createElement('div');
         div.style.marginBottom = '15px'; // Optional styling
 
@@ -56,22 +53,20 @@ function displaySavedQuotes() {
         link.className = 'article-link'; // Smaller font size
         titleElement.appendChild(link);
         div.appendChild(titleElement);
-
-
-        // Delete Button
+        
+      // Delete Button
         var deleteButton = document.createElement('button');
         deleteButton.textContent = 'Delete';
         deleteButton.className = 'delete-button';
         deleteButton.onclick = function() {
             deleteSavedQuote(index);
-            displaySavedQuotes();
         };
         div.appendChild(deleteButton);
-
         container.appendChild(div);
     });
-};
+});
 
+  
 function deleteSavedQuote(index) {
     var savedQuotes = JSON.parse(localStorage.getItem("savedText")) || [];
     savedQuotes.splice(index, 1);
