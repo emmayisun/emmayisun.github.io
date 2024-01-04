@@ -105,5 +105,9 @@ $selection-background-color: unquote("{{ site.selection.background_color }}");
     cursor: pointer;
     position: absolute; // For dynamic positioning
     display: none; // Initially hidden
+  // highlight colors
+.highlighted-text {
+    background-color: yellow; // Choose your highlight color
+}
 }
 
