@@ -57,19 +57,20 @@ function displaySavedQuotes() {
         titleElement.appendChild(link);
         div.appendChild(titleElement);
 
-        // Create and append the delete button
-      //  var deleteButton = document.createElement('button');
-      //  deleteButton.textContent = 'Delete';
-      //  deleteButton.className = 'delete-button';
-     //   deleteButton.onclick = function() {
-       //     deleteSavedQuote(index);
-      //      displaySavedQuotes(); // Refresh the display
-      //  };
-     //   div.appendChild(deleteButton);
+
+        // Delete Button
+        var deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        deleteButton.className = 'delete-button';
+        deleteButton.onclick = function() {
+            deleteSavedQuote(index);
+            displaySavedQuotes();
+        };
+        div.appendChild(deleteButton);
 
         container.appendChild(div);
     });
-});
+};
 
 function deleteSavedQuote(index) {
     var savedQuotes = JSON.parse(localStorage.getItem("savedText")) || [];
