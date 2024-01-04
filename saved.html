@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var titleElement = document.createElement('h3');
         var link = document.createElement('a');
         link.href = quote.url; // URL of the article
-        link.textContent = quote.title || 'Read Article'; // Title of the article
+        link.textContent = 'source: ' + quote.title; // Title of the article
         link.target = '_blank';
         link.className = 'article-link'; // Smaller font size
         titleElement.appendChild(link);
