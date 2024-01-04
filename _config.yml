@@ -158,10 +158,11 @@ header_pages:
   - archives.html
 # - categories.html
   - tags.html
-  - saved.html
  # - paper.md
+  - podcast.html
   - others.md
   - about.html
+  - saved.html
   
 # Page default value
 # defaults:
