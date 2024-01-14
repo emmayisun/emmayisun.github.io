@@ -2,7 +2,7 @@
 layout: post
 title: 12/19/2023 Barkin Yahoo Interview
 categories: Fedspeak
-tags: [cut, dot, barkin]
+tags: [cut, dot, Barkin]
 article_excerpt: "Richmond Federal Reserve President Tom Barkin said Tuesday the central bank has made good progress on bringing down inflation, but he needs to see more consistency in the data before rate cuts can begin."
 top: false
 new: 2
