@@ -11,8 +11,6 @@ article_excerpt: "Chicago Fed President Goolsbee, signals potential interest rat
 [Reuters Article](https://www.reuters.com/markets/us/goolsbee-sees-progress-inflation-says-his-rate-cut-forecast-near-fed-median-2024-01-11/)
 
 #### Headline
-Here are the lines starting with "Fed's Goolsbee:"
-
 - Fed's Goolsbee: A substantial drop in inflation is the trend.
 - Fed's Goolsbee: The Fed targets PCE, which continues to show good progress on getting inflation down.
 - Fed's Goolsbee: PPI data is the most noisy, and least predictive; don't take too much heart from it - Fox News Interview.
