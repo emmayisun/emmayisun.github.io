@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 12/13/2023 Powell's Press Conference
+title: Powell's Press Conference
 categories: Presser
 tags: [FOMC, Powell]
 article_excerpt: "Transcript of Chair Powell’s Press Conference on December 13, 2023."
