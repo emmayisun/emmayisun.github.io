@@ -7,51 +7,30 @@ tags: [policy, QT, Williams]
 
 ---
 #### Headline
-###### Fed's Williams: Money market volatility has not affected the Fed funds rate.
-###### Fed's Williams: Demand for reserves likely higher now relative to past.
-###### Fed's Williams: The Fed needs to think this year about balance sheet end game.
-
-Fed's Williams: I am not caught up in every twist of the financial market shift.
-
-Fed's Williams: The Fed is in a good place, and has time to think about what’s next for rates.
-
-Fed's Williams: The Fed policy is still quite restrictive.
-
-Fed's Williams: Eventually the Fed needs to get policy back to more neutral levels.
-
-Fed's Williams: I am not surprised to see some money market rate volatility.
-
-Fed's Williams citing Fed's Barr: The BTFP is expected to end March 11th.
-
-Fed's Williams: I can’t say when the Fed will lower rates.
-
-Fed's Williams: The Fed rate cut outlook makes sense, the timing depends on the economy.
-
-Fed's Williams: Rate cut prospects are tied to how the economy performs.
-
-Fed's Williams: Fears of inflation getting stuck at high level are not being borne out.
-
-Fed's Williams: Inflation has been coming down pretty quickly.
-
-Fed's Williams: The Fed must be ready to react to unexpected events.
-
-Fed's Williams: The economy is not completely back to normal.
-
-Fed's Williams: The Fed are not near the point where the banking sector liquidity is scarce.
-
-Fed's Williams: Inflation situation has improved quite a bit.
-
-Fed's Williams: Things are looking very good on the jobs front.
-
-Fed’s Williams: In 2024, I see GDP at around 1.25%, unemployment at 4%.
-
-Fed's Williams: I see inflation ebbing to 2.25% in 2024, 2% in 2025.
-
-Fed's Williams: The Fed will need restrictive policy stance for some time.
-
-Fed’s Williams: The Fed can cut rates when confident inflation moving to 2%.
-
-Fed's Williams: The Fed's work to bring inflation back to 2% is not done.
+Fed's Williams: Money market volatility has not affected the Fed funds rate.  
+Fed's Williams: Demand for reserves likely higher now relative to past.  
+Fed's Williams: The Fed needs to think this year about balance sheet end game.  
+Fed's Williams: I am not caught up in every twist of the financial market shift.  
+Fed's Williams: The Fed is in a good place, and has time to think about what’s next for rates.  
+Fed's Williams: The Fed policy is still quite restrictive.  
+Fed's Williams: Eventually the Fed needs to get policy back to more neutral levels.  
+Fed's Williams: I am not surprised to see some money market rate volatility.  
+Fed's Williams citing Fed's Barr: The BTFP is expected to end March 11th.  
+Fed's Williams: I can’t say when the Fed will lower rates.  
+Fed's Williams: The Fed rate cut outlook makes sense, the timing depends on the economy.  
+Fed's Williams: Rate cut prospects are tied to how the economy performs.  
+Fed's Williams: Fears of inflation getting stuck at high level are not being borne out.  
+Fed's Williams: Inflation has been coming down pretty quickly.  
+Fed's Williams: The Fed must be ready to react to unexpected events.  
+Fed's Williams: The economy is not completely back to normal.  
+[Fed's Williams: The Fed are not near the point where the banking sector liquidity is scarce.](#qt)
+Fed's Williams: Inflation situation has improved quite a bit.  
+Fed's Williams: Things are looking very good on the jobs front.  
+[Fed’s Williams: In 2024, I see GDP at around 1.25%, unemployment at 4%.](#sep)  
+[Fed's Williams: I see inflation ebbing to 2.25% in 2024, 2% in 2025.](#sep) 
+Fed's Williams: The Fed will need restrictive policy stance for some time.  
+Fed’s Williams: The Fed can cut rates when confident inflation moving to 2%.  
+Fed's Williams: The Fed's work to bring inflation back to 2% is not done.  
 
 #### Link
 [Speech](https://www.newyorkfed.org/newsevents/speeches/2024/wil240110) || [News](https://www.bloomberg.com/news/articles/2024-01-10/fed-s-williams-says-rates-high-enough-to-cool-inflation-to-goal)
@@ -111,13 +90,14 @@ So, what does this mean for monetary policy?
 
 The FOMC’s policy actions over the past two years have put in place a restrictive policy stance that is helping achieve balance between demand and supply and restore price stability. In December, the FOMC kept the target range for the federal funds rate unchanged at 5-1/4 to 5-1/2 percent. In determining the extent of any additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments.[7](#footnote7)
 
+<a id="sep"></a>
 *So here is my forecast for 2024 and beyond. Taking into account the effects of restrictive monetary policy, I expect GDP growth to slow to about **1-1/4 percent** this year, and for the unemployment rate to rise to around **4 percent**. I expect PCE inflation to continue to slow to about **2-1/4 percent** this year, before reaching our 2 percent longer-run goal next year.*
 (***note: Dec'23 SEP median is 1.4%, 4.1%, 2.4%***)
 
 All of that said, the future remains uncertain. The risks are two-sided, with the possibility of supply-demand imbalances or inflation remaining stubbornly persistent weighed against that of a weaker-than-expected economy and labor market.
 
 My base case is that the current restrictive stance of monetary policy will continue to restore balance and bring inflation back to our 2 percent longer-run goal. I expect that we will need to maintain a restrictive stance of policy for some time to fully achieve our goals, and it will only be appropriate to dial back the degree of policy restraint when we are confident that inflation is moving toward 2 percent on a sustained basis. The outlook remains highly uncertain, and I will continue to carefully watch and assess the data to judge whether the stance of policy is best positioned to achieve our goals. Our policy decisions will be made meeting by meeting and will follow another rule of three: by looking at the totality of the incoming data, the evolving outlook, and the balance of risks.
-
+<a id="qt"></a>
 I’d like to briefly mention the current state of the Fed’s balance sheet. At our last meeting in December, the FOMC said that it will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in our framework announced in 2022.[8](#footnote8) The strategy and implementation of the reduction in our security holdings is working exactly as designed. Thus far we have reduced our securities holdings by about $1.3 trillion, with no signs of adverse effects on market functioning.[9](#footnote9)
 
 <span style="color:#ec5e2a;"><strong>In its plans, the FOMC said that to ensure a smooth transition it intends to slow and then stop the decline in the size of the balance sheet when reserve balances are somewhat above the level it judges to be consistent with ample reserves.[10](#footnote10) So far, we don’t seem to be close to that point. The decline in securities holdings has been absorbed almost entirely by a drop in the overnight reverse repurchase agreement facility (ON RRP). As a result, aggregate reserve balances are little changed from their levels in mid-2022, when balance sheet reduction started. Looking ahead to this year, as the balance sheet continues to shrink and usage of the ON RRP continues to decline, we will closely monitor money market conditions and the demand for reserves.</strong></span>
