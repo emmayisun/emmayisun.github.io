@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 01/08/2024 Bostic Anticipates Two Rate Cuts in 3Q24; No Rush to Slow Down Runoff
+title: Bostic Anticipates Two Rate Cuts in 3Q24; No Rush to Slow Down Runoff
 subtitle: Opening remarks at panel on Market Monitoring and the Implementation of Monetary Policy
 categories: Fedspeak
 tags: [policy, QT, Bostic]
