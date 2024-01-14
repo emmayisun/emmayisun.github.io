@@ -6,7 +6,7 @@ categories: Fedspeak
 tags: [dot, Goolsbee, Daly, Bostic]
 article_excerpt: "Dot detective: Goolsbee - 4 cuts...? Bostic - 2 cuts in Q3. Daly - Median"
 ---
-(the below Fedspeak update is for recording keeping) 
+(the below Fedspeak update is generated manually for record keeping) 
 
 tbu
 
