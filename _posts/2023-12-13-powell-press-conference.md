@@ -5,6 +5,7 @@ categories: Presser
 tags: [FOMC, Powell]
 article_excerpt: "Transcript of Chair Powell’s Press Conference on December 13, 2023."
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pwbKwGjhuhk?si=AujIFA8mVTLHxjxF&amp;start=3527" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 #### Link
 [Transcript](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20231213.pdf) 
 
