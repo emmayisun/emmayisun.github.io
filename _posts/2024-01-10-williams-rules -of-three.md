@@ -4,7 +4,7 @@ title: 01/10/2024 Williams Speech
 subtitle: Rules of Three
 categories: Fedspeak
 tags: [policy, QT, Williams]
-
+article_excerpt: "In his 2024 outlook, Federal Reserve Bank President John Williams forecasts a GDP growth slowdown to 1.25%, an unemployment rise to 4%, and a decrease in PCE inflation to around 2.25%. This indicated a slightly more bearish growth view compared to the median view in Dec SEP. Williams also notes that while the Fed plans to slow and eventually stop the balance sheet reduction 'when reserve balances are somewhat above the level it judges to be consistent with ample reserves', but 'we don’t seem to be close to that point'."
 ---
 #### Headline
 Fed's Williams: Money market volatility has not affected the Fed funds rate.  
@@ -31,10 +31,8 @@ Fed's Williams: Things are looking very good on the jobs front.
 Fed's Williams: The Fed will need restrictive policy stance for some time.  
 Fed’s Williams: The Fed can cut rates when confident inflation moving to 2%.  
 Fed's Williams: The Fed's work to bring inflation back to 2% is not done.  
-
 #### Link
 [Speech](https://www.newyorkfed.org/newsevents/speeches/2024/wil240110) || [News](https://www.bloomberg.com/news/articles/2024-01-10/fed-s-williams-says-rates-high-enough-to-cool-inflation-to-goal)
-
 #### Speech Text
 **Introduction**
 
