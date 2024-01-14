@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 12/15/23 Recent Fedspeak from Goolsbee, Bostic, and Daly
+title: Recent Fedspeak from Goolsbee, Bostic, and Daly
 subtitle: Jotting down some quick notes.
 categories: Fedspeak
 tags: [dot, Goolsbee, Daly, Bostic]
