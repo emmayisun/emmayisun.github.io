@@ -6,6 +6,8 @@ tags: [policy, QT, Mester]
 article_excerpt: "Cleveland Fed President Loretta Mester, who holds a critical voting role this year and is slated for retirement in June, expressed skepticism about the possibility of a rate cut in March, suggesting that it might be too soon for such a move. She emphasized the need for more concrete evidence on the economy's progress before considering adjustments to the current rate. Regarding the Federal Reserve's balance sheet, Mester echoed William's recent remarks and mentioned that discussions are anticipated this year about the pace of reduction, but emphasized that no immediate changes are necessary due to the ample reserves still in the system. Mester also reflected on the December CPI report, noting that it doesn't suggest to her that inflation progress is stalling out. She highlighted the ongoing need for a restrictive monetary policy to achieve the Fed's 2% inflation target." 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Y3-AzffR6Y?si=PSYhVRp8qxr45t9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### Headline
 - Fed's Mester: Fed needs more evidence economy is progressing as expected.
 - [Fed's Mester: The slowdown of QT is not imminent, but the Fed will discuss this year.](#QT)
