@@ -7,6 +7,8 @@ article_excerpt: "New York Federal Reserve President John Williams said Friday r
 top: 2
 new: 1
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NRvDg4H7ReU?si=jFtQNc4GvGjvjg8a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### Headline
 [FED'S WILLIAMS: WE AREN'T REALLY TALKING ABOUT RATE CUTS RIGHT NOW](#cut1)  
 [FED'S WILLIAMS: WE ARE AT OR NEAR RIGHT PLACE FOR MONETORY POLICY](#restrictive)  
