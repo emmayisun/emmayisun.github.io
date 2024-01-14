@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 11/28/2023 Waller Suggested Fed is Ready to Cut if Inflation Continues Falling
+title: 11/28/2023 Waller Suggested Fed is Ready to Cut If Inflation Continues Falling
 subtitle: Something Appears to Be Giving
 categories: Fedspeak
 tags: [cut, Waller]
