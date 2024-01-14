@@ -7,11 +7,9 @@ tags: [policy, QT, Williams]
 
 ---
 #### Headline
-Fed's Williams: Money market volatility has not affected the Fed funds rate.
-
-Fed's Williams: Demand for reserves likely higher now relative to past.
-
-Fed's Williams: The Fed needs to think this year about balance sheet end game.
+###### Fed's Williams: Money market volatility has not affected the Fed funds rate.
+###### Fed's Williams: Demand for reserves likely higher now relative to past.
+###### Fed's Williams: The Fed needs to think this year about balance sheet end game.
 
 Fed's Williams: I am not caught up in every twist of the financial market shift.
 
