@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 01/08/2024 Bostic at the Rotary Club of Atlanta
+title: 01/08/2024 Bostic Anticipates Two Rate Cuts in 3Q24; no rush to slow down runoff
 subtitle: Opening remarks at panel on Market Monitoring and the Implementation of Monetary Policy
 categories: Fedspeak
 tags: [policy, QT, Bostic]
