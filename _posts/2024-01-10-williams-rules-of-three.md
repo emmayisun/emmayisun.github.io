@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 01/10/2024 Williams Indicates Fed Not Near Reducing Pace of Balance Sheet Runoff
+title: Williams Indicates Fed Not Near Reducing Pace of Balance Sheet Runoff
 subtitle: Rules of Three
 categories: Fedspeak
 tags: [policy, QT, Williams]
