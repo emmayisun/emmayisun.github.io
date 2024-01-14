@@ -3,7 +3,7 @@ layout: post
 title: 11/28/2023 Waller AEI Discussion
 subtitle: Something Appears to Be Giving
 categories: Fedspeak
-tags: [cut, waller]
+tags: [cut, Waller]
 article_excerpt: "With Fed likely done hiking rates, Waller flags pivot ahead."
 ---
 #### Headline
