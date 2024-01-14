@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 01/12/2024 Goolsbee Downplays December CPI Report, Hinting No Immediate Intention to Halt Runoff
+title:  Goolsbee Downplays December CPI Report, Hinting No Immediate Intention to Halt Runoff
 categories: Fedspeak
 tags: [policy, QT, Goolsbee]
 article_excerpt: "Chicago Fed President Goolsbee, signals potential interest rate cuts in 2024, depending on the continued decline in inflation. He downplayed today's CPI report, citing 'I don't think we want to get too hung up on any one month's report' and pointed to Fed's target PCE, which 'continued to show good progress'. He reiterated his stance, noting, 'I wasn't the lowest (on the dot plot), I was closer to the median,' indicating a moderate position on future rate adjustments. Regarding the Federal Reserve's balance sheet, Goolsbee supports the ongoing strategy of gradual reduction, hinting no immediate intention to halt the runoff."
