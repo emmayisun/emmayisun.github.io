@@ -2,7 +2,7 @@
 layout: post
 title: 12/15/2023 Williams CNBC Interview
 categories: Fedspeak
-tags: [cut, williams]
+tags: [cut, Williams]
 article_excerpt: "New York Federal Reserve President John Williams said Friday rate cuts are not a topic of discussion at the moment for the central bank."
 top: 2
 new: 1
