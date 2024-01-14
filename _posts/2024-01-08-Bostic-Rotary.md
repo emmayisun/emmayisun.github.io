@@ -6,6 +6,7 @@ categories: Fedspeak
 tags: [policy, QT, Bostic]
 article_excerpt: "Bostic on Monday repeated his expectation for two rate cuts this year, and told reporters after the event that he expects the first cut in the third quarter; Bostic also told reporters it’s an “open question” if and when the Fed should alter the pace at which it reduces its portfolio of assets, adding that the current pace is appropriate."
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z187wRC-4KU?si=-w7kAtSsUDHUjTDZ&amp;start=129" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 #### Headline
 Fed's Bostic: Businesses say that hiring practices are normalizing, as is the ability to pass along price increases.  
 Fed's Bostic: The current pace of balance sheet normalization is appropriate. The Fed remains in a situation of ample reserves.  
