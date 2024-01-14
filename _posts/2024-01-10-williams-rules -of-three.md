@@ -23,11 +23,11 @@ Fed's Williams: Fears of inflation getting stuck at high level are not being bor
 Fed's Williams: Inflation has been coming down pretty quickly.  
 Fed's Williams: The Fed must be ready to react to unexpected events.  
 Fed's Williams: The economy is not completely back to normal.  
-[Fed's Williams: The Fed are not near the point where the banking sector liquidity is scarce.](#qt)
+[Fed's Williams: The Fed are not near the point where the banking sector liquidity is scarce.](#qt)  
 Fed's Williams: Inflation situation has improved quite a bit.  
 Fed's Williams: Things are looking very good on the jobs front.  
 [Fed’s Williams: In 2024, I see GDP at around 1.25%, unemployment at 4%.](#sep)  
-[Fed's Williams: I see inflation ebbing to 2.25% in 2024, 2% in 2025.](#sep) 
+[Fed's Williams: I see inflation ebbing to 2.25% in 2024, 2% in 2025.](#sep)  
 Fed's Williams: The Fed will need restrictive policy stance for some time.  
 Fed’s Williams: The Fed can cut rates when confident inflation moving to 2%.  
 Fed's Williams: The Fed's work to bring inflation back to 2% is not done.  
@@ -111,21 +111,12 @@ I’ll close with a final set of three. One, the strong actions that we have tak
 * * *
 
 1 This figure is based on the change of non-seasonally adjusted non-farm payrolls between December 2022 and December 2023.
-
 2 John C. Williams, [A Bedrock Commitment to Price Stability](https://www.newyorkfed.org/newsevents/speeches/2022/wil221003), remarks at the 2022 U.S. Hispanic Chamber of Commerce National Conference, Phoenix, Arizona, October 3, 2022; John C. Williams, [Peeling the Inflation Onion](https://www.newyorkfed.org/newsevents/speeches/2022/wil221128), remarks at the Economic Club of New York (delivered via videoconference), November 28, 2022; John C. Williams, [Peeling the Inflation Onion, Revisited](https://tellerwindow.newyorkfed.org/2023/09/29/peeling-the-inflation-onion-revisited/), _The Teller Window_, September 29, 2023; John C. Williams, [Restoring Price Stability](https://www.newyorkfed.org/newsevents/speeches/2023/wil231130), remarks at Exploring Innovations in Central Banking, Bretton Woods Committee, New York Fed Joint Conference, November 30, 2023.
-
 3 Federal Reserve Bank of New York, [Global Supply Chain Pressure Index](https://www.newyorkfed.org/research/policy/gscpi#/overview).
-
 4 Federal Reserve Bank of New York, [Inflation Expectations Decline Across All Horizons](https://www.newyorkfed.org/newsevents/news/research/2024/20240108), January 8, 2024.
-
 5 Federal Reserve Bank of New York, [Multivariate Core Trend Inflation](https://www.newyorkfed.org/research/policy/mct#--:mct-inflation:trend-inflation).
-
 6 Almuzara, M., R. Audoly, and D. Melcangi, 2023. “[A Measure of Core Wage Inflation](https://www.newyorkfed.org/research/staff_reports/sr1067.html).” Federal Reserve Bank of New York, Staff Reports, no. 1067.
-
 7 Board of Governors of the Federal Reserve System, [Federal Reserve issues FOMC statement](https://www.federalreserve.gov/newsevents/pressreleases/monetary20231213a.htm), December 13, 2023.
-
 8 Board of Governors of the Federal Reserve System, [Principles for Reducing the Size of the Federal Reserve's Balance Sheet](https://www.federalreserve.gov/newsevents/pressreleases/monetary20220126c.htm), January 26, 2022. Board of Governors of the Federal Reserve System, [Plans for Reducing the Size of the Federal Reserve’s Balance Sheet](https://www.federalreserve.gov/newsevents/pressreleases/monetary20220504b.htm), May 4, 2022.
-
 9 Roberto Perli, [Disentangling Messages from the Treasury Market](https://www.newyorkfed.org/newsevents/speeches/2023/per231116), remarks at 2023 U.S. Treasury Market Conference, Federal Reserve Bank of New York, New York City, November 16, 2023.
-
 10 Board of Governors of the Federal Reserve System, [Plans for Reducing the Size of the Federal Reserve's Balance Sheet](https://www.federalreserve.gov/newsevents/pressreleases/monetary20220504b.htm), May 4, 2022.
