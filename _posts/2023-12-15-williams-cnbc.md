@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 12/15/2023 Williams Pushed Back on Market's Dovish Response Post FOMC
+title: 12/15/2023 Williams Pushes Back on Market's Dovish Response Post FOMC
 categories: Fedspeak
 tags: [cut, Williams]
 article_excerpt: "New York Federal Reserve President John Williams said Friday rate cuts are not a topic of discussion at the moment for the central bank."
