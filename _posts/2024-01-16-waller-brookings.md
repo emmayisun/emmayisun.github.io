@@ -1,6 +1,6 @@
 ---
 layout: post
-title: waller pushed back on a march cut
+title: WALLER pushed back on a march cut
 subtitle: Almost as Good as It Gets…But Will It Last?
 categories: Fedspeak
 tags: [cut, Waller]
