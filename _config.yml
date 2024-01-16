@@ -1,4 +1,4 @@
-xxxx# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # About Theme
 #
@@ -49,7 +49,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
-apple_touch_icon: '/assets/images/apple-touch-icon.png'
+favicon: "" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
