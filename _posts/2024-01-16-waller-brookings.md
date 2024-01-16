@@ -27,10 +27,40 @@ function seekToTime(seconds) {
 }
 </script>
 
+### Headline
+
+- Fed's Waller: Changes in policy path must be carefully calibrated, not rushed.
+- Fed's Waller: We are close but i will need more information in coming months to be sure.
+- Fed's Waller: I view risks to Fed's employment and inflation mandates as more closely balanced.
+- Fed's Waller: I believe policy is set properly.
+- Fed's Waller: The Fed will be able to cut the policy rate this year as long as inflation doesn't rebound or stay high.
+- Fed's Waller: Data in last few months is allowing fed to consider cutting policy rate in 2024.
+- Fed's Waller: My view is consistent with Fed policymaker projections for three 25-bps rate cuts in 2024.
+- Fed's Waller: The December jobs report was largely noise.
+- Fed's Waller: The setting of policy needs to proceed with more caution to avoid over-tightening.
+- Fed's Waller: Financial conditions remain restrictive.
+- Fed's Waller: The timing and actual number of cuts will depend on incoming data.
+- Fed's Waller: Rate cuts should be done methodically and carefully, there's no reason to cut as quickly as in the past.
+- Fed's Waller: Economic activity has moderated.
+- Fed's Waller: The slowdown in consumer spending appears tentative, will find out more from Wednesday's retail sales data.
+- Fed's Waller: I am more confident we are within striking distance of achieving sustainable 2% inflation.
+- Fed's Waller: Ongoing moderation in labor market supports progress toward 2% inflation.
+- Fed's Waller: A strong economy gives fed the flexibility to move methodically on cuts.
+- Fed's Waller: 4% wage growth is a little high, but not by much.
+- Fed's Waller: Shipping does not need to go through the Red Sea, it could require some one time level impacts on costs, but not on underlying inflation.
+- Fed's Waller: It is reasonable to consider slowing the asset runoff this year.
+- Fed's Waller: Once the Fed decides to cut, we can take our time with the pace.
+- Fed's Waller: Once supply adjustment is complete will be clearer whether demand is falling enough to finish the inflation fight. An issue the Fed needs to watch.
+- Fed's Waller: rent inflation is expected to come down, it is just taking longer for new leases to flow through to the inflation index.
+- Fed's Waller: If we think need to move rate down faster, we can.
+
+### Link
+[Speech](https://www.federalreserve.gov/newsevents/speech/waller20240116a.htm) || [BBG](https://www.bloomberg.com/news/articles/2024-01-16/waller-says-fed-can-cut-rates-this-year-absent-inflation-rebound)
+
 ### Speech
 Thank you, David Wessel, and thank you to Brookings for the opportunity to speak to you today.
 
-In the second half of 2023, I gave a series of speeches about the apparent conflict between the strength of economic activity in the third quarter and continued progress toward the Federal Open Market Committee's (FOMC) 2 percent inflation goal.[1](#fn1 "footnote 1") I said then that "something's got to give"—either activity needs to moderate, or progress on lowering inflation is going to stop. By late November, the latest economic data left me encouraged that there were signs of moderating economic activity in the fourth quarter, but inflation was still too high.
+In the second half of 2023, I gave a series of speeches about the apparent conflict between the strength of economic activity in the third quarter and continued progress toward the Federal Open Market Committee's (FOMC) 2 percent inflation goal.[^1] I said then that "something's got to give"—either activity needs to moderate, or progress on lowering inflation is going to stop. By late November, the latest economic data left me encouraged that there were signs of moderating economic activity in the fourth quarter, but inflation was still too high.
 
 As of today, the data has come in even better. Real gross domestic product (GDP) is expected to have grown between 1 and 2 percent in the fourth quarter, unemployment is still below 4 percent, and core personal consumption expenditure (PCE) inflation has been running close to 2 percent for the last 6 months. For a macroeconomist, this is almost as good as it gets.
 
@@ -50,7 +80,7 @@ Meanwhile, data on job openings indicates ongoing moderation in labor demand. Jo
 
 But in the spring of 2022, the vacancy rate peaked around 7.5 percent with nearly 12 million job vacancies, and there were still about 6 million unemployed workers. It just seemed counterintuitive to me that with that many job openings and so few people looking for work that the first thing a firm would do when labor demand softened would be to lay off workers. My economic instinct was that this time things would be different and that vacancies would absorb the decline in labor demand, while employment and unemployment changed relatively little.
 
-But instinct isn't enough sometimes. One needs an economic model to verify your instinct and good data analysis is needed to quantify the theoretical impact. This is what I provided in a speech I gave in May 2022, with the help of Andrew Figura.[^2](#fn2 "footnote 2") In that speech we described a textbook labor search model to derive a Beveridge curve, which is a theoretical relationship between job vacancies and the unemployment rate.[3](#fn3 "footnote 3") To quantify the effects of restrictive monetary policy on unemployment, we used standard empirical methods to calibrate the theoretical model. We showed that if restrictive monetary policy could lower the vacancy rate from 7.5 percent to 4.5 percent via a significant decline in job vacancies, there would be a relatively small increase in the unemployment rate—from 3.7 percent to 4.2 percent. Based on this analysis, we argued that, as long as the involuntary job-separation rate did not rise, restrictive monetary policy would allow the FOMC to bring inflation down without a significant increase in the unemployment rate. This seemed like a very plausible assumption given the incredibly high vacancy rate and dearth of workers looking for jobs. Our predictions contradicted standard Phillips curve analysis and historical precedent, but we were in unprecedented times in 2022.
+But instinct isn't enough sometimes. One needs an economic model to verify your instinct and good data analysis is needed to quantify the theoretical impact. This is what I provided in a speech I gave in May 2022, with the help of Andrew Figura.[^2] In that speech we described a textbook labor search model to derive a Beveridge curve, which is a theoretical relationship between job vacancies and the unemployment rate.[^3] To quantify the effects of restrictive monetary policy on unemployment, we used standard empirical methods to calibrate the theoretical model. We showed that if restrictive monetary policy could lower the vacancy rate from 7.5 percent to 4.5 percent via a significant decline in job vacancies, there would be a relatively small increase in the unemployment rate—from 3.7 percent to 4.2 percent. Based on this analysis, we argued that, as long as the involuntary job-separation rate did not rise, restrictive monetary policy would allow the FOMC to bring inflation down without a significant increase in the unemployment rate. This seemed like a very plausible assumption given the incredibly high vacancy rate and dearth of workers looking for jobs. Our predictions contradicted standard Phillips curve analysis and historical precedent, but we were in unprecedented times in 2022.
 
 It has been nearly two years since I gave that speech. How has our prediction faired? Data received since then have supported our argument. Since March 2022, the FOMC raised the policy rate over 500 basis points and core PCE inflation has fallen substantially, especially when measured over the past six months. During this dramatic tightening of policy, the job vacancy rate fell from around 7.5 percent to 5.3 percent, which brought the ratio of job vacancies to the number of unemployed people to a touch below 1.4—down from the peak of 2 and not far from the pre-pandemic level of 1.2. The involuntary job-separation rate has remained essentially unchanged at 1 percent since April 2022. Meanwhile the unemployment rate, while bouncing around a bit, is the same as it was in March 2022, 3.7 percent, which is lower than we predicted.
 
@@ -58,7 +88,7 @@ Now, we argued that this couldn't go on forever. We showed in our research that 
 
 Moving on from the labor market, another important factor affecting economic activity and progress toward the FOMC's economic objectives is financial conditions, and I wanted to give my view of where they stand. There has been a lot of focus on tightening financial conditions in the fall and then easing of conditions more recently. My view continues to be that, on net, financial conditions remain restrictive and continue to have the desired effect of being a drag on economic activity to put downward pressure on inflation.
 
-Recall that the 10-year Treasury yield peaked in mid-October around 5 percent at the time of the jump up in measured economic activity in the third quarter and shortly after a strong jobs report for September. At that point, FOMC participants still expected another rate hike in 2023. But then the data started cooling off, the FOMC's December Summary of Economic Projections indicated no more hikes, and the 10-year Treasury yield fell to around 4 percent, which is roughly where it was just after the FOMC's last rate hike in July. Remember that in July the widespread view was that financial conditions were pretty tight. I consider this to still be true today, and that judgment is supported by current readings of financial conditions indexes, which capture a broader set of financial variables.[4](#fn4 "footnote 4")
+Recall that the 10-year Treasury yield peaked in mid-October around 5 percent at the time of the jump up in measured economic activity in the third quarter and shortly after a strong jobs report for September. At that point, FOMC participants still expected another rate hike in 2023. But then the data started cooling off, the FOMC's December Summary of Economic Projections indicated no more hikes, and the 10-year Treasury yield fell to around 4 percent, which is roughly where it was just after the FOMC's last rate hike in July. Remember that in July the widespread view was that financial conditions were pretty tight. I consider this to still be true today, and that judgment is supported by current readings of financial conditions indexes, which capture a broader set of financial variables.[^4]
 
 So let's talk about what the data on economic activity, the labor market and financial conditions mean for progress toward 2 percent inflation. The backdrop is that we made a lot of progress on inflation in 2023. The 12-month percent change in total PCE inflation, the FOMC's preferred measure for our target, fell from 5.3 percent in January to 2.6 percent in November, the latest month of data. Factoring out volatile energy and food prices, core inflation is a better guide to where inflation is going, and core PCE inflation fell from 5 percent in January to 3.2 percent in November. With inflation declining over the course of the year, I like to look at 3- and 6-month measures to have a better understanding of the current level of inflation. As I noted earlier, the 6-month change in core inflation has been hovering close to a 2 percent annual rate, as has the 3-month measure.
 
@@ -237,12 +267,12 @@ The other thing to learn is that inflation isn't dead. For 40 years, people, or 
 
 * * *
 
-1\. See Christopher J. Waller (2023), "Something's Got to Give," speech delivered at the Distinguished Speaker Seminar, European Economics and Financial Center, London, October 18, and "Something Appears to Be Giving," speech delivered at the American Enterprise Institute, Washington, D.C., November 28. The views expressed here are my own and not necessarily those of my colleagues on the Federal Open Market Committee. [Return to text](#f1)
+[^1]: See Christopher J. Waller (2023), "Something's Got to Give," speech delivered at the Distinguished Speaker Seminar, European Economics and Financial Center, London, October 18, and "Something Appears to Be Giving," speech delivered at the American Enterprise Institute, Washington, D.C., November 28. The views expressed here are my own and not necessarily those of my colleagues on the Federal Open Market Committee. [Return to text](#f1)
 
-[^2]. See Christopher J. Waller (2022), "Responding to High Inflation, with Some Thoughts on a Soft Landing," speech delivered at the Institute for Monetary and Financial Stability (IMFS) Distinguished Lecture, Goethe University Frankfurt, Germany, May 30. [Return to text](#f2)
+[^2]: See Christopher J. Waller (2022), "Responding to High Inflation, with Some Thoughts on a Soft Landing," speech delivered at the Institute for Monetary and Financial Stability (IMFS) Distinguished Lecture, Goethe University Frankfurt, Germany, May 30. [Return to text](#f2)
 
-3\. See Figura and Waller (2022). ["What does the Beveridge curve tell us about the likelihood of a soft landing?,"](https://doi.org/10.17016/2380-7172.3190) FEDS Notes. Washington: Board of Governors of the Federal Reserve System, July 29, 2022. [Return to text](#f3)
+[^3]: See Figura and Waller (2022). ["What does the Beveridge curve tell us about the likelihood of a soft landing?,"](https://doi.org/10.17016/2380-7172.3190) FEDS Notes. Washington: Board of Governors of the Federal Reserve System, July 29, 2022. [Return to text](#f3)
 
-4\. For example, the movement of Goldman Sachs' Financial Conditions Index looks a lot like that of the 10-year Treasury yield and is close to its levels in July. The Federal Reserve's Financial Conditions Impulse on Growth index also shows a downward movement from its peak earlier in 2023, and its level continues to suggest that conditions are a headwind to economic activity. [Return to text](#f4)
+[^4]: For example, the movement of Goldman Sachs' Financial Conditions Index looks a lot like that of the 10-year Treasury yield and is close to its levels in July. The Federal Reserve's Financial Conditions Impulse on Growth index also shows a downward movement from its peak earlier in 2023, and its level continues to suggest that conditions are a headwind to economic activity. [Return to text](#f4)
 
 
