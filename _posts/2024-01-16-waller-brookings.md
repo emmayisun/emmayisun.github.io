@@ -79,7 +79,7 @@ When the time is right to begin lowering rates, I believe it can and should be l
 Thank you.
 
 
-#### Q&A Transcript:
+#### Q&A Transcript <a href="#" onclick="seekToTime(1215); return false;">(20:15)</a>
 
 **David Wessel:** Thank you, Governor Waller. Let me pick up where you left off. You said that you've basically described a soft landing scenario. Congratulations on that if you can pull it off. We have a Fed funds rate that's between 5.25% and 5.5%. And as you point out, inflation is approaching your 2% goal. So why move slowly and gradually? Why talk about three-quarter point moves on the Fed funds rate? Won't that leave financial conditions restrictive and risk the overtightening that you warned against?
 
