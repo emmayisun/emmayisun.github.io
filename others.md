@@ -22,7 +22,7 @@ tags: [test]
 | Bank                | First cut | Cuts in 2024 | Publish date |
 |---------------------|-----------|--------------|--------------|
 | Bank of America     | March     | 100 BPS      | 12/18/2023   |
-| Barclays            | June      | 75 BPS       | 12/13/2023   |
+| Barclays            | March     | 100 BPS      | 01/12/2024   |
 | BNPP                | May       | 100 BPS      | 12/5/2023    |
 | Citigroup           | July      | 100 BPS      | 12/6/2023    |
 | Deutsche Bank       | June      | 175 BPS      | 11/27/2023   |
