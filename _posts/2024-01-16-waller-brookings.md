@@ -27,7 +27,7 @@ function seekToTime(seconds) {
 }
 </script>
 
-#### Speech
+### Speech
 Thank you, David Wessel, and thank you to Brookings for the opportunity to speak to you today.
 
 In the second half of 2023, I gave a series of speeches about the apparent conflict between the strength of economic activity in the third quarter and continued progress toward the Federal Open Market Committee's (FOMC) 2 percent inflation goal.[1](#fn1 "footnote 1") I said then that "something's got to give"—either activity needs to moderate, or progress on lowering inflation is going to stop. By late November, the latest economic data left me encouraged that there were signs of moderating economic activity in the fourth quarter, but inflation was still too high.
@@ -79,7 +79,7 @@ When the time is right to begin lowering rates, I believe it can and should be l
 Thank you.
 
 
-#### Q&A Transcript
+### Q&A Transcript
 <a href="#" onclick="seekToTime(1215); return false;">(20:15)</a>
 
 **David Wessel:** Thank you, Governor Waller. Let me pick up where you left off. You said that you've basically described a soft landing scenario. Congratulations on that if you can pull it off. We have a Fed funds rate that's between 5.25% and 5.5%. And as you point out, inflation is approaching your 2% goal. So why move slowly and gradually? Why talk about three-quarter point moves on the Fed funds rate? Won't that leave financial conditions restrictive and risk the overtightening that you warned against?
@@ -239,7 +239,7 @@ The other thing to learn is that inflation isn't dead. For 40 years, people, or 
 
 1\. See Christopher J. Waller (2023), "Something's Got to Give," speech delivered at the Distinguished Speaker Seminar, European Economics and Financial Center, London, October 18, and "Something Appears to Be Giving," speech delivered at the American Enterprise Institute, Washington, D.C., November 28. The views expressed here are my own and not necessarily those of my colleagues on the Federal Open Market Committee. [Return to text](#f1)
 
-[^1]. See Christopher J. Waller (2022), "Responding to High Inflation, with Some Thoughts on a Soft Landing," speech delivered at the Institute for Monetary and Financial Stability (IMFS) Distinguished Lecture, Goethe University Frankfurt, Germany, May 30. [Return to text](#f2)
+[^2]. See Christopher J. Waller (2022), "Responding to High Inflation, with Some Thoughts on a Soft Landing," speech delivered at the Institute for Monetary and Financial Stability (IMFS) Distinguished Lecture, Goethe University Frankfurt, Germany, May 30. [Return to text](#f2)
 
 3\. See Figura and Waller (2022). ["What does the Beveridge curve tell us about the likelihood of a soft landing?,"](https://doi.org/10.17016/2380-7172.3190) FEDS Notes. Washington: Board of Governors of the Federal Reserve System, July 29, 2022. [Return to text](#f3)
 
