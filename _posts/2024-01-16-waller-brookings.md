@@ -1,15 +1,36 @@
 ---
 layout: post
-title: WALLER pushed back on a march cut
+title: Waller pushed back on a march cut
 subtitle: Almost as Good as It Gets…But Will It Last?
 categories: Fedspeak
 tags: [cut, Waller]
 article_excerpt: "test"
 ---
 
+<script src="https://www.youtube.com/iframe_api"></script>
+<div id="youtubePlayer"></div>
+
+<script>
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('youtubePlayer', {
+        height: '390',
+        width: '640',
+        videoId: '2OmfIeGtL1w',
+        // Other options like playerVars can be added here
+    });
+}
+function seekToTime(seconds) {
+    if (player && player.seekTo) {
+        player.seekTo(seconds, true);
+    }
+}
+</script>
+
+
 Transcript:
-(00:50) good morning I'm David wessell director of the hutchon center on fiscal and monetary policy at the Brookings institution I'm very pleased today to welcome fed Governor Christopher w to our virtual stage uh for those of you who aren't in Washington uh we've had our first significant snowfall in two years and even though where Governor Waller comes from in Minnesota this would be a normal day in Washington the city's paralyzed but we had a lot of practice at uh virtual events during Co and I'm very pleased that we've been
-(01:20) able to do this one today uh Governor Waller was named to the Federal Reserve board by President Trump and he served since uh the end of 2020 he took that post after uh 11 years at the Federal Reserve Bank of St Louis where he was the research director I'm going to turn the podium over to Governor Waller who has some remarks to make and then he'll join me afterwards for a conversation so welcome Governor Waller well thank you David and thank you to Brookings for the opportunity to speak to you today in the second half of
+<a href="#" onclick="seekToTime(50); return false;">00:50</a> good morning I'm David wessell director of the hutchon center on fiscal and monetary policy at the Brookings institution I'm very pleased today to welcome fed Governor Christopher w to our virtual stage uh for those of you who aren't in Washington uh we've had our first significant snowfall in two years and even though where Governor Waller comes from in Minnesota this would be a normal day in Washington the city's paralyzed but we had a lot of practice at uh virtual events during Co and I'm very pleased that we've been
+<a href="#" onclick="seekToTime(120); return false;">01:20</a>) able to do this one today uh Governor Waller was named to the Federal Reserve board by President Trump and he served since uh the end of 2020 he took that post after uh 11 years at the Federal Reserve Bank of St Louis where he was the research director I'm going to turn the podium over to Governor Waller who has some remarks to make and then he'll join me afterwards for a conversation so welcome Governor Waller well thank you David and thank you to Brookings for the opportunity to speak to you today in the second half of
 (01:55) 2023 I gave a series of speeches about the apparent conflict between the strength of economic activity in the third quarter and continued progress toward the Federal Open Market committee's 2% inflation goal I said then that something's got to give either activity needs to moderate or progress on lowering inflation is going to stop by late November the latest economic data left me encouraged that there were signs excuse me that there were signs of moderating econom IC activity in the fourth quarter but inflation was still too high as of
 (02:34) today the data has come in even better Real gross domestic product is expected to have grown between 1 and 2% in the fourth quarter unemployment is still below 4% and core personal consumption expenditure inflation or pce inflation has been running close to 2% for the last six months for a macroeconomist this is almost as good as it gets but will it last time will tell whether inflation can can be sustained on its recent path and allow us to conclude that we have achieved the FC's price stability goal time will tell if this
 (03:10) will happen while the labor market still performs above expectations the data we have received in the last few months is allowing the committee to consider cutting the policy rate in 2024 however concerns about the sustainability of these data Trends requires changes in the path of policy to be carefully calibrated and not rushed in the end I'm feeling more confident that the economy can continue along its current trajectory let me start with the data on economic activity that has brought me to this View and then I'll talk about the
