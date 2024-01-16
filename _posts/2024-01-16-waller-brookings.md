@@ -50,7 +50,7 @@ Meanwhile, data on job openings indicates ongoing moderation in labor demand. Jo
 
 But in the spring of 2022, the vacancy rate peaked around 7.5 percent with nearly 12 million job vacancies, and there were still about 6 million unemployed workers. It just seemed counterintuitive to me that with that many job openings and so few people looking for work that the first thing a firm would do when labor demand softened would be to lay off workers. My economic instinct was that this time things would be different and that vacancies would absorb the decline in labor demand, while employment and unemployment changed relatively little.
 
-But instinct isn't enough sometimes. One needs an economic model to verify your instinct and good data analysis is needed to quantify the theoretical impact. This is what I provided in a speech I gave in May 2022, with the help of Andrew Figura.[2](#fn2 "footnote 2") In that speech we described a textbook labor search model to derive a Beveridge curve, which is a theoretical relationship between job vacancies and the unemployment rate.[3](#fn3 "footnote 3") To quantify the effects of restrictive monetary policy on unemployment, we used standard empirical methods to calibrate the theoretical model. We showed that if restrictive monetary policy could lower the vacancy rate from 7.5 percent to 4.5 percent via a significant decline in job vacancies, there would be a relatively small increase in the unemployment rate—from 3.7 percent to 4.2 percent. Based on this analysis, we argued that, as long as the involuntary job-separation rate did not rise, restrictive monetary policy would allow the FOMC to bring inflation down without a significant increase in the unemployment rate. This seemed like a very plausible assumption given the incredibly high vacancy rate and dearth of workers looking for jobs. Our predictions contradicted standard Phillips curve analysis and historical precedent, but we were in unprecedented times in 2022.
+But instinct isn't enough sometimes. One needs an economic model to verify your instinct and good data analysis is needed to quantify the theoretical impact. This is what I provided in a speech I gave in May 2022, with the help of Andrew Figura.[^2](#fn2 "footnote 2") In that speech we described a textbook labor search model to derive a Beveridge curve, which is a theoretical relationship between job vacancies and the unemployment rate.[3](#fn3 "footnote 3") To quantify the effects of restrictive monetary policy on unemployment, we used standard empirical methods to calibrate the theoretical model. We showed that if restrictive monetary policy could lower the vacancy rate from 7.5 percent to 4.5 percent via a significant decline in job vacancies, there would be a relatively small increase in the unemployment rate—from 3.7 percent to 4.2 percent. Based on this analysis, we argued that, as long as the involuntary job-separation rate did not rise, restrictive monetary policy would allow the FOMC to bring inflation down without a significant increase in the unemployment rate. This seemed like a very plausible assumption given the incredibly high vacancy rate and dearth of workers looking for jobs. Our predictions contradicted standard Phillips curve analysis and historical precedent, but we were in unprecedented times in 2022.
 
 It has been nearly two years since I gave that speech. How has our prediction faired? Data received since then have supported our argument. Since March 2022, the FOMC raised the policy rate over 500 basis points and core PCE inflation has fallen substantially, especially when measured over the past six months. During this dramatic tightening of policy, the job vacancy rate fell from around 7.5 percent to 5.3 percent, which brought the ratio of job vacancies to the number of unemployed people to a touch below 1.4—down from the peak of 2 and not far from the pre-pandemic level of 1.2. The involuntary job-separation rate has remained essentially unchanged at 1 percent since April 2022. Meanwhile the unemployment rate, while bouncing around a bit, is the same as it was in March 2022, 3.7 percent, which is lower than we predicted.
 
@@ -79,13 +79,15 @@ When the time is right to begin lowering rates, I believe it can and should be l
 Thank you.
 
 
-#### Q&A Transcript <a href="#" onclick="seekToTime(1215); return false;">(20:15)</a>
+#### Q&A Transcript
+<a href="#" onclick="seekToTime(1215); return false;">(20:15)</a>
 
 **David Wessel:** Thank you, Governor Waller. Let me pick up where you left off. You said that you've basically described a soft landing scenario. Congratulations on that if you can pull it off. We have a Fed funds rate that's between 5.25% and 5.5%. And as you point out, inflation is approaching your 2% goal. So why move slowly and gradually? Why talk about three-quarter point moves on the Fed funds rate? Won't that leave financial conditions restrictive and risk the overtightening that you warned against?
 
 **Christopher Waller:** Well, as I said, the key thing is the economy is doing well. It's giving us the flexibility to move carefully and methodically so we can watch the Fed, see how the data comes in, see if progress is being sustained. The worst thing would be if it all reverses and we've already started cutting. We really want to see evidence that this progress, this trend we're seeing in the real data and the inflation data, continues. I believe it will, but we have to see that before we can start making decisions. As I said, we can slowly calibrate the real rate cut down. If we think we need to move it faster, we could, depending on what the data says. The key is we have the flexibility that we can be methodical and careful. That's where my point was. In earlier times, a recession would hit, some bad negative shock, and the FOMC had to move fast and by a lot. That's not the situation we're facing right now, so we can take our time to make sure we do this right.
 
-#### First Rate Cut<a href="#" onclick="seekToTime(1320); return false;">(22:10)</a>
+#### First Rate Cut
+<a href="#" onclick="seekToTime(1320); return false;">(22:10)</a>
 
 **David Wessel:** And how will you decide when it's time to pull the trigger on the first rate cut? What are you thinking? 
 
@@ -97,7 +99,8 @@ Thank you.
 
 **Christopher Waller:** That is one of the risks that I've mentioned. I think we're all very aware of it. Chair Powell even talked about that at his press conference in December, that we're in this unusual place where we can actually lower the policy rate not because there's a shock to the economy in a recession, but we can bring it down to keep the real policy rate at the right level of tightness to maintain our inflation goals but not damage the economy in any serious way. So I wouldn't want to start until we were thoroughly convinced that inflation was sustainably near our 2% target. It'll bounce around with any monthly data. We have to be ready for that and look through some of that. When we think we're there and it'll stay there, then we can start saying, okay, it's time to cut, and then we can start thinking how fast do we want to cut or how often, what the pace is, or how big the cuts. Those are all things we can determine once we decide to move. There's no real radical reason that we have to bring the real policy rate down from like 3% to 50 basis points in one meeting. We don't have to do that. We can take our time and see how that all works.
 
-#### Inflation Outlook<a href="#" onclick="seekToTime(1444); return false;">(24:04)</a>
+#### Inflation Outlook
+<a href="#" onclick="seekToTime(1444); return false;">(24:04)</a>
 
 **David Wessel:** One of the issues when you look at the underlying inflation data is that rents have been pretty sticky, stickier than a lot of us anticipated. Do you think you need to see rents come down, the housing shelter index come down, or is there a risk that you or can you not can you look through that and say it's going to come down, we don't need to wait to see that materialize? 
 
@@ -115,7 +118,8 @@ Thank you.
 
 **Christopher Waller:** Yeah, what "too long" means, is that one meeting, is that six? I don't know what waiting too long means, but you know, in the grand scheme of things, whether it's one, six weeks later, that's kind of hard to believe that's going to have a huge impact on the state of the economy. 
 
-#### Balance Sheet <a href="#" onclick="seekToTime(1611); return false;">(26:51)</a>
+#### Balance Sheet 
+<a href="#" onclick="seekToTime(1611); return false;">(26:51)</a>
 
 **David Wessel:** Let me ask you a little bit about the balance sheet. Reserves are now at $3.5 trillion, the overnight reverse repurchase facility has gone from well over 2 trillion to about 600 billion. How are you thinking about the balance sheet? How will you decide when you've reached that Nirvana of ample reserves, and how close are we to that?
 
@@ -144,7 +148,8 @@ Thank you.
 
 **Christopher Waller:** You could. I mean, I had a paper a few years ago where I looked at a floor system, and the problem with the large balance sheet is kind of what we're running into now. You potentially have a situation where your payments on interest on reserves are above your earnings. Now, there's nothing that affects our operating and monetary policy whatsoever, but the optics, and I, at the title of the paper I had was some unpleasant fiscal arithmetic. The optics of this are just bad. It doesn't have anything to do with monetary policy at all effectiveness. It's nothing, but it just kind of looks bad that you're not turning over any seigniorage revenues to the Treasury, and you're delaying when you'll start doing it. And for that reason, you may want to think about not keeping your balance sheet too big. But that's really one of the few reasons for doing it. There's a misperception that we're again, we're taking real resources out of the economy for lending by banks and car loans and construction, but none of that's going on. We're just taking out treasuries.
 
-#### Banking Regulation<a href="#" onclick="seekToTime(2080); return false;">(34:40)</a>
+#### Banking Regulation
+<a href="#" onclick="seekToTime(2080); return false;">(34:40)</a>
 
 **David Wessel:** Governor Waller, you voted against the recent proposal to increase the capital that big banks are required to set aside. There's been a lot of criticism of that and lots of comments, and I think you've indicated that you're hoping that there will be a compromise that you can support. So where are we in that process? Do you think we're getting to a bank capital proposal with which you're comfortable?
 
@@ -162,7 +167,8 @@ Thank you.
 
 **Christopher Waller:** You know, there are alternative routes to routing stuff; you don't have to go through the Red Sea. So, you know, now you're just talking about substitution about where you're going to go and how you're going to do it. So, in that sense, there could be some one-time effects and shipping raids that get passed through, but I don't see it potentially being a big impact on certain global or US inflation unless this thing spirals into something much more severe than it appears that it is right now.
 
-#### Fiscal Policy<a href="#" onclick="seekToTime(2383); return false;">(39:43)</a>
+#### Fiscal Policy
+<a href="#" onclick="seekToTime(2383); return false;">(39:43)</a>
 
 **David Wessel:** Another question was what your view is about what role that fiscal policy played in causing the inflation that you've been working so hard to restrain. How big an issue was fiscal policy, and how big an issue is fiscal policy now as you try and calibrate the right pace of monetary easing?
 
@@ -184,7 +190,8 @@ Thank you.
 
 **Christopher Waller:** Yes, again, these are level effects. These are not permanent changes in trend inflation. They might have had some, but again, the IRA and all these things are stretched out over 10 years of spending, so any given year has a small impact.
 
-#### Wage Growth <a href="#" onclick="seekToTime(2547); return false;">(42:27)</a>
+#### Wage Growth
+<a href="#" onclick="seekToTime(2547); return false;">(42:27)</a>
 
 **David Wessel:** Let me ask you to elaborate a little more on the comments you made about wages. You said that you see a moderation of wage increases across various measures of labor compensation that you expect will be consistent with progress towards 2% inflation. Do the pace of wage increases have to slow in order for you to reach your goal, or is this a period of catchup? How do we know what wage increases are consistent with 2% inflation?
 
@@ -194,7 +201,8 @@ Thank you.
 
 **Christopher Waller:** Yeah, I mean, we really would love to see that. Productivity growth is the heart and soul of raising living standards for people over a decade. That is what does it. Now, back in the 90s, we had a big productivity boom, but we all knew it was because you finally incorporated computers, PCs, everything into the system. When I look out right now and think, what would it be that's causing this big boom in productivity to be sustained, it can't be AI, that just started. Usually, these innovations take a decade to filter all through the entire economy before they show up. Now, maybe there's ways that firms have done stuff coming out of the pandemic that are still being used that are efficient, just the way we're doing the speech. This would not have been done prior to 2020. Restaurant services, manufacturing, everybody figured this out. The shortage of labor, firms had to think about other ways with capital to produce. They're not going to unwind any of that once they do it. So there could be some things that lead to sustained productivity growth for a while, but other than that, I don't really see exactly what it would be. AI could be very promising, but it's really too early to show up in the aggregate data. That's down the road.
 
-#### Long-run Neutral Rate, R-star<a href="#" onclick="seekToTime(2743); return false;">(45:43)</a>
+#### Long-run Neutral Rate, R-star
+<a href="#" onclick="seekToTime(2743); return false;">(45:43)</a>
 
 **David Wessel:** One thing that a lot of economists have focused on a lot is the long-run equilibrium interest rate, so-called r-star. And the view is that if you could discern r-star, you know that what if the Fed funds rate is above that, that's restrictive, and vice versa if it's below that. Do you find that a useful concept, and do you have any sense of whether we're going to go back to a low r-star world?
 
@@ -215,7 +223,8 @@ I think just the robustness with which the US came back, and there's been some d
 
 The other thing to learn is that inflation isn't dead. For 40 years, people, or 30 years, people thought, 'Yeah, when inflation, there's no such thing as inflation, we don't even need to worry about it.' Well, we do, and that is what we have to, you know, we can't go to sleep on that. It's our job to make sure that it stays at 2%, and that's it. 
 
-#### Framework Review<a href="#" onclick="seekToTime(3125); return false;">(52:05)</a>
+#### Framework Review
+<a href="#" onclick="seekToTime(3125); return false;">(52:05)</a>
 
 **David Wessel:** So, how does that inform your thinking about the framework of the Fed's monetary policy, which you'll be beginning to revisit at the end of this year?
 
@@ -230,7 +239,7 @@ The other thing to learn is that inflation isn't dead. For 40 years, people, or 
 
 1\. See Christopher J. Waller (2023), "Something's Got to Give," speech delivered at the Distinguished Speaker Seminar, European Economics and Financial Center, London, October 18, and "Something Appears to Be Giving," speech delivered at the American Enterprise Institute, Washington, D.C., November 28. The views expressed here are my own and not necessarily those of my colleagues on the Federal Open Market Committee. [Return to text](#f1)
 
-2\. See Christopher J. Waller (2022), "Responding to High Inflation, with Some Thoughts on a Soft Landing," speech delivered at the Institute for Monetary and Financial Stability (IMFS) Distinguished Lecture, Goethe University Frankfurt, Germany, May 30. [Return to text](#f2)
+[^1]. See Christopher J. Waller (2022), "Responding to High Inflation, with Some Thoughts on a Soft Landing," speech delivered at the Institute for Monetary and Financial Stability (IMFS) Distinguished Lecture, Goethe University Frankfurt, Germany, May 30. [Return to text](#f2)
 
 3\. See Figura and Waller (2022). ["What does the Beveridge curve tell us about the likelihood of a soft landing?,"](https://doi.org/10.17016/2380-7172.3190) FEDS Notes. Washington: Board of Governors of the Federal Reserve System, July 29, 2022. [Return to text](#f3)
 
