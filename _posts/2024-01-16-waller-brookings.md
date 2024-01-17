@@ -40,7 +40,7 @@ Fed's Waller: Data in last few months is allowing fed to consider cutting policy
 Fed's Waller: My view is consistent with Fed policymaker projections for three 25-bps rate cuts in 2024  
 Fed's Waller: The December jobs report was largely noise  
 [Fed's Waller: The setting of policy needs to proceed with more caution to avoid over-tightening](#policy)  
-[Fed's Waller: Financial conditions remain restrictive](#policy) 
+[Fed's Waller: Financial conditions remain restrictive](#policy)  
 [Fed's Waller: The timing and actual number of cuts will depend on incoming data](#policy)  
 [Fed's Waller: Rate cuts should be done methodically and carefully, there's no reason to cut as quickly as in the past](#policy)  
 Fed's Waller: The slowdown in consumer spending appears tentative, will find out more from Wednesday's retail sales data  
