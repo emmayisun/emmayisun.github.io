@@ -7,51 +7,39 @@ tags: [cut, Waller]
 article_excerpt: "test"
 ---
 
-<html>
-<head>
-    <title>Your Webpage</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
+<!-- Div where the player will be placed -->
+<div id="player"></div>
 
-<div id="videoContainer">
-    <div id="youtubePlayer"></div>
-</div>
-
+<!-- Load the IFrame Player API code asynchronously -->
 <script src="https://www.youtube.com/iframe_api"></script>
-<script src="script.js"></script>
-</body>
-</html>
-
 
 <script>
-var player;
-function onYouTubeIframeAPIReady() {
-    player = new YT.Player('youtubePlayer', {
-        height: '315',
-        width: '560',
-        videoId: '2OmfIeGtL1w',
-        // Other options like playerVars can be added here
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+      height: '360',
+      width: '640',
+      videoId: '2OmfIeGtL1w'
     });
-}
-function seekToTime(seconds) {
-    if (player && player.seekTo) {
-        player.seekTo(seconds, true);
-    }
-}
-
-// Scroll event for picture-in-picture
-window.addEventListener('scroll', function() {
-    var videoElement = document.getElementById('videoContainer');
-    var scrollPosition = window.scrollY || window.pageYOffset;
-
-    if (scrollPosition > 200) { // Adjust as needed
-        videoElement.classList.add('fixed');
-    } else {
-        videoElement.classList.remove('fixed');
-    }
-});
+  }
 </script>
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const videoElement = document.getElementById('player');
+    let isPip = false;
+
+    window.addEventListener('scroll', () => {
+        const videoPosition = videoElement.getBoundingClientRect();
+        if ((videoPosition.top < window.innerHeight && videoPosition.bottom >= 0) && !isPip) {
+            videoElement.classList.remove('pip-video');
+            isPip = false;
+        } else if (!isPip) {
+            videoElement.classList.add('pip-video');
+            isPip = true;
+        }
+    });
+});
+
 
 
 ### Headline
