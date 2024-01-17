@@ -7,7 +7,6 @@ tags: [cut, Waller]
 article_excerpt: "test"
 ---
 
-<!DOCTYPE html>
 <html>
 <head>
     <title>Your Webpage</title>
