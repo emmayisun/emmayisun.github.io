@@ -39,16 +39,16 @@ Fed's Waller: The Fed will be able to cut the policy rate this year as long as i
 Fed's Waller: Data in last few months is allowing fed to consider cutting policy rate in 2024  
 Fed's Waller: My view is consistent with Fed policymaker projections for three 25-bps rate cuts in 2024  
 Fed's Waller: The December jobs report was largely noise  
-Fed's Waller: The setting of policy needs to proceed with more caution to avoid over-tightening(#policy)  
+Fed's Waller: The setting of policy needs to proceed with more caution to avoid over-tightening (#policy)  
 Fed's Waller: Financial conditions remain restrictive (#policy) 
-Fed's Waller: The timing and actual number of cuts will depend on incoming data(#policy)  
-Fed's Waller: Rate cuts should be done methodically and carefully, there's no reason to cut as quickly as in the past(#policy)  
+Fed's Waller: The timing and actual number of cuts will depend on incoming data (#policy)  
+Fed's Waller: Rate cuts should be done methodically and carefully, there's no reason to cut as quickly as in the past (#policy)  
 Fed's Waller: The slowdown in consumer spending appears tentative, will find out more from Wednesday's retail sales data  
 Fed's Waller: I am more confident we are within striking distance of achieving sustainable 2% inflation  
 Fed's Waller: Ongoing moderation in labor market supports progress toward 2% inflation  
 Fed's Waller: A strong economy gives fed the flexibility to move methodically on cuts  
-Fed's Waller: 4% wage growth is a little high, but not by much(#wage)  
-Fed's Waller: It is reasonable to consider slowing the asset runoff this year(#qt)  
+Fed's Waller: 4% wage growth is a little high, but not by much (#wage)  
+Fed's Waller: It is reasonable to consider slowing the asset runoff this year (#qt)  
 Fed's Waller: Once the Fed decides to cut, we can take our time with the pace  
 Fed's Waller: Once supply adjustment is complete will be clearer whether demand is falling enough to finish the inflation fight. An issue the Fed needs to watch  
 Fed's Waller: rent inflation is expected to come down, it is just taking longer for new leases to flow through to the inflation index  
