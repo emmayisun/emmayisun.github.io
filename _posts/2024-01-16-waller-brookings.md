@@ -11,7 +11,7 @@ article_excerpt: "test"
 <html>
 <head>
     <title>Your Webpage</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
@@ -23,22 +23,6 @@ article_excerpt: "test"
 <script src="script.js"></script>
 </body>
 </html>
-
-
-#videoContainer {
-    /* Normal position */
-    width: 100%;
-}
-
-#videoContainer.fixed {
-    /* Picture in picture style */
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 300px; /* Smaller width */
-    height: 200px; /* Smaller height */
-    z-index: 1000;
-}
 
 
 <script>
