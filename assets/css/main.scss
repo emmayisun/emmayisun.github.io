@@ -111,3 +111,16 @@ $selection-background-color: unquote("{{ site.selection.background_color }}");
 }
 }
 
+// picture in picture
+.pip-video {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px; /* Adjust as needed */
+    height: 168px; /* Adjust as needed */
+    z-index: 1000;
+    border: none;
+    display: none; /* Initially hidden */
+}
+
+
