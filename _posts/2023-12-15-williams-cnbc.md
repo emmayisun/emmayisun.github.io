@@ -4,6 +4,7 @@ title: Williams Pushes Back on Market's Dovish Response Post FOMC
 categories: Fedspeak
 tags: [cut, Williams]
 article_excerpt: "New York Federal Reserve President John Williams said Friday rate cuts are not a topic of discussion at the moment for the central bank."
+top: 2
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NRvDg4H7ReU?si=jFtQNc4GvGjvjg8a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
