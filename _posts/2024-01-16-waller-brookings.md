@@ -16,7 +16,7 @@ article_excerpt: "test"
 <body>
 
 <div id="videoContainer">
-    <div id="player"></div>
+    <div id="youtubePlayer"></div>
 </div>
 
 <script src="https://www.youtube.com/iframe_api"></script>
