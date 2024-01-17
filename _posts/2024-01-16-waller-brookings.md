@@ -7,8 +7,8 @@ tags: [cut, Waller]
 article_excerpt: "test"
 ---
 
-<!-- Div where the player will be placed -->
-<div id="player"></div>
+<div id="youtube-player-container"></div>
+
 
 <!-- Load the IFrame Player API code asynchronously -->
 <script src="https://www.youtube.com/iframe_api"></script>
