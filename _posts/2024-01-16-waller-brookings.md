@@ -34,7 +34,7 @@ article_excerpt: "Fed Governor Waller conveyed growing confidence in achieving a
 Fed's Waller: Changes in policy path must be carefully calibrated, not rushed  
 Fed's Waller: We are close but I will need more information in coming months to be sure  
 Fed's Waller: I view risks to Fed's employment and inflation mandates as more closely balanced  
-Fed's Waller: I believe policy is set properly (#policy)  
+[Fed's Waller: I believe policy is set properly](#policy)  
 Fed's Waller: The Fed will be able to cut the policy rate this year as long as inflation doesn't rebound or stay high  
 Fed's Waller: Data in last few months is allowing fed to consider cutting policy rate in 2024  
 Fed's Waller: My view is consistent with Fed policymaker projections for three 25-bps rate cuts in 2024  
