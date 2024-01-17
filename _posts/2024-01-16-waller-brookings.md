@@ -22,8 +22,12 @@ article_excerpt: "test"
       videoId: '2OmfIeGtL1w'
     });
   }
+function seekToTime(seconds) {
+    if (player && player.seekTo) {
+        player.seekTo(seconds, true);
+    }
+}
 </script>
-
 
 ### Headline
 
