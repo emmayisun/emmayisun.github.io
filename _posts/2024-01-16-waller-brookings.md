@@ -21,12 +21,12 @@ article_excerpt: "test"
       width: '640',
       videoId: '2OmfIeGtL1w'
     });
+  };
+  function seekToTime(seconds) {
+      if (player && player.seekTo) {
+          player.seekTo(seconds, true);
+      }
   }
-function seekToTime(seconds) {
-    if (player && player.seekTo) {
-        player.seekTo(seconds, true);
-    }
-}
 </script>
 
 ### Headline
