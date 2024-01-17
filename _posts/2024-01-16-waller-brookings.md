@@ -7,8 +7,39 @@ tags: [cut, Waller]
 article_excerpt: "test"
 ---
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="videoContainer">
+    <div id="player"></div>
+</div>
+
 <script src="https://www.youtube.com/iframe_api"></script>
-<div id="youtubePlayer"></div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+#videoContainer {
+    /* Normal position */
+    width: 100%;
+}
+
+#videoContainer.fixed {
+    /* Picture in picture style */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px; /* Smaller width */
+    height: 200px; /* Smaller height */
+    z-index: 1000;
+}
+
 
 <script>
 var player;
@@ -25,12 +56,25 @@ function seekToTime(seconds) {
         player.seekTo(seconds, true);
     }
 }
+
+// Scroll event for picture-in-picture
+window.addEventListener('scroll', function() {
+    var videoElement = document.getElementById('videoContainer');
+    var scrollPosition = window.scrollY || window.pageYOffset;
+
+    if (scrollPosition > 200) { // Adjust as needed
+        videoElement.classList.add('fixed');
+    } else {
+        videoElement.classList.remove('fixed');
+    }
+});
 </script>
+
 
 ### Headline
 
 Fed's Waller: Changes in policy path must be carefully calibrated, not rushed  
-Fed's Waller: We are close but i will need more information in coming months to be sure  
+Fed's Waller: We are close but I will need more information in coming months to be sure  
 Fed's Waller: I view risks to Fed's employment and inflation mandates as more closely balanced  
 Fed's Waller: I believe policy is set properly  
 Fed's Waller: The Fed will be able to cut the policy rate this year as long as inflation doesn't rebound or stay high  
