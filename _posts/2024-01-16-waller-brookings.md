@@ -34,21 +34,21 @@ article_excerpt: "Fed Governor Waller conveyed growing confidence in achieving a
 Fed's Waller: Changes in policy path must be carefully calibrated, not rushed  
 Fed's Waller: We are close but I will need more information in coming months to be sure  
 Fed's Waller: I view risks to Fed's employment and inflation mandates as more closely balanced  
-Fed's Waller: I believe policy is set properly(#policy)
+Fed's Waller: I believe policy is set properly (#policy)  
 Fed's Waller: The Fed will be able to cut the policy rate this year as long as inflation doesn't rebound or stay high  
 Fed's Waller: Data in last few months is allowing fed to consider cutting policy rate in 2024  
 Fed's Waller: My view is consistent with Fed policymaker projections for three 25-bps rate cuts in 2024  
 Fed's Waller: The December jobs report was largely noise  
-Fed's Waller: The setting of policy needs to proceed with more caution to avoid over-tightening (#policy)  
-Fed's Waller: Financial conditions remain restrictive (#policy) 
-Fed's Waller: The timing and actual number of cuts will depend on incoming data (#policy)  
-Fed's Waller: Rate cuts should be done methodically and carefully, there's no reason to cut as quickly as in the past (#policy)  
+[Fed's Waller: The setting of policy needs to proceed with more caution to avoid over-tightening](#policy)  
+[Fed's Waller: Financial conditions remain restrictive](#policy) 
+[Fed's Waller: The timing and actual number of cuts will depend on incoming data](#policy)  
+[Fed's Waller: Rate cuts should be done methodically and carefully, there's no reason to cut as quickly as in the past](#policy)  
 Fed's Waller: The slowdown in consumer spending appears tentative, will find out more from Wednesday's retail sales data  
 Fed's Waller: I am more confident we are within striking distance of achieving sustainable 2% inflation  
 Fed's Waller: Ongoing moderation in labor market supports progress toward 2% inflation  
 Fed's Waller: A strong economy gives fed the flexibility to move methodically on cuts  
-Fed's Waller: 4% wage growth is a little high, but not by much (#wage)  
-Fed's Waller: It is reasonable to consider slowing the asset runoff this year (#qt)  
+[Fed's Waller: 4% wage growth is a little high, but not by much](#wage)  
+[Fed's Waller: It is reasonable to consider slowing the asset runoff this year](#qt)  
 Fed's Waller: Once the Fed decides to cut, we can take our time with the pace  
 Fed's Waller: Once supply adjustment is complete will be clearer whether demand is falling enough to finish the inflation fight. An issue the Fed needs to watch  
 Fed's Waller: rent inflation is expected to come down, it is just taking longer for new leases to flow through to the inflation index  
@@ -98,13 +98,14 @@ PCE inflation of 2 percent is our goal, but that goal cannot be achieved for jus
 This brings me to the implications for monetary policy. The progress I have noted on inflation, combined with the data in hand on economic and financial conditions and my outlook has made me more confident than I have been since 2021 that inflation is on a path to 2 percent. While the emphasis of policy since that time has been on pushing down inflation, given the strength of the current labor market the FOMC's focus now is likely to be more balanced: keeping inflation on a 2 percent path while also keeping employment near its maximum level. Today, I view the risks to our employment and inflation mandates as being more closely balanced. I will be watching for sustained progress on inflation and modest cooling in the labor market that does not harm the economy.
 
 <a id="policy"></a>
-<span style="color:#ec5e2a;"><strong>I believe policy is set properly. It is restrictive and should continue to put downward pressure on demand to allow us to continue to see moderate inflation readings. So, as I said, I believe we are on the right track to achieve 2 percent inflation.
 
-As long as inflation doesn't rebound and stay elevated, I believe the FOMC will be able to lower the target range for the federal funds rate this year. This view is consistent with the FOMC's economic projections in December, in which the median projection was three 25-basis-point cuts in 2024. Clearly, the timing of cuts and the actual number of cuts in 2024 will depend on the incoming data. Risks that would delay or dampen my expectation for cuts this year are that economic activity that seems to have moderated in the fourth quarter of 2023 does not play out; that the balance of supply and demand in the labor market, which improved over 2023, stops improving or reverses; and that the gains on moderating inflation evaporate.
+<span style="color:#ec5e2a;"><strong>I believe policy is set properly. It is restrictive and should continue to put downward pressure on demand to allow us to continue to see moderate inflation readings. So, as I said, I believe we are on the right track to achieve 2 percent inflation.</strong></span>
 
-One piece of data I will be watching closely is the scheduled revisions to CPI inflation due next month. Recall that a year ago, when it looked like inflation was coming down quickly, the annual update to the seasonal factors erased those gains. In mid-February, we will get the January CPI report and revisions for 2023, potentially changing the picture on inflation. My hope is that the revisions confirm the progress we have seen, but good policy is based on data and not hope.
+<span style="color:#ec5e2a;"><strong>As long as inflation doesn't rebound and stay elevated, I believe the FOMC will be able to lower the target range for the federal funds rate this year. This view is consistent with the FOMC's economic projections in December, in which the median projection was three 25-basis-point cuts in 2024. Clearly, the timing of cuts and the actual number of cuts in 2024 will depend on the incoming data. Risks that would delay or dampen my expectation for cuts this year are that economic activity that seems to have moderated in the fourth quarter of 2023 does not play out; that the balance of supply and demand in the labor market, which improved over 2023, stops improving or reverses; and that the gains on moderating inflation evaporate.</strong></span>
 
-When the time is right to begin lowering rates, I believe it can and should be lowered methodically and carefully. In many previous cycles, which began after shocks to the economy either threatened or caused a recession, the FOMC cut rates reactively and did so quickly and often by large amounts. This cycle, however, with economic activity and labor markets in good shape and inflation coming down gradually to 2 percent, I see no reason to move as quickly or cut as rapidly as in the past. The healthy state of the economy provides the flexibility to lower the (nominal) policy rate to keep the real policy rate at an appropriate level of tightness. But I will end by repeating that the timing and number of rate cuts will be driven by the incoming data.</strong></span>
+<span style="color:#ec5e2a;"><strong>One piece of data I will be watching closely is the scheduled revisions to CPI inflation due next month. Recall that a year ago, when it looked like inflation was coming down quickly, the annual update to the seasonal factors erased those gains. In mid-February, we will get the January CPI report and revisions for 2023, potentially changing the picture on inflation. My hope is that the revisions confirm the progress we have seen, but good policy is based on data and not hope.</strong></span>
+
+<span style="color:#ec5e2a;"><strong>When the time is right to begin lowering rates, I believe it can and should be lowered methodically and carefully. In many previous cycles, which began after shocks to the economy either threatened or caused a recession, the FOMC cut rates reactively and did so quickly and often by large amounts. This cycle, however, with economic activity and labor markets in good shape and inflation coming down gradually to 2 percent, I see no reason to move as quickly or cut as rapidly as in the past. The healthy state of the economy provides the flexibility to lower the (nominal) policy rate to keep the real policy rate at an appropriate level of tightness. But I will end by repeating that the timing and number of rate cuts will be driven by the incoming data.</strong></span>
 
 Thank you.
 ### Q&A Transcript
