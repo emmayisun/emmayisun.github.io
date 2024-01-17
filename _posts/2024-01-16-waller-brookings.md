@@ -31,13 +31,12 @@ article_excerpt: "Fed Governor Waller conveyed growing confidence in achieving a
 
 ### Headline
 
-Fed's Waller: Changes in policy path must be carefully calibrated, not rushed  
+[Fed's Waller: Changes in policy path must be carefully calibrated, not rushed](#pace2)  
 Fed's Waller: We are close but I will need more information in coming months to be sure  
 Fed's Waller: I view risks to Fed's employment and inflation mandates as more closely balanced  
 [Fed's Waller: I believe policy is set properly](#policy)  
 Fed's Waller: The Fed will be able to cut the policy rate this year as long as inflation doesn't rebound or stay high  
-Fed's Waller: Data in last few months is allowing fed to consider cutting policy rate in 2024  
-Fed's Waller: My view is consistent with Fed policymaker projections for three 25-bps rate cuts in 2024  
+[Fed's Waller: Data in last few months is allowing fed to consider cutting policy rate in 2024](#pace2)    
 Fed's Waller: The December jobs report was largely noise  
 [Fed's Waller: The setting of policy needs to proceed with more caution to avoid over-tightening](#policy)  
 [Fed's Waller: Financial conditions remain restrictive](#policy)  
@@ -46,13 +45,13 @@ Fed's Waller: The December jobs report was largely noise
 Fed's Waller: The slowdown in consumer spending appears tentative, will find out more from Wednesday's retail sales data  
 Fed's Waller: I am more confident we are within striking distance of achieving sustainable 2% inflation  
 Fed's Waller: Ongoing moderation in labor market supports progress toward 2% inflation  
-Fed's Waller: A strong economy gives fed the flexibility to move methodically on cuts  
+[Fed's Waller: A strong economy gives fed the flexibility to move methodically on cuts](#policy)  
 [Fed's Waller: 4% wage growth is a little high, but not by much](#wage)  
 [Fed's Waller: It is reasonable to consider slowing the asset runoff this year](#qt)  
-Fed's Waller: Once the Fed decides to cut, we can take our time with the pace  
+[Fed's Waller: Once the Fed decides to cut, we can take our time with the pace](#pace)  
 Fed's Waller: Once supply adjustment is complete will be clearer whether demand is falling enough to finish the inflation fight. An issue the Fed needs to watch  
 Fed's Waller: rent inflation is expected to come down, it is just taking longer for new leases to flow through to the inflation index  
-Fed's Waller: If we think need to move rate down faster, we can  
+[Fed's Waller: If we think need to move rate down faster, we can](#pace)
 
 ### Link
 [Speech](https://www.federalreserve.gov/newsevents/speech/waller20240116a.htm) || [BBG](https://www.bloomberg.com/news/articles/2024-01-16/waller-says-fed-can-cut-rates-this-year-absent-inflation-rebound)
@@ -63,7 +62,8 @@ In the second half of 2023, I gave a series of speeches about the apparent confl
 
 As of today, the data has come in even better. Real gross domestic product (GDP) is expected to have grown between 1 and 2 percent in the fourth quarter, unemployment is still below 4 percent, and core personal consumption expenditure (PCE) inflation has been running close to 2 percent for the last 6 months. For a macroeconomist, this is almost as good as it gets.
 
-But will it last? Time will tell whether inflation can be sustained on its recent path and allow us to conclude that we have achieved the FOMC's price-stability goal. Time will tell if this can happen while the labor market still performs above expectations. The data we have received the last few months is allowing the Committee to consider cutting the policy rate in 2024. However, concerns about the sustainability of these data trends requires changes in the path of policy to be carefully calibrated and not rushed. In the end, I am feeling more confident that the economy can continue along its current trajectory.
+<a id="pace2"></a>
+But will it last? Time will tell whether inflation can be sustained on its recent path and allow us to conclude that we have achieved the FOMC's price-stability goal. Time will tell if this can happen while the labor market still performs above expectations. <span style="color:#ec5e2a;"><strong>The data we have received the last few months is allowing the Committee to consider cutting the policy rate in 2024. However, concerns about the sustainability of these data trends requires changes in the path of policy to be carefully calibrated and not rushed. In the end, I am feeling more confident that the economy can continue along its current trajectory.</strong></span>
 
 Let me start with the data on economic activity that has brought me to this view, and then I'll talk about the labor market, financial conditions, and inflation. I'll conclude with what I think the implications are from all that for monetary policy.
 
@@ -123,6 +123,7 @@ Thank you.
 
 <a href="#" onclick="seekToTime(1344); return false;">(22:24)</a>
 
+<a id="pace"></a>
 **David Wessel:** Let me ask you a little bit about the relative merits of cutting early but gradually versus waiting longer and cutting more quickly. You make the point that you don't want to go too soon because inflation might turn out to be more variant, but isn't there a risk if you go too slowly, given the lags of monetary policy, that we could end up overtightening? How do you guard against that? 
 
 **Christopher Waller:** That is one of the risks that I've mentioned. I think we're all very aware of it. <span style="color:#ec5e2a;"><strong>Chair Powell even talked about that at his press conference in December, that we're in this unusual place where we can actually lower the policy rate not because there's a shock to the economy in a recession, but we can bring it down to keep the real policy rate at the right level of tightness to maintain our inflation goals but not damage the economy in any serious way. So I wouldn't want to start until we were thoroughly convinced that inflation was sustainably near our 2% target. It'll bounce around with any monthly data. We have to be ready for that and look through some of that. When we think we're there and it'll stay there, then we can start saying, okay, it's time to cut, and then we can start thinking how fast do we want to cut or how often, what the pace is, or how big the cuts. Those are all things we can determine once we decide to move. There's no real radical reason that we have to bring the real policy rate down from like 3% to 50 basis points in one meeting. We don't have to do that. We can take our time and see how that all works.</strong></span>
