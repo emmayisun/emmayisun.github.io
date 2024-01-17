@@ -1,15 +1,14 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const videoElement = document.getElementById('player');
-    let isPip = false;
-
+document.addEventListener('DOMContentLoaded', () => {
+    const youtubeContainer = document.getElementById('youtube-player-container');
+    
     window.addEventListener('scroll', () => {
-        const videoPosition = videoElement.getBoundingClientRect();
-        if ((videoPosition.top < window.innerHeight && videoPosition.bottom >= 0) && !isPip) {
-            videoElement.classList.remove('pip-video');
-            isPip = false;
-        } else if (!isPip) {
-            videoElement.classList.add('pip-video');
-            isPip = true;
+        const rect = youtubeContainer.getBoundingClientRect();
+        if (window.innerHeight < rect.top || rect.bottom < 0) {
+            // The video is out of view, enable PiP mode
+            youtubeContainer.classList.add('pip-video');
+        } else {
+            // The video is in view, disable PiP mode
+            youtubeContainer.classList.remove('pip-video');
         }
     });
 });
