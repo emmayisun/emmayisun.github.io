@@ -16,9 +16,9 @@ article_excerpt: "test"
 <script>
   var player;
   function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
-      height: '360',
-      width: '640',
+    player = new YT.Player('youtube-player-container', {
+      height: '315',
+      width: '560',
       videoId: '2OmfIeGtL1w'
     });
   };
