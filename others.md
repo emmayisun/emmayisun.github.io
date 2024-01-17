@@ -183,9 +183,6 @@ based on what we saw today.**"
 ## Fed APIs
 - [NY Fed Markets Data API](https://markets.newyorkfed.org/static/docs/markets-api.html)
   
-## Where to find Fedspeak(paused)
-- [Chicago Fed](https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-media-appearances)
-- [Dalls Fed](https://www.dallasfed.org/fed/leadership/logan/speaking#n24)
 
 ## Other useful links
 - Minutes Dictionary
