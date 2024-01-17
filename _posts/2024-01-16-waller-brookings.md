@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 01/16/2024 Waller's Brookings Interview with David Wiesel
-subtitle: Almost as Good as It Gets…But Will It Last?
+title: Waller Advocates Moving ‘Methodically and Carefully’ With Rate Cuts in Fed’s 2024 Policy Adjustment
+subtitle: Almost as Good as It Gets… But Will It Last?
 categories: Fedspeak
-tags: [cut, Waller]
-article_excerpt: "test"
+tags: [cut, QT, Waller]
+article_excerpt: "Fed Governor Waller conveyed growing confidence in achieving a 2% inflation target and the decision on rate cuts will be data-dependent, with economic activity, labor market conditions, and inflation trends as key factors. Waller emphasized the importance of upcoming CPI inflation revisions in shaping policy decisions. Advocating a cautious approach, Waller proposed methodical rate reductions, unlike the rapid cuts in past economic downturns. The current robust state of the economy allows for a deliberate adjustment of rates, with future decisions being driven by incoming economic data. On balance sheet reduction, Waller suggested considering tapering 'sometime this year', but only for its Treasury holdings. He suggested letting MBS continue to run off at its current pace. Consistent with his previous view, Waller said he considers '10 to 11% of GDP as an approximate endpoint for draining reserves out of the system'." 
 ---
 
 <div id="youtube-player-container"></div>
