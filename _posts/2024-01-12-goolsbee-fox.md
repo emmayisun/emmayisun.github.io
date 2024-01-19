@@ -6,10 +6,6 @@ tags: [policy, QT, Goolsbee]
 article_excerpt: "Chicago Fed President Goolsbee, signals potential interest rate cuts in 2024, depending on the continued decline in inflation. He downplayed today's CPI report, citing 'I don't think we want to get too hung up on any one month's report' and pointed to Fed's target PCE, which 'continued to show good progress'. He reiterated his stance, noting, 'I wasn't the lowest (on the dot plot), I was closer to the median,' indicating a moderate position on future rate adjustments. Regarding the Federal Reserve's balance sheet, Goolsbee supports the ongoing strategy of gradual reduction, hinting no immediate intention to halt the runoff."
 ---
 <script type="text/javascript" src="https://video.foxnews.com/v/embed.js?id=6344779909112&w=466&h=263"></script><noscript>Watch the latest video at <a href="https://www.foxnews.com">foxnews.com</a></noscript>
-
-#### Link
-[Reuters Article](https://www.reuters.com/markets/us/goolsbee-sees-progress-inflation-says-his-rate-cut-forecast-near-fed-median-2024-01-11/)
-
 #### Headline
 - Fed's Goolsbee: A substantial drop in inflation is the trend.
 - Fed's Goolsbee: The Fed targets PCE, which continues to show good progress on getting inflation down.
@@ -27,7 +23,8 @@ article_excerpt: "Chicago Fed President Goolsbee, signals potential interest rat
 - Fed's Goolsbee: December services inflation was a little more favorable than expected; housing inflation was a little less favorable.
 - Fed's Goolsbee: Persistently high shelter inflation in CPI may have less implication for the Fed's personal consumption expenditures inflation target.
 - Fed's Goolsbee: Risks include persistent housing inflation & potential supply shocks.
-
+#### Link
+[Reuters Article](https://www.reuters.com/markets/us/goolsbee-sees-progress-inflation-says-his-rate-cut-forecast-near-fed-median-2024-01-11/)
 #### Transcript
 **Fox:** Oh, and if you think about not talking live data before the price growth. What did you make today? 
 
