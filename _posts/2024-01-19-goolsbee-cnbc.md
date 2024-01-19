@@ -10,23 +10,15 @@ article_excerpt: "Chicago Fed President Goolsbee, emphasizing the importance of 
 #### Link
 [Replay](https://www.cnbc.com/video/2024/01/19/chicago-fed-president-goolsbee-a-mistake-for-the-market-to-hinge-on-the-words-of-fed-officials.html)
 #### Headline
-Fed's Goolsbee: If inflation progress reverses, could merit rate hikes.
-
-Fed's Goolsbee: Markets should be focusing on economic data.
-
-Fed's Goolsbee: We need to see more progress on housing inflation.
-
-Fed's Goolsbee: Goods price inflation back to normal levels, there is surprising progress on services inflation too.
-
-[Fed's Goolsbee: As inflation comes down it opens the door for rate cuts.](#cut)
-
-[Fed's Goolsbee: Real restrictiveness matters to me.](#cut)
-
-Fed's Goolsbee: If we continue to make good progress on inflation, we need to factor that into policy rate.
-
-Fed's Goolsbee: Inflation data will dictate the rate path.
-
-Fed's Goolsbee: The Fed is not facing an imminent threat from the labor market.
+Fed's Goolsbee: If inflation progress reverses, could merit rate hikes.  
+Fed's Goolsbee: Markets should be focusing on economic data.  
+Fed's Goolsbee: We need to see more progress on housing inflation.  
+Fed's Goolsbee: Goods price inflation back to normal levels, there is surprising progress on services inflation too.  
+[Fed's Goolsbee: As inflation comes down it opens the door for rate cuts.](#cut)  
+[Fed's Goolsbee: Real restrictiveness matters to me.](#cut)  
+Fed's Goolsbee: If we continue to make good progress on inflation, we need to factor that into policy rate.  
+Fed's Goolsbee: Inflation data will dictate the rate path.  
+Fed's Goolsbee: The Fed is not facing an imminent threat from the labor market.  
 
 #### Transcript
 
