@@ -7,8 +7,6 @@ article_excerpt: "Chicago Fed President Goolsbee, emphasizing the importance of 
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fkY4XNiFs_c?si=ncrHN91IY_WN6SIx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-#### Link
-[Replay](https://www.cnbc.com/video/2024/01/19/chicago-fed-president-goolsbee-a-mistake-for-the-market-to-hinge-on-the-words-of-fed-officials.html)
 #### Headline
 Fed's Goolsbee: If inflation progress reverses, could merit rate hikes.  
 Fed's Goolsbee: Markets should be focusing on economic data.  
@@ -19,7 +17,8 @@ Fed's Goolsbee: Goods price inflation back to normal levels, there is surprising
 Fed's Goolsbee: If we continue to make good progress on inflation, we need to factor that into policy rate.  
 Fed's Goolsbee: Inflation data will dictate the rate path.  
 Fed's Goolsbee: The Fed is not facing an imminent threat from the labor market.  
-
+#### Link
+[Replay](https://www.cnbc.com/video/2024/01/19/chicago-fed-president-goolsbee-a-mistake-for-the-market-to-hinge-on-the-words-of-fed-officials.html)
 #### Transcript
 
 **Steve Liesman:** Talk about the Fed interest rates and the overall economy, joining us now Chicago Fair president Austin Goolsbee. Good morning Austin, are you feeling your influence start to spread in that now your colleagues are quoting you? You had Bostic yesterday talk about the golden path and even use the turkey frying analogy that I think was yours initially, Austin, so 
