@@ -54,7 +54,7 @@ Fed's Waller: rent inflation is expected to come down, it is just taking longer 
 [Fed's Waller: If we think need to move rate down faster, we can](#pace)
 
 ### Link
-[Speech](https://www.federalreserve.gov/newsevents/speech/waller20240116a.htm) || [BBG](https://www.bloomberg.com/news/articles/2024-01-16/waller-says-fed-can-cut-rates-this-year-absent-inflation-rebound)
+[Speech](https://www.federalreserve.gov/newsevents/speech/waller20240116a.htm) || [Official Full Transcript](https://www.brookings.edu/wp-content/uploads/2024/01/20240116_Waller_Transcript.pdf) || [BBG](https://www.bloomberg.com/news/articles/2024-01-16/waller-says-fed-can-cut-rates-this-year-absent-inflation-rebound)
 ### Speech
 Thank you, David Wessel, and thank you to Brookings for the opportunity to speak to you today.
 
