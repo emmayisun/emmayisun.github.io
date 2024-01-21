@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Chicago Fed President Goolsbee Optimistic on 'Golden Path'; Eyes Inflation Trends for Rate Decisions
+title:  Goolsbee Optimistic on 'Golden Path', Eyes Inflation Trends for Rate Decisions
 categories: Fedspeak
 tags: [policy, cut, Goolsbee]
 article_excerpt: "Chicago Fed President Goolsbee, emphasizing the importance of real restrictiveness, suggests that the Federal Reserve's decision-making is heavily reliant on actual inflation trends. He underscores that as inflation decreases, it logically opens the path for potential rate cuts. Goolsbee also points out the notable progress in goods price inflation, returning to pre-COVID levels, and observes encouraging developments in services inflation. However, he highlights the need for more progress in housing inflation. His commentary indicates a belief that the economy is on a 'golden path' towards balancing growth and labor market indicators, with the potential to lessen the level of restrictiveness if these positive trends continue."
