@@ -175,7 +175,7 @@ Thank you.
 **David Wessel:** So why struggle to get to ample? Why not just stick with abundant reserves?
 
 **Christopher Waller:** You could. I mean, I had a paper a few years ago where I looked at a floor system, and the problem with the large balance sheet is kind of what we're running into now. You potentially have a situation where your payments on interest on reserves are above your earnings. Now, there's nothing that affects our operating and monetary policy whatsoever, but the optics, and I, at the title of the paper I had was some unpleasant fiscal arithmetic. The optics of this are just bad. It doesn't have anything to do with monetary policy at all effectiveness. It's nothing, but it just kind of looks bad that you're not turning over any seigniorage revenues to the Treasury, and you're delaying when you'll start doing it. And for that reason, you may want to think about not keeping your balance sheet too big. But that's really one of the few reasons for doing it. There's a misperception that we're again, we're taking real resources out of the economy for lending by banks and car loans and construction, but none of that's going on. We're just taking out treasuries.
-#### Banking Regulation
+#### Basel III
 <a href="#" onclick="seekToTime(2080); return false;">(34:40)</a>
 
 **David Wessel:** Governor Waller, you voted against the recent proposal to increase the capital that big banks are required to set aside. There's been a lot of criticism of that and lots of comments, and I think you've indicated that you're hoping that there will be a compromise that you can support. So where are we in that process? Do you think we're getting to a bank capital proposal with which you're comfortable?
