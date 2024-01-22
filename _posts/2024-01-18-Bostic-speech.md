@@ -12,14 +12,14 @@ Fed's Bostic: I am open to changing outlook on rate cut timing on data.
 Fed's Bostic: I want to make sure we're well on way to 2% before cuts.  
 Fed's Bostic: Baseline is for cuts to begin in Q3  
 Fed's Bostic: Given uncertainty, it's unwise for the Fed to lock in any approach at this point.  
-Fed's Bostic: I am open to starting rate cuts before July if there is convincing evidence that inflation is slowing faster than I anticipate.  
+[Fed's Bostic: I am open to starting rate cuts before July if there is convincing evidence that inflation is slowing faster than I anticipate.](#cut)  
 Fed's Bostic repeats baseline is for rate reductions starting in Q3, with care needed not to cut too soon and risk renewed demand and price pressures.  
 Fed's Bostic: If inflation progress slows, it's good to keep higher longer.  
 Fed's Bostic: I want to see more evidence we are on trajectory to 2%, the worst outcome would be to cut rates then have to raise.  
 Fed's Bostic: I have seen some slowing in the labor market, it's now more balanced.  
 Fed's Bostic: Inflation seems to be on path to 2% target  
 #### Link
-[Speech](https://www.atlantafed.org/news/speeches/2024/01/18/bostic--arc-of-monetary-policy)|| [Reuters](https://www.reuters.com/markets/us/feds-bostic-says-open-earlier-rate-cuts-faster-drop-inflation-2024-01-18/)
+[Speech](https://www.atlantafed.org/news/speeches/2024/01/18/bostic--arc-of-monetary-policy) || [Reuters](https://www.reuters.com/markets/us/feds-bostic-says-open-earlier-rate-cuts-faster-drop-inflation-2024-01-18/)
 
 #### Speech Text
 
@@ -133,6 +133,7 @@ In light of these risks, it probably should not be surprising that our [Survey o
 
 As always, my views will be informed by incoming data, and I will remain steadfast in my commitment to achieving the 2 percent inflation objective. <span style="color:#ec5e2a;"><strong>Should conditions evolve differently from my expectation, I am willing to adjust my view of policy based on what happens. Should underlying economic momentum prove stronger than expected and spark inflationary pressure, the Committee may need to maintain the restrictive policy stance longer than I foresee. Relatedly, premature rate cuts could unleash a surge in demand that could initiate upward pressure on prices.</strong></span>
 
+<a id="cut"></a>
 This argues for caution to ensure that we don't undermine the great progress we have made to date in bringing inflation back to target. But it also calls for heeding the data and being responsive in our plan to normalize policy. Even after incorporating the recent softness in the underlying inflation data, **my baseline forecast for full-year core PCE inflation is _still 2.4 percent._** <span style="color:#ec5e2a;"><strong>That said, if we continue to see a further accumulation of downside surprises in the data, it's possible for me to get comfortable enough to advocate normalization sooner than the third quarter. But the evidence would need to be convincing.</strong></span>
 
 During the pandemic, I've tried to use a few terms to characterize my approach to policy in the moment. Summarizing all that I've said today, those words would be grateful and vigilant. I'm very grateful for the progress that has been made to date in the fight against inflation. But I'm staying vigilant because, though inflation has been on a path toward the 2 percent target for some time, there are risks that could throw it off course.
