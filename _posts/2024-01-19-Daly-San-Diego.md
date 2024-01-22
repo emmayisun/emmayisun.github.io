@@ -1,0 +1,63 @@
+---
+layout: post
+title: Daly Advocates for Gradualism and Patience in Monetary Policy with Labor Market in Focus
+categories: Fedspeak
+tags: [policy, Daly]
+article_excerpt: "Federal Reserve Bank of San Francisco President Mary Daly emphasizes the importance of patience and gradualism in monetary policy. She believes that the current policy is appropriately set to influence the economy effectively. Daly stresses the need for balance, avoiding premature easing of policy which could lead to inflation remaining above target—a scenario she describes as "scarring." With signs of the labor market slowing, Daly highlights the necessity of careful calibration to ensure inflation is reduced gently, without undue harm to the labor market." 
+---
+
+<div id="youtube-player-container"></div>
+
+
+<!-- Load the IFrame Player API code asynchronously -->
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('youtube-player-container', {
+      height: '315',
+      width: '560',
+      videoId: 'cTk_77FI9n8'
+    });
+  };
+  function seekToTime(seconds) {
+      if (player && player.seekTo) {
+          player.seekTo(seconds, true);
+      }
+  }
+</script>
+#### Headline
+Fed's Daly: It would be scarring to ease too quickly, not reach 2% goal.  
+Fed's Daly: The job this year is about calibration.  
+Fed's Daly: We don't want to loosen policy too soon, or try to squeeze inflation out too fast.  
+Fed's Daly: At this point, risks are more balanced.  
+Fed's Daly: There's no denying that there's a lot of work still to do.  
+Fed's Daly: We can start to be more patient, & see what the Fed needs to do next.  
+Fed's Daly: Policy is in a good place.  
+Fed's Daly I hear cautious optimism from business contacts.  
+Fed's Daly: The US economy is in a really good place.
+
+#### Link
+[Replay](https://www.youtube.com/watch?v=cTk_77FI9n8)
+
+#### Q&A Excerpts
+*Editor's note: The Q&A transcript has been trimmed down to only policy-related questions.*
+
+**Q:** All right. So let's just jump into it. First I'd love to hear and I think we'd all love to hear. You're outlook for the economy. What are the takeaways, the key takeaways from 2023? What's your forecast for 2024? 
+
+**Mary Daly:** Absolutely. So let me start with 2023. So remember we began the year last year with high inflation and a booming labor market and we were tightening policy at a rapid clip and the conversation then was will the Fed tightening cycle fail and inflation will just completely never come back down or will we have a recession? And that was the context and the sentiment was pretty low despite the fact that the economy was booming and I wouldn't go out and do CEO roundtables, community talks and when I'd hear is it's too frothy. It's unsustainable. I had visuals given to me. One gentleman said, I feel like I'm running a bike when I was a kid and I've lost the petals. Those bikes where you lose the petals and it's just going down the hill and there's nothing you can do and you just hope for the best and hang on. And then another young man who I met at a local retail outlet, he was there with his wife and two kids and they were there on a Sunday shopping and he said, you know, I'm asking him questions. Don't identify what I do for a living but I told him I was economist and I'm interested in how people are experiencing the economy and he said, I feel like I'm on a treadmill. I'm on a treadmill because I'm making more money than I've ever made. I'm working two or three jobs. I have no more hours in the day and when I come here to buy groceries, there's less and less in my cart and I'm spending more and more of my income and he said, I can't keep this up. I want to do better. What can I do? And I told this young man, which was a heartfelt rendering he was giving me about his life. I said, I'm working on it. It's going to take some time. Keep back. Now, I don't know what happened to that young man but I do know what happened to the economy. 
+
+Throughout 2023, we even with the banking stresses which gave us another negative we had to work through, we end the year, end 23, with inflation much, much lower. People not yet, we're not there yet and I'll talk about that in a moment but it's much, much lower in American families and businesses and communities are feeling a relief from that high inflation stress. We also ended with the economy starting to slow so it looks like that froth is gone and that froth being gone actually helps people feel like, okay, now I can get a foothold and I get a plan. 
+
+So now where are we today in 2024 and where do I see us going? Well, I'm going to start with a couple of things. The economy is in a really good place. If you saw the sentiment numbers, the confidence numbers this week, they've come from the various surveys. People feel better. There was last month a vibecession that was the last thing I was hearing about. Kyla Scanlon taught me this. She's an influencer, a journalist, the person who does a lot of tick-tock and things and she tells me how it's a vibecession. People feel bad, the data are good, it's a bad vibe. And that was six months ago and I think, okay, I'm listening. But now I'm seeing sentiment data and confidence data be better. When I had a business round table here in San Diego this morning, what did I hear? I'm not sure if it was a vibecession. I'm seeing an economy that is responding to monetary policy and coming into balance in inflation coming down but not falling off the cliff and making a worrisome situation. That's good. 
+
+<span style="color:#ec5e2a;"><strong>The second thing that I feel is in a good place is policy. Policy is in a good place. We got policy rated just did so it can do its work. We see that it is having an influence. It's a big place in the following situation. We know that policy is in a good place, the economy is in a good place and we can start to be more patient to see what we need as a Fed to do next.</strong></span> The other thing that we can do is we can take a deep breath and we can say what are the important work we need to do as communities, as people, as businesses to plan for our future. And that's the second thing I heard in the round table this morning that I really wanted to share is that we had a lot of conversations about things that we were going to do to build our future forward. When I was at CEO round tables last year, I only heard about inflation and how hard it was to hire anybody. Now I'm hearing what about workforce housing? What about education? What about making our communities strong and vibrant and building an ecosystem? I'm not an optimistic by nature but I always tether myself to evidence. I am an evidence-based optimist and I would say that the economy in the situation looks brighter than it did at the beginning of last year. There is a lot of work to do. There is no denying it and I'm going to do my part at the Fed but it's a lot of work to do for all of us to really get to where we want to be but we're starting from a better place for sure. I hope that helps. 
+
+**Q:** That helps a lot. For those who might not be familiar, President Daly, in addition to being President and the San Francisco Fed is also one of 12 voting members of the Federal Open Market Committee which arguably makes one of the 12 most influential economic policy makers in the world. The FOMC kind of sets interest rates and so that has a huge impact on our economy and the U as part of that have a dual mandate. One is to keep inflation low and the other is to maintain full employment or to keep unemployment low. When you look at the year ahead, which one of those seems more daunting or which one seems more like a risk or which clearly in 2023 your focus was inflation. What do you see when you see the inflation? 
+
+**Mary Daly:** That's a great question. We have what we call the dual mandate. If you follow the Fed, you've heard about the dual mandate, full employment for stability. If you're ever talking to people in your friends and family, we explain it this way when people aren't Fed followers necessarily is that everyone who wants a job can have one, that's full employment and the dollar in your pocket or your wallet holds its value. That's price stability. So for us last year inflation was so far above our target and the labor market was booming. As I said, firms were telling us, they couldn't find workers. They were telling us they could have every job they wanted. That was an economy where our only focus to achieve our goals needed to be inflation. We had that in mind, vigilance and resolute commitment to getting inflation down. At this point with the economy in a good place, the risks more balanced and the policy in a good place, what's happened is that dual mandate is back in a collective lens. I'm looking at both. What I want to do is I want to make sure that we deliver on low inflation, but do it without taking jobs by making the unemployment rate rise. I would say that we're balancing those goals at this point. <span style="color:#ec5e2a;"><strong>The risks to the economy are balanced and the risks to both sides of our mandate are balanced. We don't want to lose in policy too quickly only to find that inflation gets stuck in way above target. That would be a miss. That would be a very scarring miss. We don't want to try to get to too so quickly. Like overnight, just to get that squeezed out that we end up having this big run-up in the unemployment rate.</strong></span> Then we've solved one problem for people. We brought inflation down, but we've given them another problem. We've taken their jobs. That is not a soft landing in case you're wondering. We want definitely to, just in case, you don't know, but we definitely want, just a soft landing. There is always so much time talking to people because really you're still going to soft landing means you have to look at the eyes of people who want two things. If you think of that gentleman, I met in Walmart. I shouldn't have said that. That gentleman at the large retail outlet. You have to think about that. You have to think about that gentleman. If we end up having an economy that delivers on 2% inflation and takes away jobs, we haven't made him any better off. In fact, maybe worse off. That's the commitment to the dual mandate. I think both of those goals are in balance. 
+
+**Q:** Yes, speaking of the soft landing, that's all we heard last year. Are they going to achieve the soft landing? The window for a soft landing is getting there or a narrower. And then all of a sudden people are saying, it's immaculate, disinflation. You pulled it off. You did this. Incredibly, did they impossible? Do you feel like you've achieved the soft landing? Or did they continue to receive the soft landing? 
+
+**Mary Daly:** No. No. So anybody asked that golden chalice is not yet ours, right? We do not declare victory. I think it's very important. And I mean this with all seriousness. There's a cost to declare a victory to you, Sam. There's so many costs. But say that we say there's victory. Well then, what we could end up with is inflation getting stuck at 3.9%, which is what just printed. That's not price stability. 3.9% is not price stability. 2% is our target for price stability. So there's a gap. That's a 1.9%ish point gap. There's a lot of work to do there. That doesn't mean that we don't have the tools or not getting closer. We are definitely getting closer. Look at all the progress we made last year. Just means we have this stick with it. We have to continue to work on it. And we have to do that in a different way than we did last year. <span style="color:#ec5e2a;"><strong>Because this year, we also have to keep our eyes on the labor market, which is starting to slow. And so we have to calibrate very carefully to ensure that we continue to bring inflation down. And we ensure that we do it gently. As gently as we possibly can. So I say that the job is really one about calibration this year. What does it take? It takes patience. It takes gradualism. There's this term used in monetary policy, Ben Bernanke, wrote a speech about it called gradualism. And the gradualism just means you take the time to look.</strong></span> You're facing a lot of uncertainty. You make sure you really get a look at the data. You look at it. You study it. You do it twice, three times. And then you take action. Because if you're quick to act, you can actually make mistakes. And mistakes aren't just things that they'll write about in history books. They're things that affect people. They're lives and livelihoods. 
