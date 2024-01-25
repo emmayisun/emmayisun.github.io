@@ -168,14 +168,14 @@ based on what we saw today.**"
 - [Primary Dealer Holdings Homepage](https://www.newyorkfed.org/markets/counterparties/primary-dealers-statistics)
 - [NY Fed Liberty Economics Blog(Feb 6th, 2023):](https://libertystreeteconomics.newyorkfed.org/2023/02/understanding-the-inconvenience-of-u-s-treasury-bonds/) PD net holdings corr with swap spreads
 
-<div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/fv5l6/embed.js?v=2" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/fv5l6/full.png" alt="" /></noscript></div>
+<div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/fv5l6/embed.js?v=3" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/fv5l6/full.png" alt="" /></noscript></div>
 
 ## H.4.1 update (Every Thursday at 4:30pm ET)
 - [H.4.1 Homepage](https://www.federalreserve.gov/releases/h41/)
 - [H.4.1 Current Release](https://www.federalreserve.gov/releases/h41/current/default.htm/)
 - [H.4.1 Official Explainer](https://www.federalreserve.gov/monetarypolicy/bst_fedsbalancesheet.htm)
 
-<div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/OZh7N/embed.js?v=2" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/OZh7N/full.png" alt="" /></noscript></div>
+<div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/OZh7N/embed.js?v=7" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/OZh7N/full.png" alt="" /></noscript></div>
 
 ## H.8 update (every Friday at 4:15pm ET)
 - [H.8 Homepage](https://www.federalreserve.gov/releases/h8/)
