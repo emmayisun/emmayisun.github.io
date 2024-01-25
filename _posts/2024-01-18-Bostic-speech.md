@@ -3,7 +3,7 @@ layout: post
 title: Bostic Signals Openness to Cut Before July with Convincing Downshift in Data
 subtitle: The Arc of Monetary Policy May Start Bending Soon
 categories: Fedspeak
-tags: [policy, Bostic]
+tags: [policy, cut, Bostic]
 article_excerpt: "Atlanta Fed President Bostic said he has revised his outlook for normalizing the federal funds rate to the third quarter of this year, citing progress in inflation reduction. He warned against overly restrictive policy, which could harm the labor market and economy. Emphasizing the need for balance, he cautioned against delaying policy easing and risking economic overtightening. Bostic advocated for a flexible, data-driven approach, ready to adjust based on evolving economic conditions. He remains committed to the 2 percent inflation target and open to earlier normalization if convincing data emerges."
 ---
 #### Headline
