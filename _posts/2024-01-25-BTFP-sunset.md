@@ -5,7 +5,7 @@ categories: Emma's
 tags: [btfp]
 article_excerpt:
 ---
-*Editor's note: This quick note is written by a human analyst with assistance from the Fedbot.* :)
+*Editor's note: This quick note is written by a human analyst with assistance from the Fedbot :)*
 
 The Federal Reserve [announced](https://www.federalreserve.gov/newsevents/pressreleases/monetary20240124a.htm) at 7 p.m. on Wednesday that the [Bank Term Funding Program (BTFP)](https://www.frbdiscountwindow.org/GeneralPages/bank_term_funding_program) will conclude as scheduled on March 11, 2024. This decision follows earlier indications by Federal Reserve Vice Chair for Supervision [Michael Barr](https://www.reuters.com/markets/us/fed-considering-changes-basel-proposal-supervision-chief-2024-01-09/) and New York Fed President [John Williams](https://www.bloomberg.com/news/articles/2024-01-11/use-of-fed-funding-tool-hits-fresh-peak-as-officials-signal-end). BPI's Bill Nelson has [suggested](https://www.linkedin.com/pulse/forward-guidance-why-did-fed-announce-changes-btfp-7-pm-bill-nelson-vnhie%3FtrackingId=7tkRcXwWQG6srEOw4g8Ucw%253D%253D/?trackingId=7tkRcXwWQG6srEOw4g8Ucw%3D%3D) several reasons for the interesting timing of the press release.
 
