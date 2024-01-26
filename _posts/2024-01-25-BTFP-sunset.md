@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bank Term Funding Program Scheduled to Sunset Mid-March
-categories: Emma Tidbits
+categories: Emma's
 tags: [btfp]
 article_excerpt:
 ---
