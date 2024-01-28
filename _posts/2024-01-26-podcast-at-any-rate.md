@@ -7,7 +7,7 @@ article_excerpt: "Rates strategist Jay Barry and Chief US economist Mike Feroli 
 ---
 *Editor's note: This is a test version of a podcast summarization experiment. While efforts are made to ensure accuracy, readers are encouraged to consult the original material for complete and accurate information. Also note that Apple Podcast is adding auto-transcript in its next software update soon, which means summarization could come soon. This experiment may be deprioritized, or transit to maintenance as a result.*
 
-<iframe title="US Rates: The calm before the (policy) storm" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);height:150px;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?from=embed&pbad=0&i=8rjpr-1561ce0-pb&share=1&download=1&fonts=Arial&skin=f6f6f6&font-color=auto&rtl=0&logo_link=episode_page&btn-skin=ff6d00&size=150" loading="lazy"></iframe>
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/us-rates-the-calm-before-the-policy-storm/id1481423053?i=1000643148588&theme=light"></iframe>
 
 #### Overview of U.S. Rates Market and Upcoming Policy Decisions
 Jay Barry highlights the quiet week in U.S. rates markets with mixed data and dovish central bank developments. Emphasizes key upcoming policy events, including the Treasury's quarterly refunding announcement and the FOMC decision, referring to them as crucial for the U.S. rates markets.
