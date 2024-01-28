@@ -5,7 +5,7 @@ categories: Podcast
 tags: [test]
 article_excerpt: "Rates strategist Jay Barry and Chief US economist Mike Feroli discuss the outlook for policy in the week ahead, including expectations for the FOMC meeting, the Treasury’s quarterly refunding announcement, and the implications for US rates markets."
 ---
-*Editor's note: This is a test version of a podcast summarization experiment. While efforts are made to ensure accuracy, readers are encouraged to consult the original material for complete and accurate information.*
+*Editor's note: This is a test version of a podcast summarization experiment. While efforts are made to ensure accuracy, readers are encouraged to consult the original material for complete and accurate information. Also note that Apple Podcast is adding auto-transcript in its next software update soon, which means summarization could come soon. This experiment may be deprioritized, or transit to maintenance as a result.*
 
 <iframe title="US Rates: The calm before the (policy) storm" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);height:150px;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?from=embed&pbad=0&i=8rjpr-1561ce0-pb&share=1&download=1&fonts=Arial&skin=f6f6f6&font-color=auto&rtl=0&logo_link=episode_page&btn-skin=ff6d00&size=150" loading="lazy"></iframe>
 
@@ -99,3 +99,4 @@ Well, Mike, I don't think we can cover anything else. We've gone over in exhaust
 <br>
 
 *Disclaimer: Stay tuned for more episodes of At Any Rate, JP Morgan's global research podcast series. This communication is provided for information purposes only. Please read JP Morgan research reports related to its contents for more information, including important disclosures. Copyright 2024, JP Morgan Chase and Company, all rights reserved. This episode was recorded on January 26th, 2024.*
+
