@@ -96,6 +96,7 @@ So given how much rates have backed up this year, we feel a bit more comfortable
 
 Well, Mike, I don't think we can cover anything else. We've gone over in exhaustive detail what we expect between 830 on Wednesday morning, 2pm and 2.30 on Wednesday afternoon. And I'd just like to thank you for joining us. And 8.30 Friday morning. Oh, 8.30 Friday morning. I'm sorry. I'm just so myopically focused on Wednesday, the Super Bowl, so to speak. But anyway, Mike, thanks for being with us this afternoon.
 </details>
+<br><br>
 
 
 
