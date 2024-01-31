@@ -60,7 +60,7 @@ The expected timeline is similar: *JPM* suggested a March announcement, April st
 Most banks adopted the [2019 plan](https://www.newyorkfed.org/markets/opolicy/operating_policy_190320), cut the pace for Treasury from $60bn/month to $30bn/month but maintain the pace on MBS. 
 
 ![QT taper - GS]({{ site.baseurl }}/assets/images/gs%20qt%20taper.png)
-![2019 QT taper]({{ site.baseurl }}/assets/images/2019%qt%taper.png)
+![2019 QT taper]({{ site.baseurl }}/assets/images/2019%20qt%20tqper.png)
 
 As for this week’s FOMC meeting, most strategists do not expect Powell to provide too many details in the presser, instead point to the Jan meeting minutes in Feb for more details. Recall in Dec meeting minutes, “several” participants suggested that “*it would be appropriate for the Committee to begin to discuss the technical factors that would guide a decision to slow the pace of runoff well before such a decision.*” 
 
