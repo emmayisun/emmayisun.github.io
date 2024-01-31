@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jan FOMC Preview: Is It Over Now?
+title: Jan FOMC Preview - Is It Over Now?
 categories: Emma's
 tags: [test]
 article_excerpt: 
