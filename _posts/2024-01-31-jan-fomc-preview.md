@@ -6,37 +6,38 @@ tags: [test]
 article_excerpt: I so wish I could tell you this is written by the Fedbot... When he does, it'll be better than mine. Consider this as a warm-up exercise.
 ---
 
-Wednesday brings the January FOMC meeting where the Fed stays on hold for the 4th consecutive meeting. The focal point for markets, however, lies in deciphering any signals about a potential rate cut in March, particularly following the Fed officials' pushback against the dovish sentiment that emerged after the December 15th meeting.
+Wednesday brings the January FOMC meeting where the Fed stays on hold for the 4th consecutive meeting. The focal point for markets, however, lies in deciphering any signals about a potential rate cut in March, particularly following Fed officials' pushback against the dovish sentiment that emerged after the December 15th meeting.
 ### Voting Rotation 2024
 
-The January meeting introduces a shift in voting members, with Cleveland Fed President Mester(hawk), Richmond Fed President Barkin (hawk), Atlanta Fed President Bostic (dove), and San Francisco Fed President Daly (hawk) joining as new voters, replacing Logan(hawk), Harker(centralist to dove), Goolsbee (dove), and Kashkari (hawk). 
+The January meeting introduces a shift in voting members, with Cleveland Fed President Mester(hawk), Richmond Fed President Barkin (hawk), Atlanta Fed President Bostic (dove), and San Francisco Fed President Daly (hawk) joining as new voters, replacing Logan(hawk), Harker(centralist to dove), Goolsbee (dove), and Kashkari (hawk). One other interesting thing to note is Mester's impending retirement on [June 30th](https://www.clevelandfed.org/collections/press-releases/2023/pr-20231108-cleveland-fed-launches-search-for-next-president-and-ceo) under the Fed's age-65 rule, with the Cleveland Fed already searching for a successor. Should a replacement not be found in time, Chicago Fed President Goolsbee is poised to temporarily step in as a voter at the July meeting.
 
 ![Fed Voting Rotation 2024]({{ site.baseurl }}/assets/images/voter24.png)
 
-Notably, all four new voters have been publicly active recently, and on net, they revealed **a tendency towards a more hawkish stance**. One other interesting thing to note is Mester's impending retirement on [June 30th](https://www.clevelandfed.org/collections/press-releases/2023/pr-20231108-cleveland-fed-launches-search-for-next-president-and-ceo) under the Fed's age-65 rule, with the Cleveland Fed already searching for a successor. Should a replacement not be found in time, Chicago Fed President Goolsbee is poised to temporarily step in as a voter. 
+Notably, all four new voters have been publicly active recently, and on net, they revealed **a tendency towards a more hawkish stance**.  
 
 Regarding their views, Mester [disclosed](https://www.ft.com/content/ad029db4-d758-49a5-a38a-e505956e6784) that she is one of the six median dots but also [said](https://fedbot.io/fedspeak/2024/01/11/mester-bbg.html) "*March is probably too early in my estimation for a rate decline*". She also put a bit more emphasis on inflation expectations and wage growth. 
 
 Daly is likely also a [median dot](https://www.wsj.com/economy/central-banking/fed-official-says-rate-cuts-could-be-needed-next-year-to-prevent-over-tightening-29d009ce) and has also been [advocating](https://fedbot.io/fedspeak/2024/01/19/daly-sd.html) “gradualism” and "patience". When asked about March, she [pushed back](https://fedbot.io/fedspeak/2024/01/19/daly-fox.html) with “*I think it’s premature to think cut is around the corner*". 
 
-Barkin is likely one of the five 50bp cut dots as he views inflation “*a little stubborner than the average person in there*”, but he has left the door open by saying that he won’t ”*have any objection conceptually to toggling rates back toward normal levels as you build increasing conviction and confidence that inflation is on a convincing path back to target.*”
+Barkin is likely one of the five 2 cut dots as he views inflation a little stubborner, but he has left the door open by saying that he won’t ”*have any objection conceptually to toggling rates back toward normal levels as you build increasing conviction and confidence that inflation is on a convincing path back to target.*”
 
-Bostic forecasts only two rate cuts this year starting in Q3, but in his last [speech](https://www.atlantafed.org/news/speeches/2024/01/18/bostic--arc-of-monetary-policy) he remains open to adjusting his stance if *“inflation comes down faster than his forecast*". Given these recent comments, Bostic seems to be more open-minded about moving his first cut forward, while the other three suggest an inclination towards delaying rate cuts.
+Bostic forecasts only two rate cuts this year starting in Q3, but is open to [adjust](https://www.atlantafed.org/news/speeches/2024/01/18/bostic--arc-of-monetary-policy) if *“inflation comes down faster than his forecast*". Given these recent comments, Bostic seems to be more open-minded about moving his first cut forward, while the other three suggest an inclination towards delaying rate cuts.
 
 ### Fedspeak Review
 
-This view could well be the contour of the Jan meeting. The Fed is “in a good place”, with inflation coming down and labor market remaining healthy, thanks to the Beveridge curve. The Fed seems to have the luxury to truly “wait and see”.  Daly emphasizes patience, contingent on continued inflation reduction or "early signs that the labor market is starting to falter” to decide if “an adjustment is necessary" (see quote below). Waller, however, in his last public appearance, instead of commenting on what would make him consider rates adjustment, Waller chose to outline conditions for deferring rate cuts: stronger economic growth, a tighter labor market, and rebounding inflation. Interestingly, both highlight the risk of premature policy reversal, which could necessitate later rate hikes.
+The views from this mix could well be the contour of the Jan meeting. The Fed is “in a good place”, with inflation coming down and labor market remaining healthy, thanks to the Beveridge curve. The Fed seems to have the luxury to truly “wait and see”.  
+
+Daly emphasizes patience, contingent on continued inflation reduction or "early signs that the labor market is starting to falter” to decide if “an adjustment is necessary". Waller, however, in his last public appearance, instead of commenting on what would make him consider rates adjustment, chose to outline conditions for deferring rate cuts: stronger economic growth, a tighter labor market, and rebounding inflation. Both highlight the risk of premature policy reversal, which could necessitate later rate hikes.
 
 *Daly: So I’m going to be looking for two things. Do I get consistent evidence that inflation is coming down? Or do I get any early signs that the labor market is starting to falter? Neither one of those right now is pushing me to think that an adjustment is necessary, but we definitely want to keep our eyes on those things.*
 
 *Waller: Risks that would delay or dampen my expectation for cuts this year are that economic activity that seems to have moderated in the fourth quarter of 2023 does not play out; that the balance of supply and demand in the labor market, which improved over 2023, stops improving or reverses; and that the gains on moderating inflation evaporate.*
 
-Indeed, the robust growth in Q4 GDP and spending could potentially pose challenges to the Fed's confidence in decreasing inflation and the Fed will receive the second estimate on Q4 GDP on Feb 28th. The next piece of data the Fed is waiting for is the CPI annual revision on Feb 9th, as we will get the seasonal factor update and relative value update at the same time.  
+Indeed, the robust growth in Q4 GDP and spending could potentially pose challenges to the Fed's confidence in decreasing inflation and the Fed will receive the second estimate on Q4 GDP on Feb 28. The next piece of data the Fed is waiting for is the CPI annual revision on Feb 9, as we will get the seasonal factor update and relative value update at the same time.  
 
 Then there's the labor market. Besides today's slight-above consensus JOLTS number, consensus for Friday’s NFP of 175k is still well above the ~100k level [needed](https://www.federalreserve.gov/newsevents/speech/powell20221130a.htm) to keep up with population growth. In terms of wage growth, with a 3%-3.5% [target](https://www.federalreserve.gov/mediacenter/files/fomcpresconf20230503.pdf) that the Fed seems as consistent with 2% inflation, Fed officials seem to be less concerned about the current level given the inflation progress. Specially Waller has [said](https://fedbot.io/fedspeak/2024/01/16/waller-brookings.html#wage) “*At 4%, you’re a little high but you’re not that high. You can come down, but it’s not like when it’s 7-8% and productivity is 1.5%*”. 
 
-While Friday’s number is unlikely to surprise to the downside according to forecasts, the Fed wouldn’t want to risk closing the door on a March cut right before the release. But it also has to be done in a way that won’t undo all the Fedspeak efforts bringing down March odds from as high as 80%. 
-To some degree for this reason this meeting could inevitably have a seemingly more hawkish tone than what it actually is, and looking at the current timeline there's more for the Fed to contemplate before Humprey Hawkins in early March.
+The Fed wouldn’t want to close the door on a March cut, but it also has to be done in a way that won’t undo all the Fedspeak efforts bringing down March odds from as high as 80%. For this reason this meeting could inevitably have a seemingly more hawkish tone than what it should be, as there's more time for the Fed to evaluate its policy stance before Humprey Hawkins in early March.
 
 ![March cut change - MS]({{ site.baseurl }}/assets/images/MS%20cut.png)
 
@@ -44,13 +45,19 @@ To some degree for this reason this meeting could inevitably have a seemingly mo
 ### Jan Meeting Preview
 Moving on to the specifics for tomorrow’s meeting. As this is going to be a meeting without SEP, the focus points are statement language changes and Powell's press conference.
 #### Statement language: removing hawkish bias?
-The street consensus here is the Fed will shift away from its current "hawkish bias" by removing “additional policy firming…”. This anticipated change aligns with the growing comfort among Fed officials who believe that the current policy is sufficiently restrictive and we have reached the peak of the cycle. However, there remains a possibility of a slight hawkish surprise if the Fed chooses to retain its "additional policy firming" language. Should this occur, I think that  Powell would soften this stance in his subsequent press conference. They could also replace it with something acknowledging that the policy rate will remain sufficiently restrictive until the Fed has confidence that inflation is coming down to 2%. Feroli also discussed in greater detail other potential language changes including growth, financial condition, and inflation outlook. 
+The street consensus here is the Fed will shift away from its current "hawkish bias" by removing “additional policy firming”. This anticipated change aligns with the growing comfort among Fed officials who believe that the current policy is sufficiently restrictive and we have reached the peak of the cycle.
+
+There remains a possibility of a slight hawkish surprise if the Fed chooses to retain its "additional policy firming" language. Should this occur, I think that  Powell would soften this stance in his subsequent press conference. They could also replace it with something acknowledging that the policy rate will remain sufficiently restrictive until the Fed has confidence that inflation is coming down to 2%. Feroli also discussed in greater detail other potential language changes including growth, financial condition, and inflation outlook. 
 #### Guidance on March movement: will Powell push back on a March cut?
-Consensus here is Powell is likely to leave the door open, adopting a meeting-by-meeting, data-dependent approach. Most economists think there’s likely not much to read from it on the March decision. However, a hawkish surprise could emerge if Powell strongly suggests that the Fed is not considering a rate cut in March, aligning with views similar to Mester's. A more likely scenario is for the Fed to clarify their decision-making framework without any calendar guidance. A few different language plays could have a small hawkish or dovish tilt (I made some guesses..). Instead of focusing on the timing of the first cut, I actually think we could potentially gather more clues about the pace of the cutting cycle. There appears to be growing consensus among the members favoring a gradual, methodical pace, which is close to a pace of 25bp adjustment every other meeting. My iew is that a shallower path lowers the bar for an earlier insurance cut assuming the Fed is getting more sanguine about an eventual soft landing.
+Consensus here is Powell is likely to leave the door open, adopting a meeting-by-meeting, data-dependent approach. Most economists think there’s likely not much to read from it on the March decision. A hawkish surprise could emerge if Powell strongly suggests that the Fed is not considering a rate cut in March, aligning with views similar to Mester's. A more likely scenario is for the Fed to clarify their decision-making framework without any calendar guidance. A few different language plays could have a small hawkish or dovish tilt (I made some guesses..). 
+
+Instead of focusing on the timing of the first cut, I think we could potentially gather more clues about the pace of the cutting cycle. There appears to be growing consensus among the members favoring a gradual, methodical pace, which is close to a pace of 25bp adjustment every other meeting. My view is that a shallower path lowers the bar for an earlier insurance cut assuming the Fed is getting more sanguine about an eventual soft landing.
 #### Balance Sheet: hint at QT tapering Announcement and timeline?
 After the Dec meeting [minutes](https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm) and Dallas Fed President and former SOMA manager Lorie Logan's [speech](https://www.dallasfed.org/news/speeches/logan/2024/lkl240106) on Jan 6th, street strategists have written extensively about potential QT taper coming soon. 
 
-The likely timeline is similar, with *JPM* calling for a March announcement, April start and November stop(*It’s all over now, QT, 01/12/24*), *Goldman* calling for a May announcement/start and 2025Q1 stop (*US Daily: An Earlier Start to Tapering, 01/10/24*) and *MS* calling for a May announcement, June start and an early 2025 stop (*Global Economics and Macro Strategy: Earlier Start, Slower Taper, 01/19/24*). Most banks adopted the 2019 pace, cut the pace for Treasury from $60bn/month to $30bn/month but maintain the pace on MBS. 
+The likely timeline is similar, with *JPM* calling for a March announcement, April start and November stop(*It’s all over now, QT, 01/12/24*), *Goldman* calling for a May announcement/start and 2025Q1 stop (*US Daily: An Earlier Start to Tapering, 01/10/24*) and *MS* calling for a May announcement, June start and an early 2025 stop (*Global Economics and Macro Strategy: Earlier Start, Slower Taper, 01/19/24*). 
+
+Most banks adopted the 2019 pace, cut the pace for Treasury from $60bn/month to $30bn/month but maintain the pace on MBS. 
 
 ![QT taper - GS]({{ site.baseurl }}/assets/images/gs%20qt%20taper.png)
 
@@ -59,8 +66,6 @@ As for this week’s FOMC meeting, Most strategists do not expect Powell to give
 While this sounds like a preliminary discussion, Logan unsurprisingly was the most vocal on this one, notably suggesting that the Fed should taper QT when RRP “*approaches a low level*”. Waller, who has been early on QT and tapering back in 2021, also suggested that this should be a topic of discussion for the Fed this year. However, unlike Logan, Waller seems to be comfortable with RPP going close to zero. 
 
 Beyond these two, there’s also a group of officials who are not ready to talk about QT taper in detail, most notably Williams. The subtle difference in Fed officials' QT tapering expectations could mean QT tapering may be on the later/slower end of street estimates. It’s expected that we will keep getting clues in minutes from the Fed, but Powell’s response in the presser and whether it’s closer to Logan, Waller, or Williams will be critical for market participants to decide whether taper will start any time soon. 
-
-
 #### Recent Fed Quotes on QT
 
 [Logan](https://www.dallasfed.org/news/speeches/logan/2024/lkl240106) (01/06)
@@ -89,20 +94,24 @@ Beyond these two, there’s also a group of officials who are not ready to talk 
 #### My guesses...
 
 The below scenarios are where I think the market would think… but I also marked my own base case. I could be way off, but I also want to keep records of my thinking going into the meeting to reflect on afterwards.
-#### Base case
+
+#### Base Case
 * <span style="color:#ec5e2a;">Statement language to remove "additional policy firming..." and replace it with something close to "the Fed will keep policy rate restrictive until it's fully convinced that inflation is coming down to 2%."</span>
 * March cut: leave the door open without any commitment on either side. "The Fed will remain data-dependent. if inflation comes high, we will do so"
 * QT: Suggest we will see more details in the minutes and participants have started discussions on this topic and it's "natural" to start talking about talking about tapering QT. 
+
 #### Hawkish Case
 * Statement language keeps "additional policy firming..."
 * March cut: similar to Mester and Daly, suggesting it's premature to consider rate cuts in March" / "March is too early for a cut"
 * <span style="color:#ec5e2a;">QT: Suggest that QT is running "as expected", reserves abundant, there's no urgency in altering the plan soon but closely monitoring progress (close to Williams)</span>
+
 #### Dovish Case
 * Statement language to remove "additional policy firming..." and replace it with something close to "act as appropriate" ([Jun 2019](https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm))
 * <span style="color:#ec5e2a;">March cut: Signal that march cut is on the table by not adding anything to push back expectations such as "March is not the focus of today's discussion" or "today's focus is still how long policy rate needs to stay restrictive"</span>
 * QT: if asked about the recent decline in RRP, suggesting the Fed is closely monitoring and is discussing implications (close to Logan)
 
-
+<br>
+<br>
 
 <div style="min-height:362px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt="" /></noscript></div>
 
