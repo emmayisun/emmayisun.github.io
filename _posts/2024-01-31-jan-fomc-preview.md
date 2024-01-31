@@ -7,13 +7,13 @@ article_excerpt: I so wish I could tell you this is written by the Fedbot... Whe
 ---
 
 Wednesday brings the January FOMC meeting where the Fed stays on hold for the 4th consecutive meeting. The focal point for markets, however, lies in deciphering any signals about a potential rate cut in March, particularly following the Fed officials' pushback against the dovish sentiment that emerged after the December 15th meeting.
-#### Voting Rotation 2024
+### Voting Rotation 2024
 
 The January meeting introduces a shift in voting members, with Cleveland Fed President Mester(hawk), Richmond Fed President Barkin (hawk), Atlanta Fed President Bostic (dove), and San Francisco Fed President Daly (hawk) joining as new voters, replacing Logan(hawk), Harker(centralist to dove), Goolsbee (dove), and Kashkari (hawk). 
 
-Notably, all four new voters have been publicly active recently, and on net, they revealed **a tendency towards a more hawkish stance**. One other interesting thing to note is Mester's impending retirement on [June 30th](https://www.clevelandfed.org/collections/press-releases/2023/pr-20231108-cleveland-fed-launches-search-for-next-president-and-ceo) under the Fed's age-65 rule, with the Cleveland Fed already searching for a successor. Should a replacement not be found in time, Chicago Fed President Goolsbee is poised to temporarily step in as a voter. 
-
 ![Fed Voting Rotation 2024]({{ site.baseurl }}/assets/images/voter24.png)
+
+Notably, all four new voters have been publicly active recently, and on net, they revealed **a tendency towards a more hawkish stance**. One other interesting thing to note is Mester's impending retirement on [June 30th](https://www.clevelandfed.org/collections/press-releases/2023/pr-20231108-cleveland-fed-launches-search-for-next-president-and-ceo) under the Fed's age-65 rule, with the Cleveland Fed already searching for a successor. Should a replacement not be found in time, Chicago Fed President Goolsbee is poised to temporarily step in as a voter. 
 
 Regarding their views, Mester [disclosed](https://www.ft.com/content/ad029db4-d758-49a5-a38a-e505956e6784) that she is one of the six median dots but also [said](https://fedbot.io/fedspeak/2024/01/11/mester-bbg.html) "*March is probably too early in my estimation for a rate decline*". She also put a bit more emphasis on inflation expectations and wage growth. 
 
@@ -42,16 +42,12 @@ To some degree for this reason this meeting could inevitably have a seemingly mo
 
 
 ### Jan Meeting Preview
-
 Moving on to the specifics for tomorrow’s meeting. As this is going to be a meeting without SEP, the focus points are statement language changes and Powell's press conference.
 #### Statement Language: Removing hawkish bias?
-
-The street consensus here is the Fed will shift away from its current "hawkish bias" by removing “additional policy firming…”. This anticipated change aligns with the growing comfort among Fed officials who believe that the current policy is sufficiently restrictive and we have reached the peak of the cycle. However, there remains a possibility of a slight hawkish surprise if the Fed chooses to retain its "additional policy firming" language. Should this occur, I think that  Powell would soften this stance in his subsequent press conference. They could also replace it with something acknowledging that the policy rate will remain sufficiently restrictive until the Fed has confidence that inflation is coming down to 2%. Feroli also discussed in greater detail other potential language changes including growth, financial condition, and inflation outlook.
+The street consensus here is the Fed will shift away from its current "hawkish bias" by removing “additional policy firming…”. This anticipated change aligns with the growing comfort among Fed officials who believe that the current policy is sufficiently restrictive and we have reached the peak of the cycle. However, there remains a possibility of a slight hawkish surprise if the Fed chooses to retain its "additional policy firming" language. Should this occur, I think that  Powell would soften this stance in his subsequent press conference. They could also replace it with something acknowledging that the policy rate will remain sufficiently restrictive until the Fed has confidence that inflation is coming down to 2%. Feroli also discussed in greater detail other potential language changes including growth, financial condition, and inflation outlook. 
 #### Guidance on March movement: Will Powell push back on a March cut?
-
 Consensus here is Powell is likely to leave the door open, adopting a meeting-by-meeting, data-dependent approach. Most economists think there’s likely not much to read from it on the March decision. However, a hawkish surprise could emerge if Powell strongly suggests that the Fed is not considering a rate cut in March, aligning with views similar to Mester's. A more likely scenario is for the Fed to clarify their decision-making framework without any calendar guidance. A few different language plays could have a small hawkish or dovish tilt (I made some guesses..). Instead of focusing on the timing of the first cut, I actually think we could potentially gather more clues about the pace of the cutting cycle. There appears to be growing consensus among the members favoring a gradual, methodical pace, which is close to a pace of 25bp adjustment every other meeting. My iew is that a shallower path lowers the bar for an earlier insurance cut assuming the Fed is getting more sanguine about an eventual soft landing.
-
-#### Balance Sheet: QT Tapering Announcement and Timeline?
+#### Balance Sheet: Hint at QT tapering Announcement and timeline?
 After the Dec meeting [minutes](https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm) and Dallas Fed President and former SOMA manager Lorie Logan's [speech](https://www.dallasfed.org/news/speeches/logan/2024/lkl240106) on Jan 6th, street strategists have written extensively about potential QT taper coming soon. 
 
 The likely timeline is similar, with *JPM* calling for a March announcement, April start and November stop(*It’s all over now, QT, 01/12/24*), *Goldman* calling for a May announcement/start and 2025Q1 stop (*US Daily: An Earlier Start to Tapering, 01/10/24*) and *MS* calling for a May announcement, June start and an early 2025 stop (*Global Economics and Macro Strategy: Earlier Start, Slower Taper, 01/19/24*). Most banks adopted the 2019 pace, cut the pace for Treasury from $60bn/month to $30bn/month but maintain the pace on MBS. 
