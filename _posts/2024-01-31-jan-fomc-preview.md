@@ -13,7 +13,7 @@ The January meeting introduces a shift in voting members, with Cleveland Fed Pre
 
 Notably, all four new voters have been publicly active recently, and on net, they revealed **a tendency towards a more hawkish stance**. One other interesting thing to note is Mester's impending retirement on [June 30th](https://www.clevelandfed.org/collections/press-releases/2023/pr-20231108-cleveland-fed-launches-search-for-next-president-and-ceo) under the Fed's age-65 rule, with the Cleveland Fed already searching for a successor. Should a replacement not be found in time, Chicago Fed President Goolsbee is poised to temporarily step in as a voter. 
 
-![Fed Voting Rotation 2024](assets/images/voter24.png)
+![Fed Voting Rotation 2024]({{ site.baseurl }}/assets/images/voter24.png)
 
 Regarding their views, Mester [disclosed](https://www.ft.com/content/ad029db4-d758-49a5-a38a-e505956e6784) that she is one of the six median dots but also [said](https://fedbot.io/fedspeak/2024/01/11/mester-bbg.html) "*March is probably too early in my estimation for a rate decline*". She also put a bit more emphasis on inflation expectations and wage growth. 
 
@@ -23,7 +23,7 @@ Barkin is likely one of the five 50bp cut dots as he views inflation “*a littl
 
 Bostic forecasts only two rate cuts this year starting in Q3, but in his last [speech](https://www.atlantafed.org/news/speeches/2024/01/18/bostic--arc-of-monetary-policy) he remains open to adjusting his stance if *“inflation comes down faster than his forecast*". Given these recent comments, Bostic seems to be more open-minded about moving his first cut forward, while the other three suggest an inclination towards delaying rate cuts.
 
-#### Fedspeak Review
+### Fedspeak Review
 
 This view could well be the contour of the Jan meeting. The Fed is “in a good place”, with inflation coming down and labor market remaining healthy, thanks to the Beveridge curve. The Fed seems to have the luxury to truly “wait and see”.  Daly emphasizes patience, contingent on continued inflation reduction or "early signs that the labor market is starting to falter” to decide if “an adjustment is necessary" (see quote below). Waller, however, in his last public appearance, instead of commenting on what would make him consider rates adjustment, Waller chose to outline conditions for deferring rate cuts: stronger economic growth, a tighter labor market, and rebounding inflation. Interestingly, both highlight the risk of premature policy reversal, which could necessitate later rate hikes.
 
@@ -40,7 +40,7 @@ While Friday’s number is unlikely to surprise to the downside according to for
 ![March cut change - MS]({{ site.baseurl }}/assets/images/MS%20cut.png)
 
 
-#### Jan Meeting Preview
+### Jan Meeting Preview
 
 Moving on to the specifics for tomorrow’s meeting. As this is going to be a meeting without SEP, the focus points are statement language changes and Powell's press conference.
 
@@ -58,9 +58,10 @@ After the Dec meeting [minutes](https://www.federalreserve.gov/monetarypolicy/fo
 
 As for this week’s FOMC meeting, Most strategists do not expect Powell to give out too many details in the presser, instead point to the Jan meeting minutes in Feb for more details. Recall in Dec meeting minutes, “several” participants suggested that “*it would be appropriate for the Committee to begin to discuss the technical factors that would guide a decision to slow the pace of runoff well before such a decision.*” While this sounds like a preliminary discussion, Logan unsurprisingly was the most vocal on this one, notably suggesting that the Fed should taper QT when RRP “*approaches a low level*”. Waller, who has been early on QT and tapering back in 2021, also suggested that this should be a topic of discussion for the Fed this year. However, unlike Logan, Waller seems to be comfortable with RPP going close to zero. Beyond these two, there’s also a group of officials who are not ready to talk about QT taper in detail, most notably Williams. The subtle difference in Fed officials' QT tapering expectations could mean QT tapering may be on the later/slower end of street estimates. It’s expected that we will keep getting clues in minutes from the Fed, but Powell’s response in the presser and whether it’s closer to Logan, Waller, or Williams will be critical for market participants to decide whether taper will start any time soon. 
 
-**Recent Fed quotes on QT:**
+<details>
+  <summary><h3>Recent Fed quotes on QT:</h3></summary>
 
-[Logan](https://www.dallasfed.org/news/speeches/logan/2024/lkl240106)(01/06)
+[Logan](https://www.dallasfed.org/news/speeches/logan/2024/lkl240106) (01/06)
 
 *So, given the rapid decline of the ON RRP, I think it’s appropriate to consider the parameters that will guide a decision to slow the runoff of our assets. In my view, we should slow the pace of runoff as ON RRP balances approach a low level. Normalizing the balance sheet more slowly can actually help get to a more efficient balance sheet in the long run by smoothing redistribution and reducing the likelihood that we’d have to stop prematurely.*
 
@@ -68,7 +69,7 @@ As for this week’s FOMC meeting, Most strategists do not expect Powell to give
 
 *Bostic also told reporters it’s an “open question” if and when the Fed should alter the pace at which it reduces its portfolio of assets, adding that the current pace is appropriate.*
 
-[Williams](https://www.newyorkfed.org/newsevents/speeches/2024/wil240110)(01/10)
+[Williams](https://www.newyorkfed.org/newsevents/speeches/2024/wil240110) (01/10)
 
 *In its plans, the FOMC said that to ensure a smooth transition it intends to slow and then stop the decline in the size of the balance sheet when reserve balances are somewhat above the level it judges to be consistent with ample reserves. So far, we don’t seem to be close to that point. The decline in securities holdings has been absorbed almost entirely by a drop in the overnight reverse repurchase agreement facility (ON RRP). As a result, aggregate reserve balances are little changed from their levels in mid-2022, when balance sheet reduction started. Looking ahead to this year, as the balance sheet continues to shrink and usage of the ON RRP continues to decline, we will closely monitor money market conditions and the demand for reserves.*
 
@@ -76,13 +77,14 @@ As for this week’s FOMC meeting, Most strategists do not expect Powell to give
 
 *Goolsbee said the Fed's "autopilot" approach to the balance sheet reductions has served the Fed well, because investors understand the process and it does not need to be debated at each meeting. "We've got to have a high bar before we get off of it," he said, adding that bank reserves are still abundant, meaning there is little risk for now that further reductions could disrupt financial markets. He said he would defer to Chair Jerome Powell about when to start conversations on slowing or halting those reductions.*
 
-[Mester](https://fedbot.io/fedspeak/2024/01/11/mester-bbg.html#QT)(01/11)
+[Mester](https://fedbot.io/fedspeak/2024/01/11/mester-bbg.html#QT) (01/11)
 
 *Well, I can never say we shouldn’t be talking about some issue. Right. Because I think this is something that’s going to be coming up. John, I think rightly pointed out when he gave his remarks earlier this week that the balance sheet reduction is going as it’s been planned. And we did announce when we announced that started that in May of the plan in May 2022, that at some point as the balance sheet and reserves come down, we’re going to want to sort of reduce the pace of the reduction and normalize. But we still have a lot of reserves in the system, so we don’t have to do that imminently at all. I think there’s time and I’m sure this year will be when we start having the conversations of what that plan would look like and as we also committed to making sure that market participants in the public know what the plan is well before we implement it.*
 
-[Waller](https://fedbot.io/fedspeak/2024/01/16/waller-brookings.html#qt)(01/16)
+[Waller](https://fedbot.io/fedspeak/2024/01/16/waller-brookings.html#qt) (01/16)
 
 *I would say sometime this year, it would be a reasonable thing to start thinking about it. I don’t think I’m speaking out of school, but it’s been coming close to two years since we first announced tapering, and I think when we did these numbers, it made sense that sometime in 2024, you would start thinking about tapering the pace to get back. Now, personally, I don’t think we need to taper the pace on MBS; we’re not even hitting the cap. So we don’t really need to keep MBS on my balance sheet as much, so I’m all in favor of letting those just continue to run off at the current pace. But Treasuries, we can start tapering that back and get reserves to where we want them. One other point to make, now everybody likes to go back to September 2019 and say all of a sudden you didn’t have enough reserves and there’s a bunch of kerfuffle in the financial markets. We have a standing repo facility now that we didn’t have in place. So if we start seeing reserves getting tighter and tighter, we may start seeing a lot of activity coming to the standing repo facility, and that’ll be a good signal for us that hey, we’re getting to that point. Again, that’s a tool we didn’t have back in 2019 that we do have now to help relieve kind of pressure on demand for reserves.*
+</details>
 
 #### My guesses...
 
@@ -106,13 +108,11 @@ The below scenarios are where I think the market would think… but I also marke
 
 **Dovish Case**
 
-- Statement language to remove "additional policy firming..." and replace it with something close to "act as appropriate" [Jun 2019](https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm)
+- Statement language to remove "additional policy firming..." and replace it with something close to "act as appropriate" ([Jun 2019])(https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm)
 
 - <span style="color:#ec5e2a;"><strong>March cut: Signal that march cut is on the table by not adding anything to push back expectations such as "March is not the focus of today's discussion" or "today's focus is still how long policy rate needs to stay restrictive"</strong></span>
 
 - QT: if asked about the recent decline in RRP, suggesting the Fed is closely monitoring and is discussing implications(close to Logan)
-
-#### Dot Detective(my guess)
 
 <div style="min-height:362px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt="" /></noscript></div>
 
