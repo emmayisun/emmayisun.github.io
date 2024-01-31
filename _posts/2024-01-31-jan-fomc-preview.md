@@ -55,7 +55,7 @@ Instead of focusing on the timing of the first cut, I think we could potentially
 #### Balance Sheet: hint at QT tapering announcement and timeline?
 After the Dec meeting [minutes](https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm) and Dallas Fed President and former SOMA manager Lorie Logan's [speech](https://www.dallasfed.org/news/speeches/logan/2024/lkl240106) on Jan 6th, street strategists have written extensively about potential QT taper coming soon. 
 
-The likely timeline is similar, with *JPM* calling for a March announcement, April start and November stop(*It’s all over now, QT, 01/12/24*), *Goldman* calling for a May announcement/start and 2025Q1 stop (*US Daily: An Earlier Start to Tapering, 01/10/24*) and *MS* calling for a May announcement, June start and an early 2025 stop (*Global Economics and Macro Strategy: Earlier Start, Slower Taper, 01/19/24*). 
+The likely timeline is similar, with *JPM* calling for a March announcement, April start and November stop (*It’s all over now, QT, 01/12/24*), *Goldman* calling for a May announcement/start and 2025Q1 stop (*US Daily: An Earlier Start to Tapering, 01/10/24*) and *MS* calling for a May announcement, June start and an early 2025 stop (*Global Economics and Macro Strategy: Earlier Start, Slower Taper, 01/19/24*). 
 
 Most banks adopted the 2019 pace, cut the pace for Treasury from $60bn/month to $30bn/month but maintain the pace on MBS. 
 
