@@ -3,7 +3,7 @@ layout: post
 title: Jan FOMC Preview - Is It Over Now?
 categories: Emma's
 tags: [test]
-article_excerpt: 
+article_excerpt: I so wish I could tell you this is written by the Fedbot... When he does, it'll be better than mine. Consider this as a warm-up exercise.
 ---
 
 Wednesday brings the January FOMC meeting where the Fed stays on hold for the 4th consecutive meeting. The focal point for markets, however, lies in deciphering any signals about a potential rate cut in March, particularly following the Fed officials' pushback against the dovish sentiment that emerged after the December 15th meeting.
@@ -49,12 +49,14 @@ Moving on to the specifics for tomorrow’s meeting. As this is going to be a me
 The street consensus here is the Fed will shift away from its current "hawkish bias" by removing “additional policy firming…”. This anticipated change aligns with the growing comfort among Fed officials who believe that the current policy is sufficiently restrictive and we have reached the peak of the cycle. However, there remains a possibility of a slight hawkish surprise if the Fed chooses to retain its "additional policy firming" language. Should this occur, I think that  Powell would soften this stance in his subsequent press conference. They could also replace it with something acknowledging that the policy rate will remain sufficiently restrictive until the Fed has confidence that inflation is coming down to 2%. Feroli also discussed in greater detail other potential language changes including growth, financial condition, and inflation outlook.
 #### Guidance on March movement: Will Powell push back on a March cut?
 
-Consensus here is Powell is likely to leave the door open, adopting a meeting-by-meeting, data-dependent approach. Most economists think there’s likely not much to read from it on the March decision. However, a hawkish surprise could emerge if Powell strongly suggests that the Fed is not considering a rate cut in March, aligning with views similar to Mester's. A more likely scenario is for the Fed to clarify their decision-making framework without any calendar guidance. A few different language plays could have a small hawkish or dovish tilt (see my guesses below). Instead of focusing on the timing of the first cut, we could potentially gather more clues about the pace of the cutting cycle. There appears to be growing consensus among the members favoring a gradual, methodical pace, which is close to a pace of 25bp adjustment every other meeting. To some degree, I think a shallower path lowers the bar for an earlier insurance cut assuming the Fed is getting more sanguine about an eventual soft landing.
+Consensus here is Powell is likely to leave the door open, adopting a meeting-by-meeting, data-dependent approach. Most economists think there’s likely not much to read from it on the March decision. However, a hawkish surprise could emerge if Powell strongly suggests that the Fed is not considering a rate cut in March, aligning with views similar to Mester's. A more likely scenario is for the Fed to clarify their decision-making framework without any calendar guidance. A few different language plays could have a small hawkish or dovish tilt (I made some guesses..). Instead of focusing on the timing of the first cut, I actually think we could potentially gather more clues about the pace of the cutting cycle. There appears to be growing consensus among the members favoring a gradual, methodical pace, which is close to a pace of 25bp adjustment every other meeting. My iew is that a shallower path lowers the bar for an earlier insurance cut assuming the Fed is getting more sanguine about an eventual soft landing.
 
 #### Balance Sheet: QT Tapering Announcement and Timeline?
 After the Dec meeting [minutes](https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm) and Dallas Fed President and former SOMA manager Lorie Logan's [speech](https://www.dallasfed.org/news/speeches/logan/2024/lkl240106) on Jan 6th, street strategists have written extensively about potential QT taper coming soon. 
 
 The likely timeline is similar, with *JPM* calling for a March announcement, April start and November stop(*It’s all over now, QT, 01/12/24*), *Goldman* calling for a May announcement/start and 2025Q1 stop (*US Daily: An Earlier Start to Tapering, 01/10/24*) and *MS* calling for a May announcement, June start and an early 2025 stop (*Global Economics and Macro Strategy: Earlier Start, Slower Taper, 01/19/24*). Most banks adopted the 2019 pace, cut the pace for Treasury from $60bn/month to $30bn/month but maintain the pace on MBS. 
+
+![QT taper - GS]({{ site.baseurl }}/assets/images/gs%20qt%20taper.png)
 
 As for this week’s FOMC meeting, Most strategists do not expect Powell to give out too many details in the presser, instead point to the Jan meeting minutes in Feb for more details. Recall in Dec meeting minutes, “several” participants suggested that “*it would be appropriate for the Committee to begin to discuss the technical factors that would guide a decision to slow the pace of runoff well before such a decision.*” 
 
@@ -77,7 +79,7 @@ Beyond these two, there’s also a group of officials who are not ready to talk 
 
 *In its plans, the FOMC said that to ensure a smooth transition it intends to slow and then stop the decline in the size of the balance sheet when reserve balances are somewhat above the level it judges to be consistent with ample reserves. So far, we don’t seem to be close to that point. The decline in securities holdings has been absorbed almost entirely by a drop in the overnight reverse repurchase agreement facility (ON RRP). As a result, aggregate reserve balances are little changed from their levels in mid-2022, when balance sheet reduction started. Looking ahead to this year, as the balance sheet continues to shrink and usage of the ON RRP continues to decline, we will closely monitor money market conditions and the demand for reserves.*
 
-[Goolsbee](https://www.reuters.com/markets/us/goolsbee-sees-progress-inflation-says-his-rate-cut-forecast-near-fed-median-2024-01-11/)(01/11)
+[Goolsbee](https://www.reuters.com/markets/us/goolsbee-sees-progress-inflation-says-his-rate-cut-forecast-near-fed-median-2024-01-11/) (01/11)
 
 *Goolsbee said the Fed's "autopilot" approach to the balance sheet reductions has served the Fed well, because investors understand the process and it does not need to be debated at each meeting. "We've got to have a high bar before we get off of it," he said, adding that bank reserves are still abundant, meaning there is little risk for now that further reductions could disrupt financial markets. He said he would defer to Chair Jerome Powell about when to start conversations on slowing or halting those reductions.*
 
@@ -88,23 +90,18 @@ Beyond these two, there’s also a group of officials who are not ready to talk 
 [Waller](https://fedbot.io/fedspeak/2024/01/16/waller-brookings.html#qt) (01/16)
 
 *I would say sometime this year, it would be a reasonable thing to start thinking about it. I don’t think I’m speaking out of school, but it’s been coming close to two years since we first announced tapering, and I think when we did these numbers, it made sense that sometime in 2024, you would start thinking about tapering the pace to get back. Now, personally, I don’t think we need to taper the pace on MBS; we’re not even hitting the cap. So we don’t really need to keep MBS on my balance sheet as much, so I’m all in favor of letting those just continue to run off at the current pace. But Treasuries, we can start tapering that back and get reserves to where we want them. One other point to make, now everybody likes to go back to September 2019 and say all of a sudden you didn’t have enough reserves and there’s a bunch of kerfuffle in the financial markets. We have a standing repo facility now that we didn’t have in place. So if we start seeing reserves getting tighter and tighter, we may start seeing a lot of activity coming to the standing repo facility, and that’ll be a good signal for us that hey, we’re getting to that point. Again, that’s a tool we didn’t have back in 2019 that we do have now to help relieve kind of pressure on demand for reserves.*
-</details>
-
 #### My guesses...
 
 The below scenarios are where I think the market would think… but I also marked my own base case. I could be way off, but I also want to keep records of my thinking going into the meeting to reflect on afterwards.
-
-**Base case**
+#### Base case
 * <span style="color:#ec5e2a;">Statement language to remove "additional policy firming..." and replace it with something close to "the Fed will keep policy rate restrictive until it's fully convinced that inflation is coming down to 2%."</span>
 * March cut: leave the door open without any commitment on either side. "The Fed will remain data-dependent. if inflation comes high, we will do so"
 * QT: Suggest we will see more details in the minutes and participants have started discussions on this topic and it's "natural" to start talking about talking about tapering QT. 
-
-**Hawkish Case**
+#### Hawkish Case
 * Statement language keeps "additional policy firming..."
 * March cut: similar to Mester and Daly, suggesting it's premature to consider rate cuts in March" / "March is too early for a cut"
 * <span style="color:#ec5e2a;">QT: Suggest that QT is running "as expected", reserves abundant, there's no urgency in altering the plan soon but closely monitoring progress (close to Williams)</span>
-
-**Dovish Case**
+#### Dovish Case
 * Statement language to remove "additional policy firming..." and replace it with something close to "act as appropriate" ([Jun 2019](https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm))
 * <span style="color:#ec5e2a;">March cut: Signal that march cut is on the table by not adding anything to push back expectations such as "March is not the focus of today's discussion" or "today's focus is still how long policy rate needs to stay restrictive"</span>
 * QT: if asked about the recent decline in RRP, suggesting the Fed is closely monitoring and is discussing implications(close to Logan)
