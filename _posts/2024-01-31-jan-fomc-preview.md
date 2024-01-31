@@ -17,7 +17,7 @@ Notably, all four new voters have been publicly active recently, and on net, the
 
 Regarding their views, Mester [disclosed](https://www.ft.com/content/ad029db4-d758-49a5-a38a-e505956e6784) that she is one of the six median dots but also [said](https://fedbot.io/fedspeak/2024/01/11/mester-bbg.html) "*March is probably too early in my estimation for a rate decline*". She also put a bit more emphasis on inflation expectations and wage growth. 
 
-Daly [said](https://www.wsj.com/economy/central-banking/fed-official-says-rate-cuts-could-be-needed-next-year-to-prevent-over-tightening-29d009ce) that “*her outlook for interest rates and inflation was very close to the median”*. She has also been advocating “gradualism” and "patience". When asked about March, she [pushed back](https://fedbot.io/fedspeak/2024/01/19/daly-fox.html) with “*I think it’s premature to think cut is around the corner*". 
+Daly is likely also a [median dot](https://www.wsj.com/economy/central-banking/fed-official-says-rate-cuts-could-be-needed-next-year-to-prevent-over-tightening-29d009ce) and has also been [advocating](https://fedbot.io/fedspeak/2024/01/19/daly-sd.html) “gradualism” and "patience". When asked about March, she [pushed back](https://fedbot.io/fedspeak/2024/01/19/daly-fox.html) with “*I think it’s premature to think cut is around the corner*". 
 
 Barkin is likely one of the five 50bp cut dots as he views inflation “*a little stubborner than the average person in there*”, but he has left the door open by saying that he won’t ”*have any objection conceptually to toggling rates back toward normal levels as you build increasing conviction and confidence that inflation is on a convincing path back to target.*”
 
@@ -35,7 +35,8 @@ Indeed, the robust growth in Q4 GDP and spending could potentially pose challeng
 
 Then there's the labor market. Besides today's slight-above consensus JOLTS number, consensus for Friday’s NFP of 175k is still well above the ~100k level [needed](https://www.federalreserve.gov/newsevents/speech/powell20221130a.htm) to keep up with population growth. In terms of wage growth, with a 3%-3.5% [target](https://www.federalreserve.gov/mediacenter/files/fomcpresconf20230503.pdf) that the Fed seems as consistent with 2% inflation, Fed officials seem to be less concerned about the current level given the inflation progress. Specially Waller has [said](https://fedbot.io/fedspeak/2024/01/16/waller-brookings.html#wage) “*At 4%, you’re a little high but you’re not that high. You can come down, but it’s not like when it’s 7-8% and productivity is 1.5%*”. 
 
-While Friday’s number is unlikely to surprise to the downside according to forecasts, the Fed wouldn’t want to risk closing the door on a March cut right before the release. But it also has to be done in a way that won’t undo all the Fedspeak efforts bringing down March odds from as high as 80%.  
+While Friday’s number is unlikely to surprise to the downside according to forecasts, the Fed wouldn’t want to risk closing the door on a March cut right before the release. But it also has to be done in a way that won’t undo all the Fedspeak efforts bringing down March odds from as high as 80%. 
+To some degree for this reason this meeting could inevitably have a seemingly more hawkish tone than what it actually is, and looking at the current timeline there's more for the Fed to contemplate before Humprey Hawkins in early March.
 
 ![March cut change - MS]({{ site.baseurl }}/assets/images/MS%20cut.png)
 
@@ -87,23 +88,23 @@ As for this week’s FOMC meeting, Most strategists do not expect Powell to give
 </details>
 
 #### My guesses...
+
 The below scenarios are where I think the market would think… but I also marked my own base case. I could be way off, but I also want to keep records of my thinking going into the meeting to reflect on afterwards.
+
 **Base case**
-- <span style="color:#ec5e2a;"><strong>Statement language to remove "additional policy firming..." and replace it with something close to "the Fed will keep policy rate restrictive until it's fully convinced that inflation is coming down to 2%"</strong></span>
-- March cut: leave the door open without any commitment on either side. "The Fed will remain data-dependent. if inflation comes high, we will do so"
-- QT: Suggest we will see more details in the minutes and participants have started discussions on this topic and it's "natural" to start talking about talking about tapering QT. 
+* <span style="color:#ec5e2a;">Statement language to remove "additional policy firming..." and replace it with something close to "the Fed will keep policy rate restrictive until it's fully convinced that inflation is coming down to 2%."</span>
+* March cut: leave the door open without any commitment on either side. "The Fed will remain data-dependent. if inflation comes high, we will do so"
+* QT: Suggest we will see more details in the minutes and participants have started discussions on this topic and it's "natural" to start talking about talking about tapering QT. 
 
 **Hawkish Case**
-
-1. Statement language keeps "additional policy firming..."
-2. March cut: similar to Mester and Daly, suggesting it's premature to consider rate cuts in March" / "March is too early for a cut"
-3. <span style="color:#ec5e2a;"><strong>QT: Suggest that QT is running "as expected", reserves abundant, there's no urgency in altering the plan soon but closely monitoring progress (close to Williams) </strong></span>
+* Statement language keeps "additional policy firming..."
+* March cut: similar to Mester and Daly, suggesting it's premature to consider rate cuts in March" / "March is too early for a cut"
+* <span style="color:#ec5e2a;">QT: Suggest that QT is running "as expected", reserves abundant, there's no urgency in altering the plan soon but closely monitoring progress (close to Williams)</span>
 
 **Dovish Case**
-
-- Statement language to remove "additional policy firming..." and replace it with something close to "act as appropriate" ([Jun 2019](https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm))
-- <span style="color:#ec5e2a;"><strong>March cut: Signal that march cut is on the table by not adding anything to push back expectations such as "March is not the focus of today's discussion" or "today's focus is still how long policy rate needs to stay restrictive"</strong></span>
-- QT: if asked about the recent decline in RRP, suggesting the Fed is closely monitoring and is discussing implications(close to Logan)
+* Statement language to remove "additional policy firming..." and replace it with something close to "act as appropriate" ([Jun 2019](https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm))
+* <span style="color:#ec5e2a;">March cut: Signal that march cut is on the table by not adding anything to push back expectations such as "March is not the focus of today's discussion" or "today's focus is still how long policy rate needs to stay restrictive"</span>
+* QT: if asked about the recent decline in RRP, suggesting the Fed is closely monitoring and is discussing implications(close to Logan)
 
 <div style="min-height:362px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt="" /></noscript></div>
 
