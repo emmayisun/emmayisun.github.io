@@ -1,22 +1,17 @@
 ---
 layout: post
 title: Jan FOMC Preview
-subtitle: Draft
-categories: Fedspeak
-tags: [Emma's]
+categories: Emma's
+tags: [test]
 article_excerpt: 
 ---
 
-Editor’s note: Consider this as a warm-up exercise. It's all just a guess...
-
-
 Wednesday brings the January FOMC meeting where the Fed stays on hold for the 4th consecutive meeting. The focal point for markets, however, lies in deciphering any signals about a potential rate cut in March, particularly following the Fed officials' pushback against the dovish sentiment that emerged after the December 15th meeting.
-
 #### Voting Rotation 2024
 
-The January meeting introduces a shift in voting members, with Cleveland Fed President Mester(hawk), Richmond Fed President Barkin(hawk), Atlanta Fed President Bostic(dove), and San Francisco Fed President Daly(hawk) joining as new voters, replacing Logan(hawk), Harker(centralist to dove), Goolsbee(dove), and Kashkari(hawk). Notably, all four new voters have been publicly active recently, and on net, they revealed a tendency towards a more hawkish stance. One other interesting thing to note is Mester's impending retirement on [June 30th](https://www.clevelandfed.org/collections/press-releases/2023/pr-20231108-cleveland-fed-launches-search-for-next-president-and-ceo) under the Fed's age-65 rule, with the Cleveland Fed already searching for a successor. Should a replacement not be found in time, Chicago Fed President Goolsbee is poised to temporarily step in as a voter. 
+The January meeting introduces a shift in voting members, with Cleveland Fed President Mester(hawk), Richmond Fed President Barkin (hawk), Atlanta Fed President Bostic (dove), and San Francisco Fed President Daly (hawk) joining as new voters, replacing Logan(hawk), Harker(centralist to dove), Goolsbee (dove), and Kashkari (hawk). Notably, all four new voters have been publicly active recently, and on net, they revealed **a tendency towards a more hawkish stance**. One other interesting thing to note is Mester's impending retirement on [June 30th](https://www.clevelandfed.org/collections/press-releases/2023/pr-20231108-cleveland-fed-launches-search-for-next-president-and-ceo) under the Fed's age-65 rule, with the Cleveland Fed already searching for a successor. Should a replacement not be found in time, Chicago Fed President Goolsbee is poised to temporarily step in as a voter. 
 
-![Fed Voting Rotation 2024](https://github.com/emmayisun/emmayisun.github.io/blob/master/assets/images/voter24.png)
+![Fed Voting Rotation 2024](assets/images/voter24.png)
 
 Regarding their views, Mester [disclosed](https://www.ft.com/content/ad029db4-d758-49a5-a38a-e505956e6784) that she is one of the six median dots but also [said](https://fedbot.io/fedspeak/2024/01/11/mester-bbg.html) "*March is probably too early in my estimation for a rate decline*". She also put a bit more emphasis on inflation expectations and wage growth. Daly [said](https://www.wsj.com/economy/central-banking/fed-official-says-rate-cuts-could-be-needed-next-year-to-prevent-over-tightening-29d009ce) that “*her outlook for interest rates and inflation was very close to the median”*. She has also been advocating “gradualism” and "patience", saying “*I think it’s premature to think cut is around the corner,*" when asked about March. Barkin is likely one of the five 50bp cut dots as he views inflation “*a little stubborner than the average person in there*”, but he has left the door open by saying that he won’t ”*have any objection conceptually to toggling rates back toward normal levels as you build increasing conviction and confidence that inflation is on a convincing path back to target.”* ****Bostic forecasts only two rate cuts this year starting in Q3, but in his last speech he remains open to adjusting his stance if *“inflation comes down faster than his forecast*". Given these recent comments, Bostic seems to be more open-minded about moving his first cut forward, while the other three suggest an inclination towards delaying rate cuts.
 
