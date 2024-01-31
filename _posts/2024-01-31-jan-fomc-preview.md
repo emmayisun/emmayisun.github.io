@@ -108,7 +108,7 @@ The below scenarios are what I think the market's expecting… but I also marked
 <br>
 <br>
 
-<div style="min-height:362px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt="" /></noscript></div>
+<div style="min-height:362px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=5" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt="" /></noscript></div>
 
 
 
