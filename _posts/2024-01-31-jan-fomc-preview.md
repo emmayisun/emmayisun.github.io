@@ -59,7 +59,7 @@ After the Dec meeting [minutes](https://www.federalreserve.gov/monetarypolicy/fo
 As for this week’s FOMC meeting, Most strategists do not expect Powell to give out too many details in the presser, instead point to the Jan meeting minutes in Feb for more details. Recall in Dec meeting minutes, “several” participants suggested that “*it would be appropriate for the Committee to begin to discuss the technical factors that would guide a decision to slow the pace of runoff well before such a decision.*” While this sounds like a preliminary discussion, Logan unsurprisingly was the most vocal on this one, notably suggesting that the Fed should taper QT when RRP “*approaches a low level*”. Waller, who has been early on QT and tapering back in 2021, also suggested that this should be a topic of discussion for the Fed this year. However, unlike Logan, Waller seems to be comfortable with RPP going close to zero. Beyond these two, there’s also a group of officials who are not ready to talk about QT taper in detail, most notably Williams. The subtle difference in Fed officials' QT tapering expectations could mean QT tapering may be on the later/slower end of street estimates. It’s expected that we will keep getting clues in minutes from the Fed, but Powell’s response in the presser and whether it’s closer to Logan, Waller, or Williams will be critical for market participants to decide whether taper will start any time soon. 
 
 <details>
-  <summary><h3>Recent Fed quotes on QT</h3></summary>
+  <summary>Recent Fed quotes on QT</summary>
 
 [Logan](https://www.dallasfed.org/news/speeches/logan/2024/lkl240106) (01/06)
 
