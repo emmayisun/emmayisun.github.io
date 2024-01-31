@@ -96,7 +96,7 @@ Beyond these two, there’s also a group of officials who are not ready to talk 
 The below scenarios are what I think the market's expecting… but I also marked my own base case. I could be way off, but I want to keep records of my thinking going into the meeting to reflect on afterwards.
 
 #### Base Case
-* <span style="color:#ec5e2a;">Statement language to remove "additional policy firming..." and replace it with something close to "the Fed will keep policy rate restrictive until it's fully convinced that inflation is coming down to 2%."</span>
+* <span style="color:#ec5e2a;">Statement language to remove "additional policy firming..." and replace it with something close to "the Fed will keep policy rate restrictive until it's fully convinced that inflation is coming down to 2%."</span> It could also takes some of the language used when the Fed signaled pause in [Jan 2019](https://www.federalreserve.gov/monetarypolicy/files/monetary20190130a1.pdf): "*In light of.... the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to...*" 
 * March cut: leave the door open without any commitment on either side. "The Fed will remain data-dependent. if inflation comes high, we will do so"
 * QT: Suggest we will see more details in the minutes and participants have started discussions on this topic and it's "natural" to start talking about talking about tapering QT. 
 
