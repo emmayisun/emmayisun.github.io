@@ -100,7 +100,9 @@ The below scenarios are where I think the market would think… but I also marke
 #### Dovish Case
 * Statement language to remove "additional policy firming..." and replace it with something close to "act as appropriate" ([Jun 2019](https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm))
 * <span style="color:#ec5e2a;">March cut: Signal that march cut is on the table by not adding anything to push back expectations such as "March is not the focus of today's discussion" or "today's focus is still how long policy rate needs to stay restrictive"</span>
-* QT: if asked about the recent decline in RRP, suggesting the Fed is closely monitoring and is discussing implications(close to Logan)
+* QT: if asked about the recent decline in RRP, suggesting the Fed is closely monitoring and is discussing implications (close to Logan)
+
+
 
 <div style="min-height:362px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt="" /></noscript></div>
 
