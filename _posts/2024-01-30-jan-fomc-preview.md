@@ -92,19 +92,21 @@ Beyond these two, there’s also a group of officials who are not rushing to tap
 
 The below scenarios are what I think the market's expecting… but I also marked my own base case. I could be way off, but I want to keep records of my thinking going into the meeting to reflect on afterwards.
 
+*(Jan 31st Update: Bold indicates what's delivered. Author is grappling with how she got March wrong...)*
+
 #### Base Case
-* <span style="color:#ec5e2a;">Statement language to remove "additional policy firming..." and replace it with something close to "the Fed will keep policy rate restrictive until it's fully convinced that inflation is coming down to 2%."</span> It could also take some of the language used in [Jan 2019](https://www.federalreserve.gov/monetarypolicy/files/monetary20190130a1.pdf) when the Fed signaled pause: "*In light of.... the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to...*" 
+* <span style="color:#ec5e2a;"><strong>Statement language to remove "additional policy firming..." and replace it with something close to "the Fed will keep policy rate restrictive until it's fully convinced that inflation is coming down to 2%."</strong></span> It could also take some of the language used in [Jan 2019](https://www.federalreserve.gov/monetarypolicy/files/monetary20190130a1.pdf) when the Fed signaled pause: "*In light of.... the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to...*" 
 * March cut: Leave the door open without any commitment on either side. Need more data to confirm and the Fed will remain data-dependent.
-* QT: Suggest we will see more details in the minutes and participants have started discussions on this topic and it's "natural" to start talking about talking about tapering QT. 
+* <span style="color:#ec5e2a;"><strong>QT: Suggest we will see more details in the minutes and participants have started discussions on this topic. When asked about if QT is starting soon, only suggest "it's natural to start the discussion this year" (close to Waller) </strong></span>
 
 #### Hawkish Case
 * Statement language keeps "additional policy firming..."
-* March cut: similar to Mester and Daly, suggesting it's premature to consider rate cuts in March" / "March is too early for a cut"
-* <span style="color:#ec5e2a;">QT: Suggest that QT is running "as expected", reserves abundant, there's no urgency in altering the plan soon but closely monitoring progress (close to Williams)</span>
+* <strong>March cut: similar to Mester and Daly, suggest it's premature to consider rate cuts in March" / "March is too early for a cut"</strong>
+* QT: Suggest that QT is running "as expected", reserves abundant, there's no urgency in altering the plan soon but closely monitoring progress (close to Williams)</span>
 
 #### Dovish Case
 * Statement language to remove "additional policy firming..." and replace it with something close to "act as appropriate" ([Jun 2019](https://www.federalreserve.gov/newsevents/pressreleases/monetary20190619a.htm))
-* <span style="color:#ec5e2a;">March cut: If asked about March, not adding anything to push back expectations such as "March is not the focus of today's discussion" or "today's focus is still how long policy rate needs to stay restrictive" or even "if inflation comes high and we need to adjust policy, we will do so"</span>
+* <span style="color:#ec5e2a;">March cut: If asked about March, even if he's not committing, not adding anything to push back expectations such as "March is not the focus of today's discussion" or "today's focus is still how long policy rate needs to stay restrictive" or even "if inflation comes high and we need to adjust policy, we will do so"</span>
 * QT: If asked about the recent decline in RRP, suggesting the Fed is closely monitoring and is discussing implications (close to Logan)
 
 <br>
