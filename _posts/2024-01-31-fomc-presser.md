@@ -8,6 +8,110 @@ article_excerpt: "Transcript of Chair Powell’s Press Conference on January 31,
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/poHpPUUOfkg?si=8Vm6o26U_ciTmXpX&amp;start=3587" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+#### Headline
+<details>
+  <summary>Click to expand!</summary>
+
+- [Fed's Powell: I am not so worried that growth is too strong and inflation could come back
+- Fed's Powell: I am hearing from contacts that activity is picking up a bit at the margin.
+- Fed's Powell: Rising consumer confidence can support spending.
+- [Fed's Powell: We don't see need for the Reverse Repo go to zero before tapering](#qt)
+- Fed's Powell: I am not in a position to put a number on how many months of low inflation are needed to have confidence. We won't keep it a secret when we have confidence on inflation.
+- [Fed's Powell: We had some balance sheet discussion today, plan more in depth discussion next time](#qt)
+- [Fed's Powell: We are getting to time now that questions on pace of runoff is coming into focus](#qt)
+- [Fed's Powell: Balance sheet runoff, so far, has gone very well](#qt)
+- Fed's Powell: There are risks that would make us go slower or faster on rate cuts.
+- [Fed's Powell: Based on the meeting today, I don't think likely we will have a rate cut in March](#march)
+- Fed's Powell: We are not looking for inflation to tap 2% once, we are looking for it to settle out at 2%.
+- Fed's Powell: 12-month inflation is above target, but seem to be getting on track to it.
+- Fed's Powell: We do expect growth will moderate.
+- [Fed's Powell: We've had 6 months of good inflation data and the expectation is of more to come](#inflation)
+- [Fed's Powell: I am more concerned that inflation will stabilize at an elevated level](#inflation)
+- [Fed's Powell: If inflation moves back up, that would be a surprise at this point](#inflation)
+- Fed's Powell: The wage setting will probably take a couple of years to get all the way back.
+- Fed's Powell: A lot of the economic growth we are seeing is due to post-pandemic healing, when that peters out, our restrictive rate will show up more sharply.
+- Fed's Powell: The supply side has been recovering, but that won't go on forever.
+- Fed's Powell: I would not say we have achieved a soft landing yet. We have a ways to go to achieve soft landing. We are not declaring victory.
+- Fed's Powell: There may still be a tailwind on disinflation from goods.
+- Fed's Powell: Supply chains not yet back fully to where they were.
+- Fed's Powell: I think lower rent costs are coming, and will feed through. Lower rental inflation is in everyone's forecast.
+- Fed's Powell: The economy is broadly normalizing.
+- Fed's Powell: There is a wide disparity of views on the committee.
+- Fed's Powell: The SEP is good evidence of where FOMC is at in terms of forecasts.
+- [Fed's Powell: There was no proposal to cut rates today](#cut)
+- Fed's Powell: In the base case, where the economy is healthy with a strong labor market, we can be careful as we think about rate cut timing.
+- Fed's Powell: We are not looking for a slide in employment, but would cut rates if we saw a weakening.
+- Fed's Powell: 12-month inflation is way down, and likely will continue.
+- Fed's Powell: The timing of cuts is linked to our confidence.
+- Fed's Powell: We are really in a risk management mode.
+- Fed's Powell: Almost everyone on the committee believes it will be appropriate to reduce rates.
+- Fed's Powell: It seems likely we will achieve confidence on Inflation.
+- Fed's Powell: We have six months of good inflation data. On inflation data, need to make sure what we are seeing is true signal.
+- Fed's Powell: We had very strong growth last year. We don't think we necessarily need to see weaker growth for inflation to come down.
+- Fed's Powell: We have confidence, but need more confidence.
+- Fed's Powell: At same time, reducing the policy rate too late could unduly weaken the economy.
+- Fed's Powell: Reducing policy restraint too soon or too much could reverse inflation progress]
+- Fed's Powell: I am prepared to maintain the current policy rate for longer if needed.
+- Fed's Powell: Ongoing progress on inflation is not assured.
+- Fed's Powell: If the economy evolves as expected, we will dial back the policy rate this year.
+- Fed's Powell: It will likely be appropriate to begin reducing rates sometime this year.
+- Fed's Powell: Our policy rate is likely at its peak.
+- Fed's Powell: Longer-term inflation expectations appear well-anchored.
+- Fed's Powell: Labor demand still exceeds supply.
+- Fed's Powell: The labor market remains tight.
+- Fed's Powell: Activity in the housing sector has subdued.
+- Fed's Powell: The policy rate well into restrictive territory.
+- Fed's Powell: The economy has made good progress, inflation has eased.
+- Fed's Powell: not ready to say when balance sheet wind-down ends.
+- Fed's Powell: We're not at the level of reserves when would need to slow or stop balance sheet runoff.
+- Fed's Powell: We are not talking about altering pace of QT.
+- Fed's Powell: We think the supply-side help for inflation has some ways to run.
+- Fed's Powell: You need to reduce restriction on the economy well before 2%.
+- Fed's Powell: I believe some policymakers did update their forecasts based on data from today.
+- Fed's Powell: We've seen reasonable progress in non-housing services inflation.
+- Fed's Powell: We haven't worked out if we will follow a threshold-based path for cutting rates.
+- Fed's Powell: We are aware of the risk that we could hang on too long on rates. We're very focused on not making that mistake.
+- Fed's Powell: On the labor market, wages still running bit above what is consistent with 2% inflation.
+- Fed's Powell: Above-trend growth could ultimately mean that we need to hike again.
+- Fed's Powell: If we have stronger growth, that will be good, but will mean it takes longer to get inflation back down.
+- Fed's Powell: It's really good to see progress we are making on inflation, we're still well above 3% on core PCE though.
+- Fed's Powell: Policymakers are thinking we have done enough, but we are not fully confident in that view yet.
+- Fed's Powell: Expectation would be that real rates are declining as we move forward.
+- Fed's Powell: The difference in the projections reflects lower inflation than previously expected.
+- Fed's Powell: This is the year when distortions from the pandemic are unwound.
+- Fed's Powell: I have always felt there was a possibility economy could avert recession while inflation came down, and so far that's what we are seeing. That said, the result is not guaranteed.
+- Fed's Powell: There's little basis for thinking economy in recession now, but there's always a probability there is a recession in the next year.
+- Fed's Powell: There was a general expectation that rate cuts will be a topic of conversation going forward.
+- Fed's Powell: On rate cuts, that begins to come into view, and is now a topic of discussion.
+- Fed's Powell: No one is declaring victory, that would be premature.
+- Fed's Powell: We are seeing strong growth that appears to be moderation, and inflation making real progress.
+- Fed's Powell: Policymakers are thinking and talking about when it will be appropriate to cut rates.
+- Fed's Powell: It is not likely we will hike further.
+- Fed's Powell: We are still focused on the question of whether rates are high enough.
+- Fed's Powell: We added the word "any" to show that we thought we likely at or near peak for rates.
+- Fed's Powell: Policymakers don't want to take possibility of further hikes off the table.
+- Fed's Powell: We will keep policy restrictive until we're confident we're on the path to 2% inflation.
+- Fed's Powell: We're prepared to tighten policy further if appropriate.
+- Fed's Powell: While we believe our policy rate is likely at our near its peak for this cycle, we have been surprised in the past.
+- Fed's Powell: The Fed estimates the November PCE prices up 2.6% YoY, with core up 3.1%.
+- Fed's Powell: We anticipate getting inflation to 2% will take some time.
+- Fed's Powell: The lower inflation readings over the last several months are welcome.
+- Fed's Powell: We estimate core PCE prices rose 3.1% in 12 months ending November.
+- Fed's Powell: Policymakers expect labor market rebalancing to continue.
+- Fed's Powell: We expect the labor market easing to continue.
+- Fed's Powell: Labor demands is still exceeding supply though.
+- Fed's Powell: Nominal wage growth appears to be easing.
+- Fed's Powell: The labor market remains tight, but is coming into better balance.
+- Fed's Powell: Higher interest rates are also weighing on business fixed investment.
+- Fed's Powell: Growth in economic activity has slowed substantially.
+- Fed's Powell: Activity in the housing sector has flattened out.
+- Fed's Powell: The full effects of tightening are likely not yet felt.
+- Fed's Powell: We will make future decisions on totality of data, evolving outlook and incoming risks.
+- Fed's Powell: Given how far we've come and given uncertainties, we are proceeding carefully.
+- Fed's Powell: We're well into restrictive territory.
+- Fed's Powell: The path forward uncertain.
+</details>
+
 #### Link
 [Transcript](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20240131.pdf)
 
@@ -23,25 +127,27 @@ evidence to build confidence that inflation is moving down sustainably toward ou
 
 The Fed’s monetary policy actions are guided by our mandate to promote maximum employment and stable prices for the American people. My colleagues and I are acutely aware that high inflation imposes significant hardship as it erodes purchasing power, especially for those least able to meet the higher costs of essentials like food, housing, and transportation. We are highly attentive to the risks that high inflation poses to both sides of our mandate, and we are strongly committed to returning inflation to our 2 percent objective.
 
-Over the past two years, we have raised our policy rate by 5-1/4 percentage points, and we have decreased our securities holdings by more than $1.3 trillion. Our restrictive stance of 
-monetary policy is putting downward pressure on economic activity and inflation. The Committee decided at today’s meeting to maintain the target range for the federal funds rate at
-5-1/4 to 5-1/2 percent and to continue the process of significantly reducing our securities holdings.
+Over the past two years, we have raised our policy rate by 5-1/4 percentage points, and we have decreased our securities holdings by more than $1.3 trillion. Our restrictive stance of monetary policy is putting downward pressure on economic activity and inflation. The Committee decided at today’s meeting to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent and to continue the process of significantly reducing our securities holdings.
 
 We believe that our policy rate is likely at its peak for this tightening cycle and that, if the economy evolves broadly as expected, it will likely be appropriate to begin dialing back policy restraint at some point this year. But the economy has surprised forecasters in many ways since the pandemic, and ongoing progress toward our 2 percent inflation objective is not assured. The economic outlook is uncertain, and we remain highly attentive to inflation risks. We are prepared to maintain the current target range for the federal funds rate for longer, if appropriate.
 
 As labor market tightness has eased and progress on inflation has continued, the risks to achieving our employment and inflation goals are moving into better balance. We know that reducing policy restraint too soon or too much could result in a reversal of the progress we have seen on inflation and ultimately require even tighter policy to get inflation back to 2 percent. At the same time, reducing policy restraint too late or too little could unduly weaken economic activity and employment. In considering any adjustments to the target range for the federal
-funds rate, the Committee will carefully assess the incoming data, the evolving outlook, and the balance of risks. The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent. We will continue to make our decisions meeting by meeting. We remain committed to bringing inflation back down to our 2 percent goal and to keeping longer-term inflation expectations well anchored. Restoring price stability is essential to
-set the stage for achieving maximum employment and stable prices over the longer run.
+funds rate, the Committee will carefully assess the incoming data, the evolving outlook, and the balance of risks. The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent. We will continue to make our decisions meeting by meeting. We remain committed to bringing inflation back down to our 2 percent goal and to keeping longer-term inflation expectations well anchored. Restoring price stability is essential to set the stage for achieving maximum employment and stable prices over the longer run.
 
-To conclude, we understand that our actions affect communities, families, and businesses across the country. Everything we do is in service to our public mission. We at the Fed will do
-everything we can to achieve our maximum employment and price stability goals. Thank you. I look forward to your questions
+To conclude, we understand that our actions affect communities, families, and businesses across the country. Everything we do is in service to our public mission. We at the Fed will do everything we can to achieve our maximum employment and price stability goals. Thank you. I look forward to your questions.
 
-#### Q&A
+<a id="growth1"></a>
+**Q1:** Jeanna Smialek from the New York Times. Thanks for taking our questions. Obviously in the statement and just in your remarks there, you note that you don't want to cut interest rates without greater confidence that inflation is coming down fully. I wonder what do you need to see at this point to gain that confidence? As you make those decisions, how are you weighing the growth data and consumption data, which have been surprisingly strong against inflation data? 
+
+**Powell:** Okay. What are we looking forward to getting greater confidence? Let me say that we have confidence. We're looking for greater confidence that inflation is moving sustainably down to 2%. Implicitly, we do have confidence and has been increasing, but we want to get greater confidence. 
+
+What do we want to see? We want to see more good data. It's not that we're looking for better data. We're looking at continuation of the good data that we've been seeing. And a good example is inflation. So we have six months of good inflation data. The question really is, that six months of good inflation data, is it sending us a true signal that we are in fact on a sustainable path down to 2% inflation? That's the question. And the answer will come from some more data that's also good data. It's not that the six month data isn't low enough. It is. It's just a question of, can we take that with confidence that we're moving sustainably down to 2%? That's really what we're thinking about. In terms of growth, we've had strong growth. I mean, if you take a step back, we've had strong growth, very strong growth last year, going right into the fourth quarter. And yet we've had a very strong labor market and we've had inflation coming down. So I think whereas a year ago we were thinking that we needed to see some softening in economic activity, that hasn't been the case. So I think we look at stronger growth, we don't look at it as a problem. I think at this point we want to see strong growth. We want to see a strong labor market. We're not looking for a weaker labor market. We're looking for inflation to continue to come down as it has been coming down for the last six months. 
+
 **Q1 Follow-up:** And I'm sorry if I could just follow up very quickly. When you say that you want to make sure that it's a true signal, is there anything that you're seeing in the data that makes you doubt that it's a true signal at this stage? 
 
 **Powell:** No, I think it's, I would say it seems to be the likely case that we will achieve that confidence, but we have to achieve it and we haven't yet. And so, I mean, it's a good story. We have six months of good inflation, but you can, and you know this, you can look behind those numbers and you can see that a lot of it's been coming from goods inflation, for example, and goods inflation running significantly negative. It's a reasonable assumption that over time goods inflation will flatten out probably approximate zero. That would mean the services sectors would have to contribute more. So in other words, what we care about is the aggregate number, not so much the composition, but we just need to see more. That's where we are as a committee. We need to see more evidence that sort of confirms what we think we're seeing and that tells us that we are on, gives us confidence that we're on a path to a sustainable path down to 2% inflation. 
 
-**Q2:** Nick Timrose of the Wall Street Journal. Chair Powell, it seems to me you raised rates rapidly over the last two years for two reasons. One, was the risk of a wage price spiral. Two, there were risks of inflation expectations becoming unanchored. This morning's ECI. report for the fourth quarter shows private sector payroll growth running at a sub 4% pace. Inflation expectations are very close to where they were before the inflation emergency of the last three years. And given that you appear to have substantially cut off these two tail risks and that you've judged here today current policy is well into restrictive territory, what good reason is there to keep policy rates above 5%. So you're really going to learn more waiting six weeks versus three months from now that you have avoided those two risks. 
+**Q2:** Nick Timraos of the Wall Street Journal. Chair Powell, it seems to me you raised rates rapidly over the last two years for two reasons. One, was the risk of a wage price spiral. Two, there were risks of inflation expectations becoming unanchored. This morning's ECI. report for the fourth quarter shows private sector payroll growth running at a sub 4% pace. Inflation expectations are very close to where they were before the inflation emergency of the last three years. And given that you appear to have substantially cut off these two tail risks and that you've judged here today current policy is well into restrictive territory, what good reason is there to keep policy rates above 5%. So you're really going to learn more waiting six weeks versus three months from now that you have avoided those two risks. 
 
 **Powell:** So as you know, almost every participant on the committee does believe that it will be appropriate to reduce rates. And for partly for the reasons that you say, you know, we feel like inflation is coming down, growth has been strong, the labor market is strong. What we're trying to do is identify a place where we're really confident about inflation, get it ganged back down 2% so that we can then begin the process of dialing back the restrictive level. So overall, I think people do believe it. As you know, the median participant wrote down three rate cuts this year. But I think to get to that place where we feel comfortable starting the process, we need some confirmation that inflation is in fact coming down sustainably to 2%.
 
@@ -57,6 +163,7 @@ everything we can to achieve our maximum employment and price stability goals. T
 
 **Powell:** Yes. So let me say that we're not looking for that. It's not something we're looking for. Yes, if you think about, in the base case, the economy is performing well, the labor market remains strong. If we saw an unexpected weakening in certainly in the labor market, that would certainly weigh on cutting sooner, absolutely. And if we saw inflation being stickier or higher, those sorts of things would argue for moving later. In the base case, though, where the economy is healthy and we have ongoing growth, solid growth, we have a strong labor market, we have inflation coming down, that's what people are writing their SEP around. And in that case, what we're saying is, based on that, we think we can and should take advantage of that and be careful as we approach that question of when to begin to dial back restriction. 
 
+<a id="cut"></a>
 **Q4:** Claire Jones, Financial Times, just to circle back to the greater confidence aspect of this statement, there's been a lot of unanimity in recent meetings and just wondering going forward when it comes to all needing greater confidence, is the unanimity, or at least consensus among FOMC members, about what the threshold for that greater confidence is. And if not, could you maybe tell us a little bit about the discussion today on what the variations between FOMC members was on what constitutes enough confidence to cut rates and also if there was any variation on how quickly that greater confidence threshold could be reached. Thank you. 
 
 **Powell:** We're not really at that stage. There was no proposal to cut rates. Some people did talk about their view of the rate path. I would point you to the SEP as good evidence of where people are, although it is one cycle later. So we're not at a place of really working out those kinds of details because we weren't actively considering moving the federal funds rate down. I will say there is a wide disparity, a healthy disparity of views, and you see that in public statements in the minutes and the transcripts when they're released every five years. So we do have a healthy set of differences, and I think that's actually essential for making good policy. We're also able to reach agreement generally because we listen to each other, we compromise, and even though not everybody loves what we do, they're able to, for the most part, able to join in. To me, that's a well-functioning public institution. 
@@ -81,6 +188,7 @@ Powell: Yeah. Yeah. Well, so we're not, you know, it's not the pandemic, so we c
 
 **Powell:** I think the labor market by many measures is at or nearing normal, but not totally back to normal. And you pointed to one or more of them. So I think job openings are not quite back to where they were. Wages or wage increases rather are not quite back to where they would need to be in the longer run. I would look at it this way though. The economy is broadly normalizing and so is the labor market. And that process will probably take some time. The wage setting is something that happens, it's probably will take a couple of years to get all the way back. And that's okay, that's okay. But we do see, you saw today's ECI reading, the evidence is that wage increases are still at a healthy level, very healthy level, but they're gradually moving back to levels that would be more associated, given assumptions about productivity, or more typically associated with 2% inflation. It's an ongoing process, a healthy one, and I think we're moving in the right direction. So that process can continue without a weakening of the labor market basically. I think the labor market is, I don't know if it's rebalancing. Clearly there was a fairly severe imbalance between demand for workers and supply at the beginning of the pandemic. So we lost several million workers at the beginning of the pandemic from people dropping out of the labor force. And then when the economy reopened, you remember 2021, you had a severe labor shortage. It was everywhere, the panic part of businesses couldn't find people. So what's happened is we expected the labor market to come back quickly and it didn't. And 2022 was a disappointing year and we were kind of thinking, well, maybe we won't get it back. And then in 2023 we did, as you know. So labor force participation came back strongly in 23 and so did immigration. Immigration came to a halt during the pandemic. And so those two forces have significantly lowered the temperature in the labor market. To will it's still a very strong labor market. It's still a good labor market for wages and for finding a job, but it's getting back into balance and that's what we want to see. And one great way to look at that is what's happening with wage increases. You see it now across the major things that we track. It isn't every quarter, but overall there's a clear trend still at high levels, but back down to what would be consistent with where we were before the pandemic and with 2% inflation. 
 
+<a id="inflation"></a>
 **Q8:** Hi, Chris Reugeber, Associated Press. Thank you. I wanted to follow up on Richard's question. I sounded like you suggested that you're not worried about faster growth so much. So I wanted to see if you're seeing anything that suggests that inflation could reaccelerate from here. And it sounds like you're saying you're not worried that solid growth from here on out poses any risk to inflation. Thank you. 
 
 **Powell:** No, I think that is a risk. The risk that inflation would reaccelerate. I think the greater risk is that it would stabilize at a level meaningfully above 2%. That's to me more likely. Of course, if inflation were to surprise by moving back up, we would have to respond to that. And that would be a surprise at this point, but I have to tell you, that's why we keep our options open here and why we're not rushing. So I think both of those are risks, but I think the more likely risk is the one that I mentioned, which is you've had six good months, very good months. But what's really going to shake out here? When we look back, what will we see? Will inflation have dipped and then come back up? Are the last six months flattered by factors that are one of factors that won't repeat themselves? We don't think so. This is not what we think, but that's the question we are asking. We have to ask, and we want to get comfort on that. And just one quick follow up. 
@@ -97,6 +205,7 @@ Powell: Yeah. Yeah. Well, so we're not, you know, it's not the pandemic, so we c
 
 **Powell:** So the thing is, we're not looking for inflation to tap the 2% base once. We're looking for to settle out over time at 2%. And the same thing is true. If we have a month or two of lower, and we have that now, of inflation that's annualized at a lower level, that wouldn't be good. We're not looking to have inflation anchor below 2%. We're looking to have an anchor at 2%. So if we do face those circumstances, then we'll have to deal with that. I think as of now, the question where we want to take advantage of this situation and finish the job on inflation while keeping the labor market strong. Evermore, 
 
+<a id="march"></a>
 **Q11:** Fox Business. Thank you, Mr. Chairman, for taking this. So as I've heard from some district Fed presidents, is it in your view a little premature to think that rate cuts are right around the corner? And then when we do see that first rate cut, is that, should we interpret that as the beginning of a rate cut cycle or is it a one off? 
 
 **Powell:** So I'll point to that language on your first question. We included that language in the statement to signal clearly that with strong growth, strong labor market inflation coming down, the committee intends to move carefully as we consider when to begin to dial back the restrictive stance that we have in place. So if you take that to the current context, the current context, we're going to be data dependent. We're going to be looking at this meeting by meeting. Based on the meeting today, I would tell you that I don't think it's likely that the committee will reach a level of confidence by the time of the March meeting to identify March as the time to do that. But that's to be seen. So I wouldn't call, when you ask me about in the near term, I'm hearing that as March, I would say I don't think that's probably not the most likely case or what we would call the base case. 
@@ -121,6 +230,7 @@ Powell: Yeah. Yeah. Well, so we're not, you know, it's not the pandemic, so we c
 
 **Powell:** My response is what I started with, which is that our job, the job Congress has given us, is price stability and maximum employment. Price stability is absolutely essential for people's lives, most importantly, well not most importantly, most mostly for people at the lower end of the income spectrum who are living at the edges, at the margins. And so for someone like that, high inflation, in the necessities of life, right away you're in trouble. Whereas even middle class people have some scope to absorb higher costs. So we have to get, it's our job. It's what society has asked us to do is to get inflation down. The tools that we use to do it are interest rates. So that's how we think about that. 
 
+<a id="qt"></a>
 **Q14:** Courtney. Courtney Brown from Axios. Can you give us some insight into whether the committee discussed the possibility of slowing balance sheet runoff in the months ahead? 
 
 **Powell:** Yes. So. I would start by saying that balance sheet runoff so far has gone very well. As the processes continued, we're getting to that time where questions are beginning to come, integrate or focus about the pace of runoff and all that. So at this meeting we did have some discussion of the balance sheet and we're planning to begin in depth discussions of balance sheet issues at our next meeting in March. So those questions are all coming into scope now and we're focusing on them, but we're at the beginning of that process. I would say. 
