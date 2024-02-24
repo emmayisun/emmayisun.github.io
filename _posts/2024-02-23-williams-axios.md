@@ -1,16 +1,15 @@
-
 ---
 layout: post
 title: Williams Signals Steady Policy Amid Inflation Fluctuations, Downplays Rate Hike Speculation
 categories: Fedspeak
 tags: [policy, cut, QT, Williams]
-article_excerpt: John Williams, President of the Federal Reserve Bank of New York, is maintaining a steady policy outlook and does not currently see a rate hike as his base case, despite recent unsettling inflation and job growth data. He acknowledges these developments but believes in a broader view, emphasizing that one month of data won't sway the Fed's long-term policy direction. Williams remains focused on seeing inflation consistently move towards the Fed's 2% target before considering easing restrictive monetary policies, likely later in the year. His interpretation of inflation trends suggests a cautious optimism, with movements in the right direction, albeit acknowledging the path can be "bumpy." On the topic of the neutral interest rate, or r-star, Williams expresses skepticism about significant shifts post-pandemic, suggesting that while high fiscal deficits might push the rate higher, demographic and other factors could have a counterbalancing effect, essentially keeping it aligned with pre-pandemic trends.
+article_excerpt: John Williams, President of the Federal Reserve Bank of New York, is maintaining a steady policy outlook and does not currently see a rate hike as his base case, despite recent unsettling inflation and job growth data. He acknowledges these developments but believes in a broader view, emphasizing that one month of data won't sway the Fed's long-term policy direction. Williams remains focused on seeing inflation consistently move towards the Fed's 2% target before considering easing restrictive monetary policies, likely later in the year. His interpretation of inflation trends suggests a cautious optimism, with movements in the right direction, albeit acknowledging the path can be 'bumpy'. On the topic of the neutral interest rate, or r-star, Williams expresses skepticism about significant shifts post-pandemic, suggesting that while high fiscal deficits might push the rate higher, demographic and other factors could have a counterbalancing effect, essentially keeping it aligned with pre-pandemic trends.
 ---
 #### Headline
-Fed's Williams: Rate Cuts Likely Later This Year
-Fed's Williams: Rate Hikes Not My Base Case
-Fed's Williams: My View of Economy Unchanged After January Data, Things Moving in Right Direction - Axios Interview
-Fed's Williams: Expecting Slowdown in Consumer Spending Growth This Year
+Fed's Williams: Rate Cuts Likely Later This Year  
+Fed's Williams: Rate Hikes Not My Base Case  
+Fed's Williams: My View of Economy Unchanged After January Data, Things Moving in Right Direction - Axios Interview  
+Fed's Williams: Expecting Slowdown in Consumer Spending Growth This Year  
 
 #### Link
 [Transcript](https://www.axios.com/2024/02/23/federal-reserve-bank-ny-john-williams-transcript?stream=top) || [Media](https://www.axios.com/2024/02/23/federal-reserve-bank-ny-williams)
