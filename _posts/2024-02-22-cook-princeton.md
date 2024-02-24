@@ -1,11 +1,35 @@
 ---
 layout: post
-title: 
-categories: Presser
+title: Federal Reserve's Cook Advocates for Prudence in Policy Easing Amid Disinflation Trends
+categories: Fedspeak
 tags: [policy, Cook]
-article_excerpt: ""
+article_excerpt: "Fed's Cook emphasizes a cautious approach to monetary policy, focusing on achieving a balance between the risks of premature easing, which could keep inflation persistently high, and delaying policy adjustments, potentially harming the economy. Cook advocates for maintaining current restrictive policy until there's greater confidence that inflation is sustainably converging to the 2% target. This stance reflects a shift towards two-sided risks in monetary policy considerations, acknowledging recent disinflation and labor market adjustments. Cook suggests future policy adjustments will reflect changing risk assessments, aiming to sustain price stability and economic health."
 ---
+
 #### Headline
+Fed's Cook: I want more confidence that inflation is converging to 2% before cutting rates.  
+Fed's Cook: There is potential for red sea shipping disruptions to affect supply more than they have so far.  
+Fed's Cook: It is likely that the post-pandemic world could be characterized by greater volatility of supply.  
+Fed's Cook: Core goods inflation looks likely to converge to modestly negative pre-pandemic trend.  
+Fed's Cook: The behavior of inflation expectations helps underpin my growing confidence that inflation will continue to ease.  
+Fed's Cook: Strong supply-side recovery has contributed importantly to the recent disinflation.  
+Fed's Cook: The labor market demand and supply appear in better alignment.  
+Fed's Cook: Consumer spending generally has continued to show strong momentum in recent months.  
+Fed's Cook: Growth in total the labor income has slowed to near pre-pandemic rate of about 5% a year, which should contribute to moderating consumption.  
+Fed's Cook: Consumer spending growth may face headwinds from deteriorating household balance sheets.  
+Fed's Cook: The forecast of 12-month PCE inflation converging to 2% target over time still seems reasonable as baseline outlook.  
+Fed's Cook: Housing services inflation should keep slowing this year as slower observed rent increases pass into official data.  
+Fed's Cook: Core services ex-housing inflation should keep easing over time as consumers increasingly resist price increases labor costs grow more slowly.  
+Fed's Cook: The disinflationary process has been, and may continue to be, bumpy and uneven, as highlighted by last week's CPI & PPI.  
+Fed's Cook: I intend to monitor incoming data closely for signs disinflation process is continuing.  
+Fed's Cook: I am now weighing the possibility of easing policy too soon and letting inflation stay persistently high versus easing policy too late and causing unnecessary harm to the economy.  
+Fed's Cook: I believe our current monetary policy stance is restrictive.  
+Fed's Cook: I see an eventual rate cut as adjusting policy to reflect a shifting balance of risks.  
+Fed's Cook: The risk of persistently high inflation appears to have diminished, but has not disappeared.  
+Fed's Cook: At some point, as we gain greater confidence that disinflation is ongoing and sustainable, that changing outlook will warrant a change in the policy rate.  
+Fed's Cook: Restrictive monetary policy and favorable supply developments have put us in good position to achieve both sides of FOMC’s mandate.  
+Fed's Cook: We should continue to move carefully, maintaining degree of policy restriction needed to sustainably restore price stability while keeping economy on a good path.  
+Fed's Cook: I would like to have greater confidence that inflation is converging to 2% before beginning to cut the policy rate.
 
 #### Link
 [Speech](https://www.federalreserve.gov/newsevents/speech/cook20240222a.htm)
@@ -22,7 +46,7 @@ When the global pandemic hit in the spring of 2020, economies around the world s
 **Inflation Uncertainty**  
 Recent developments appear to have narrowed the range of uncertainty about the inflation outlook. After rising to more than 7 percent in mid-2022, 12-month inflation in the personal consumption expenditures (PCE) price index fell to 2.6 percent in December. Core PCE inflation (excluding food and energy) fell to 2.9 percent, its first reading below 3 percent since early 2021. Inflation data over the second half of last year were even more favorable, with core PCE inflation averaging less than 2 percent.
 
-The disinflationary process has been, and may continue to be, bumpy and uneven, as highlighted by last week's reports on the consumer price index and the producer price index. But a forecast of 12-month PCE inflation converging to our 2 percent target over time still seems reasonable as the baseline outlook. Housing services inflation, which rose sharply in 2021 and 2022, should continue to decline this year as the slowing observed in rent increases on new leases passes into the official statistics. Inflation in core services ex housing (a broad category that includes items such as restaurant meals, car insurance, health care, hotel rooms, and airfares) slowed over the course of last year and should continue to ease over time as consumers increasingly resist price increases and as firms' labor costs grow more slowly.[2](#fn2 "footnote 2") Finally, with supply chains largely back to normal and goods prices declining over the second half of last year, core goods inflation looks likely to converge to its modestly negative pre-pandemic trend. However, the sharper declines in some goods prices in recent months, such as for used cars, may not be repeated.
+The disinflationary process has been, and may continue to be, bumpy and uneven, as highlighted by last week's reports on the consumer price index and the producer price index. <span style="color:#ec5e2a;"><strong>But a forecast of 12-month PCE inflation converging to our 2 percent target over time still seems reasonable as the baseline outlook.</strong></span> Housing services inflation, which rose sharply in 2021 and 2022, should continue to decline this year as the slowing observed in rent increases on new leases passes into the official statistics. Inflation in core services ex housing (a broad category that includes items such as restaurant meals, car insurance, health care, hotel rooms, and airfares) slowed over the course of last year and should continue to ease over time as consumers increasingly resist price increases and as firms' labor costs grow more slowly.[2](#fn2 "footnote 2") Finally, with supply chains largely back to normal and goods prices declining over the second half of last year, core goods inflation looks likely to converge to its modestly negative pre-pandemic trend. However, the sharper declines in some goods prices in recent months, such as for used cars, may not be repeated.
 
 The behavior of inflation expectations helps underpin my growing confidence that inflation will continue to ease. Long-term inflation expectations remained well anchored during the period of high inflation. For example, consumers' expectations of inflation 5 to 10 years ahead in the University of Michigan survey rose only modestly, staying within the range of the previous 20 years. Moreover, consumers' expectations of inflation one year ahead, which rose sharply with actual inflation, have returned to near their pre-pandemic levels in both the Michigan survey and the Federal Reserve Bank of New York's Survey of Consumer Expectations. Similarly, an Atlanta Fed survey shows that business expectations of one-year unit cost increases fell to 2.3 percent in February from a high of 3.8 percent in March 2022.
 
@@ -80,11 +104,11 @@ Looking ahead, I see artificial intelligence (AI) as a potentially significant s
 **Monetary Policy**  
 In the long run, productivity growth benefits from both sides of the Federal Reserve's dual mandate of price stability and maximum employment. Price stability reduces uncertainty. And a strong labor market creates incentives for investment in productive capital and human resources.
 
-Given the disinflation and labor market normalization I have described, I believe the risks to achieving our employment and inflation goals are moving into better balance after being weighted toward excessive inflation. When considering appropriate monetary policy, I now see two-sided risks. I am now weighing the possibility of easing policy too soon and letting inflation stay persistently high versus easing policy too late and causing unnecessary harm to the economy.
+<span style="color:#ec5e2a;"><strong>Given the disinflation and labor market normalization I have described, I believe the risks to achieving our employment and inflation goals are moving into better balance after being weighted toward excessive inflation. When considering appropriate monetary policy, I now see two-sided risks. I am now weighing the possibility of easing policy too soon and letting inflation stay persistently high versus easing policy too late and causing unnecessary harm to the economy.</strong></span>
 
 I intend to closely monitor incoming data to determine whether the disinflation process is continuing and to observe the effects on the economy of the Federal Open Market Committee's (FOMC) previous policy tightening. I believe our current monetary policy stance is restrictive, putting significant downward pressure on aggregate demand. The question we face is: How do we calibrate policy to balance the two-sided risks?
 
-I would like to have greater confidence that inflation is converging to 2 percent before beginning to cut the policy rate. I would see an eventual rate cut as adjusting policy to reflect a shifting balance of risks. When the FOMC raised the policy rate to its current level last July, the risk of inflation remaining above 3 percent for some time was quite salient. Since then, inflation has fallen more quickly than anticipated, and the risk of persistently high inflation, though it has not disappeared, appears to have diminished. At some point, as we gain greater confidence that disinflation is ongoing and sustainable, that changing outlook will warrant a change in the policy rate.
+<span style="color:#ec5e2a;"><strong>I would like to have greater confidence that inflation is converging to 2 percent before beginning to cut the policy rate. I would see an eventual rate cut as adjusting policy to reflect a shifting balance of risks. When the FOMC raised the policy rate to its current level last July, the risk of inflation remaining above 3 percent for some time was quite salient. Since then, inflation has fallen more quickly than anticipated, and the risk of persistently high inflation, though it has not disappeared, appears to have diminished. At some point, as we gain greater confidence that disinflation is ongoing and sustainable, that changing outlook will warrant a change in the policy rate.</strong></span>
 
 Restrictive monetary policy and favorable supply developments this past year have put us in a good position to achieve both sides of the FOMC's mandate. We should continue to move carefully as we receive more data, maintaining the degree of policy restriction needed to sustainably restore price stability while keeping the economy on a good path.
 
