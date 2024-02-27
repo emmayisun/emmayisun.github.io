@@ -20,7 +20,7 @@ KC Fed's Schmid/ECOKC: Fed must remain 'narrowly focused' on twin mandates; pric
 [Speech](https://www.kansascityfed.org/Speeches/documents/10015/2024-Schmid-OklahomaCity-02-26.pdf) 
 
 
-
+#### Speech Text
 ```
 Guideposts for a New Central Banker
 Jeff Schmid
@@ -46,7 +46,6 @@ My goal today is to start that process by sharing the three core principles I wi
 
 - First, and perhaps foremost, I believe that the authority and effectiveness of a Federal Reserve Bank is rooted in its connections to the region it serves. And I see the strength of those ties, not just in Kansas City but for all 12 District banks, as instrumental to the success of the Federal Reserve System.
 - Second, I believe in central banking that is accountable and transparent but independent of political influence. The independence of the Fed, and the ability to set monetary policy without political consideration, best serves our economy and nation.
-- 
 - Third, and relatedly, I believe that an independent Fed is best served by a cautious approach to the Fed’s role in the financial system. We must carefully consider how our actions can affect the long-term structure of financial markets. I will bring a preference for minimizing the Fed’s footprint, particularly as it relates to the Fed’s balance sheet.
 
 
@@ -70,11 +69,11 @@ The Federal Reserve’s new 24/7/365 payments system, FedNow, is a great example
 
 The second principle that is core to my thinking as a new member of the FOMC is the importance of the independence of the central bank.
 
-The policy choices made by the Fed impact the livelihoods and finances of everyone in the economy. Naturally, this invites scrutiny, especially in difficult economic times. And historically it is not unusual to hear disapproval of the Fed’s handling of the economy. There are times that the criticism is justified. Acknowledging mistakes and learning from them is important for maintaining our accountability. However, history has shown that a central bank that acts without political interference delivers better economic outcomes.^2
+The policy choices made by the Fed impact the livelihoods and finances of everyone in the economy. Naturally, this invites scrutiny, especially in difficult economic times. And historically it is not unusual to hear disapproval of the Fed’s handling of the economy. There are times that the criticism is justified. Acknowledging mistakes and learning from them is important for maintaining our accountability. However, history has shown that a central bank that acts without political interference delivers better economic outcomes.
 
 Therefore, preserving the independence of the central bank is essential for securing long-run economic prosperity. The best way to maintain the Fed’s independence is by remaining narrowly focused on the mandates that Congress has assigned the Federal Reserve. The Federal Reserve Act directs the FOMC to conduct monetary policy to promote the dual mandate of maximum employment and stable prices. By assigning the Fed these goals, but removing itself from the conduct of monetary policy, Congress created a system for the Fed to pursue policies that are in the economy’s long-run interests without interference from short-term political considerations.
 
-Nevertheless, history shows that the Federal Reserve Act does not prevent the Fed from being the subject of outside pressures. These pressures tend to intensify when the FOMC faces a tradeoff between promoting maximum employment and price stability. Paul Volcker, for example, received substantial criticism for pursuing lower inflation at the cost of high unemployment.^3
+Nevertheless, history shows that the Federal Reserve Act does not prevent the Fed from being the subject of outside pressures. These pressures tend to intensify when the FOMC faces a tradeoff between promoting maximum employment and price stability. Paul Volcker, for example, received substantial criticism for pursuing lower inflation at the cost of high unemployment.
 
 This is an instance when the Fed’s two mandates were not complementary, which places the Fed in an especially difficult position because it can appear that the FOMC is elevating one mandate above the other. But one lesson that can be learned from the economy’s historical performance is that price stability is an important precondition for sustaining maximum employment.
 
