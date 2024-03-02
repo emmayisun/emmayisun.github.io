@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Dallas Fed President Logan Advocates for Cautious Balance Sheet Reduction
-subtitle: Discussion of ‘Quantitative Tightening Around the Globe: What Have We Learned?’ by Wenxin Du, Kristin Forbes and Matthew Luzzetti
 categories: Fedspeak
 tags: [QT, Logan]
 article_excerpt: "(We understand this is not very good. WIP.) In her address, Dallas Fed President Lorie Logan underscored the challenges in precisely determining the optimal level of bank reserves due to the evolving economic landscape and regulatory environment. Logan emphasized the importance of adaptability in the Federal Reserve's approach to managing the asset runoff and the Overnight Reverse Repurchase Agreement (ON RRP) facility. Advocating for a cautious pace in reducing the Fed's balance sheet, she highlighted the need to mitigate liquidity risks without completely ceasing the runoff. This measured strategy, Logan noted, allows for a balanced adjustment in banking reserves, ensuring stability while accommodating market dynamics."
@@ -28,7 +27,7 @@ A central theme of the paper is that the effects of quantitative easing (QE) and
 
 The paper mainly emphasizes an asymmetry in _magnitude:_ by and large, the effects of QE as measured in the simple framework of this paper are notably larger than those of QT. This finding aligns with my own perspective on what we’ve seen in markets. Today, I’ll lay out the framework that I use to think about the effects of QE and QT. I’ll then draw on that framework to consider why the magnitudes of QE and QT effects as measured here are so different and how what we measure relates to the underlying mechanisms. Finally, I’ll turn to a second asymmetry, between effects on asset markets and funding markets, that’s important for understanding the path forward on QT in the United States.
 
-Framework
+##### Framework
 ---------
 
 Research and practical experience suggest that changes in central bank asset holdings influence financial conditions through a variety of mechanisms. For purposes of today’s discussion, I’ll categorize those mechanisms into three broad channels: portfolio balance, signaling and liquidity.[\[1\]](#n1) For each channel, we can distinguish announcement effects, which happen when the central bank communicates a plan to change its asset holdings, from implementation effects, which happen when the asset holdings actually change.
@@ -39,7 +38,7 @@ Second is the signaling channel, which fundamentally operates through announceme
 
 Finally, the liquidity channel refers to the effect of the central bank’s transactions on trading conditions in the asset market and the resulting liquidity risk premia. The liquidity channel can narrowly affect the specific securities the central bank acquires or sells, or it can affect a broader set of securities if these transactions change general pressures on intermediaries. Although the liquidity channel often operates through implementation effects, a central bank’s purchase plans can also reassure market participants and support market liquidity upon announcement, as we observed, for example, with the Secondary Market Corporate Credit Facility.[\[2\]](#n2)
 
-Asymmetry in magnitudes
+##### Asymmetry in magnitudes
 -----------------------
 
 Distinguishing these channels is helpful in making sense of the asymmetric magnitudes of measured QE and QT effects.
@@ -68,7 +67,7 @@ As for the portfolio-balance channel, remember that the term premium is the comp
 
 Unpacking the asymmetry that the paper describes goes some way toward understanding why QE is such a powerful element of the central bank toolkit at critical moments and yet is possible to unwind later without undoing the benefits that QE provided. When the economy suffers a severe negative shock, or when markets experience severe dysfunction, central bank asset holdings can have a large influence on financial conditions through the portfolio-balance, signaling and liquidity channels. Deploying QE at such times can support the economy and market functioning. As the economic and market stressors diminish, the relevance of the central bank’s asset holdings for financial conditions will moderate on its own, even before the central bank begins normalizing its balance sheet. And that means the eventual initiation of QT typically has much less impact than the onset of QE.
 
-Asymmetry across asset and funding markets
+##### Asymmetry across asset and funding markets
 ------------------------------------------
 
 So far, I’ve focused on asymmetries in how QE and QT affect asset markets. Now, let me turn to an asymmetry on the other side of the balance sheet, one that receives less attention in the paper but that I see as important to the continued success of the Fed’s ongoing balance sheet normalization.
@@ -99,7 +98,7 @@ In that regard, I’d emphasize that ample reserves doesn’t mean eliminating a
 
 <span style="color:#ec5e2a;"><strong>I also want to note that while the ample level of reserves is unknown, I see considerably less uncertainty about the appropriate long-run level of ON RRP balances in the ample-reserves regime. The Fed’s operating regime is intended to supply ample reserves to banks—but only ample reserves and not more than that. In an environment with persistent and meaningful ON RRP balances, money market rates would tend to fall well below IORB, meaning that liquidity would be more than ample. While some observers have argued that maintaining significant ON RRP balances in the long run could provide a buffer against money market volatility, that buffer would come at the expense of supplying more than the efficient level of reserves and creating an unlevel liquidity playing field between banks and nonbanks.
 
-Conclusion
+##### Conclusion
 ----------
 
 To conclude, I would like to again thank the authors for this informative paper and the organizers for the opportunity to comment on it. Not only is the topic fascinating in its own right, but this discussion provides an important public service. To achieve the Fed’s goals of maximum employment and stable prices, we must continuously deepen our understanding of how our tools affect financial conditions and the broader economy. I am grateful to the authors and all of you involved in this conference for your contributions to this knowledge.
