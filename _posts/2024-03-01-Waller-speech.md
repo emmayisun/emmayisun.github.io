@@ -2,7 +2,7 @@
 layout: post
 title: Fed's Waller Advocates for Continued QT, Eyes Shift in Treasury Holdings
 categories: Fedspeak
-tags: [policy, cut, Waller]
+tags: [QT, Waller]
 article_excerpt: "Waller supports the continuation of the quantitative tightening (QT) program, highlighting the use of an overnight reverse repurchase agreement facility and a standing repurchase agreement facility as tools to manage excess liquidity and ensure stability in the money markets. He also notes Chair Powell's announcement that the pace of asset redemptions may slow, a move separate from interest rate policy decisions. Furthermore, Waller advocates for the eventual elimination of the Fed's agency MBS holdings and a shift towards holding a larger proportion of shorter-dated Treasury securities to align the maturity structure more closely with the policy rate and facilitate future asset purchase programs."
 ---
 
