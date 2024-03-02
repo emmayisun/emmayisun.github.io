@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Dallas Fed President Logan Advocates for Cautious Balance Sheet Reduction
 subtitle: Discussion of ‘Quantitative Tightening Around the Globe: What Have We Learned?’ by Wenxin Du, Kristin Forbes and Matthew Luzzetti
 categories: Fedspeak
 tags: [QT, Logan]
