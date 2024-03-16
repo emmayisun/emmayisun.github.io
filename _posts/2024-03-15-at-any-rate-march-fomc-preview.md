@@ -1,6 +1,6 @@
 ---
 layout: post
-title: At Any Rate, JPM's FOMC and QRA Preview
+title: At Any Rate, JPM's March FOMC Preview
 categories: Podcast
 tags: [test]
 article_excerpt: "In this episode of At Any Rate, Phoebe White and Mike Feroli delve into the nuances of recent U.S. inflation data and its implications for future Federal Reserve policy decisions. They discuss February's inflation figures, highlighting a 0.4% rise in both headline and core CPI, with the PPI also showing strength. This has led to an increase in 10-year Treasury yields by 20 basis points. The discussion evolves around the Fed's upcoming meeting, with speculation on minor adjustments to economic forecasts and the dot plot, which could indicate two to three rate cuts this year, and a potential upward revision of the long-term interest rate projection from 2.5% to 2.75%."
