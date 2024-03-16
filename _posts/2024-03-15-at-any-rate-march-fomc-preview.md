@@ -9,6 +9,8 @@ article_excerpt: "In this episode of At Any Rate, Phoebe White and Mike Feroli d
 
 *While efforts are made to ensure accuracy, readers are encouraged to consult the original material for complete and accurate information. Also note that Apple Podcast is adding auto-transcript in its next software update soon, which means summarization could come soon. This experiment may be deprioritized, or transit to maintenance as a result.*
 
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/thoughts-on-the-feb-inflation-data-the-fed-and/id1481423053?i=1000649380270"></iframe>
+
 #### February Inflation Data and Market Reactions
 Phoebe White and Mike Feroli analyze February's inflation data, noting a 0.4% rise in both headline and core CPI, with PPI also showing strength. This led to a 20 basis point increase in 10-year Treasury yields, reflecting market adjustments to inflation expectations and speculation on Federal Reserve actions.
 
