@@ -6,10 +6,10 @@ tags: [test]
 article_excerpt: "Note: Scrapped all the minutes data and asked GPT4 to summarize for me with some prompts. The relevant minutes information and quotes should be accurate, but the next meeting action was less sophisticated. It was based on GPT4’s own knowledge, plus historical statements, press conference transcripts, and SEP I’ve fed him."
 ---
 
-For better formatting and the links to minutes, check out the [Original Substack Post](https://emmasun.substack.com/p/quick-notes-use-of-fairly-soon-in)
+For better formatting and the links to minutes, check out the [Original Substack Post](https://emmasun.substack.com/p/quick-notes-use-of-fairly-soon-in).
 
 
-
+#### Results:
 Nov 05, 2020: "Many participants judged that the Committee might want to enhance its guidance for asset purchases fairly soon."
 
 Next meeting action: Continued support of the economy with asset purchase program maintenance and keeping the federal funds rate at near-zero levels.
