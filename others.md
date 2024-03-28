@@ -10,11 +10,12 @@ tags: [test]
 
 ## Recent SEP stats
 
-<div style="min-height:231px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ey0vl/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/ey0vl/full.png" alt="" /></noscript></div>
+<div style="min-height:231px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ey0vl/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/ey0vl/full.png" alt="" /></noscript></div>
 
 #### Dot Detective(my guess)
-{% include charts/dot_detective_disclosed.html %}
-<div style="min-height:346px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=7" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt="" /></noscript></div>
+<div style="min-height:346px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=8" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt="" /></noscript></div>
+
+<div style="min-height:422px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/cJ0Bk/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/cJ0Bk/full.png" alt="" /></noscript></div>
 
 
 
