@@ -6,7 +6,7 @@ tags: [FOMC, Powell]
 article_excerpt: "Transcript of Chair Powell’s Press Conference on January 31, 2024."
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/poHpPUUOfkg?si=8Vm6o26U_ciTmXpX&amp;start=3587" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eIcrvB5Rf9k?si=NA85IfZMGui5KqIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### Link
 [Transcript](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20240131.pdf)
