@@ -14,35 +14,38 @@ tags: [test]
 
 #### Dot Detective(my guess)
 
-<div style="min-height:422px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/cJ0Bk/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/cJ0Bk/full.png" alt="" /></noscript></div>
+<div style="min-height:422px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/cJ0Bk/embed.js?v=2" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/cJ0Bk/full.png" alt="" /></noscript></div>
 
 <div style="min-height:346px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=8" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt="" /></noscript></div>
 
 
 
 
-#### Sellside Projection
+#### Sellside Projection (as of 04/11/2024)
 
-| Bank                | First cut | Cuts in 2024 | Publish date |
+| Institution         | First cut | Cuts in 2024 | Publish date |
 |---------------------|-----------|--------------|--------------|
-| Bank of America     | March     | 100 BPS      | 12/18/2023   |
-| Barclays            | March     | 100 BPS      | 01/12/2024   |
-| BNPP                | May       | 100 BPS      | 12/5/2023    |
-| Citigroup           | July      | 100 BPS      | 12/6/2023    |
-| Deutsche Bank       | June      | 175 BPS      | 11/27/2023   |
-| Evercore ISI        | June      | 125 BPS      | 12/13/2023   |
-| Goldman Sachs       | March     | 125 BPS      | 12/13/2023   |
+| Bank of America     | December  | 25 BPS       | 4/12/2024    |
+| Barclays            | September | 25 BPS       | 4/10/2024    |
+| BNPP                | July      | 50 BPS       | 4/10/2024    |
+| Citigroup           | June      | 125 BPS      | 1/12/2024    |
+| Deutsche Bank       | December  | 25 BPS       | 4/11/2024    |
+| Evercore ISI        | July      | 50 BPS       | 4/11/2024    |
+| Goldman Sachs       | July      | 50 BPS       | 4/10/2024    |
 | HSBC                | June      | 75 BPS       | 12/17/2023   |
-| Jefferies           | March     | 225 BPS      | 12/13/2023   |
-| JP Morgan           | June      | 125 BPS      | 12/13/2023   |
-| LH Meyer            | June      | 75 BPS       | 12/13/2023   |
+| Jefferies           | June      | 75 BPS       | 2/12/2024    |
+| JP Morgan           | July      | 75 BPS       | 4/5/2024     |
+| LH Meyer            | September | 50 BPS       | 4/10/2024    |
+| Mizuho              | Not 2024  | 0 BPS        | 12/5/2023    |
 | Morgan Stanley      | June      | 100 BPS      | 11/12/2023   |
-| MUFG                | March     | 175 BPS      | 12/21/2023   |
-| Nomura              | June      | 100 BPS      | 12/14/2023   |
-| Oxford Economics    | July      | 50 BPS       | 12/21/2023   |
-| TD Securities       | May       | 200 BPS      | 12/15/2023   |
-| UBS                 | March     | 275 BPS      | 12/15/2023   |
-| Wells Fargo         | June      | 225 BPS      | 11/9/2023    |
+| MUFG                | June      | 125 BPS      | 4/1/2024     |
+| Nomura              | July      | 50 BPS       | 3/15/2024    |
+| Oxford Economics    | June      | 75 BPS       | 3/14/2024    |
+| RBC                 | December  | 25 BPS       | 4/10/2024    |
+| TD Securities       | September | 50 BPS       | 4/10/2024    |
+| UBS                 | September | 50 BPS       | 4/10/2024    |
+| Wells Fargo         | September | 25 BPS       | 4/11/2024    |
+
 
 
 #### Detailed SEP stats
