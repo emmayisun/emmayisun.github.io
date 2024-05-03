@@ -1,0 +1,14 @@
+#videoContainer {
+    /* Normal position */
+    width: 100%;
+}
+
+#videoContainer.fixed {
+    /* Picture in picture style */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px; /* Smaller width */
+    height: 200px; /* Smaller height */
+    z-index: 1000;
+}

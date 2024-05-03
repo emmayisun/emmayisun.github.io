@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Others | Fedbot</title>
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Others">
+<meta name="author" content="Contact at emsun at stanford dot edu">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<link rel="canonical" href="/jekyll-theme-yat/others.html">
+<meta property="og:url" content="/jekyll-theme-yat/others.html">
+<meta property="og:site_name" content="Fedbot">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Others">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Contact at emsun at stanford dot edu"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Others","url":"/jekyll-theme-yat/others.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="canonical" href="">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="/jekyll-theme-yat/feed.xml" title="Fedbot">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="Fedbot" src="" onerror="this.style.display='none'">
+  Fedbot
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a><a class="page-link" href="/jekyll-theme-yat/paper.html">PAPER</a><a class="page-link" href="/jekyll-theme-yat/others.html">OTHERS</a><a class="page-link" href="/jekyll-theme-yat/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+              </span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<!--<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+--><div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
+<input type="text" id="commentInput" style="display: none;">
+    
+<script src="/assets/js/textSelection.js"></script>
+<script src="/assets/js/videopip.js"></script>
+
+
+
+<div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Others</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="" itemprop="datePublished"><i class="fa fa-calendar"></i> 
+    </time>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
+  </div>
+<div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#test">#test</a></div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <h2 id="fed-links">Fed Links</h2>
+<ul>
+  <li><a href="https://www.federalreserve.gov/newsevents/calendar.htm">Schedule for Board Governor Speech</a></li>
+  <li><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">FOMC Meeting Materials(statement, minutes, SEP etc)</a></li>
+</ul>
+
+<h2 id="recent-sep-stats">Recent SEP stats</h2>
+
+<div style="min-height:231px">
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ey0vl/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/ey0vl/full.png" alt=""></noscript>
+</div>
+
+<h4 id="dot-detectivemy-guess">Dot Detective(my guess)</h4>
+
+<div style="min-height:422px">
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/cJ0Bk/embed.js?v=2" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/cJ0Bk/full.png" alt=""></noscript>
+</div>
+
+<div style="min-height:346px">
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/tJu9Q/embed.js?v=8" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/tJu9Q/full.png" alt=""></noscript>
+</div>
+
+<h4 id="sellside-projection-as-of-04112024">Sellside Projection (as of 04/11/2024)</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Institution</th>
+      <th>First cut</th>
+      <th>Cuts in 2024</th>
+      <th>Publish date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bank of America</td>
+      <td>December</td>
+      <td>25 BPS</td>
+      <td>4/12/2024</td>
+    </tr>
+    <tr>
+      <td>Barclays</td>
+      <td>September</td>
+      <td>25 BPS</td>
+      <td>4/10/2024</td>
+    </tr>
+    <tr>
+      <td>BNPP</td>
+      <td>July</td>
+      <td>50 BPS</td>
+      <td>4/10/2024</td>
+    </tr>
+    <tr>
+      <td>Citigroup</td>
+      <td>June</td>
+      <td>125 BPS</td>
+      <td>1/12/2024</td>
+    </tr>
+    <tr>
+      <td>Deutsche Bank</td>
+      <td>December</td>
+      <td>25 BPS</td>
+      <td>4/11/2024</td>
+    </tr>
+    <tr>
+      <td>Evercore ISI</td>
+      <td>July</td>
+      <td>50 BPS</td>
+      <td>4/11/2024</td>
+    </tr>
+    <tr>
+      <td>Goldman Sachs</td>
+      <td>July</td>
+      <td>50 BPS</td>
+      <td>4/10/2024</td>
+    </tr>
+    <tr>
+      <td>HSBC</td>
+      <td>June</td>
+      <td>75 BPS</td>
+      <td>12/17/2023</td>
+    </tr>
+    <tr>
+      <td>Jefferies</td>
+      <td>June</td>
+      <td>75 BPS</td>
+      <td>2/12/2024</td>
+    </tr>
+    <tr>
+      <td>JP Morgan</td>
+      <td>July</td>
+      <td>75 BPS</td>
+      <td>4/5/2024</td>
+    </tr>
+    <tr>
+      <td>LH Meyer</td>
+      <td>September</td>
+      <td>50 BPS</td>
+      <td>4/10/2024</td>
+    </tr>
+    <tr>
+      <td>Mizuho</td>
+      <td>Not 2024</td>
+      <td>0 BPS</td>
+      <td>12/5/2023</td>
+    </tr>
+    <tr>
+      <td>Morgan Stanley</td>
+      <td>June</td>
+      <td>100 BPS</td>
+      <td>11/12/2023</td>
+    </tr>
+    <tr>
+      <td>MUFG</td>
+      <td>June</td>
+      <td>125 BPS</td>
+      <td>4/1/2024</td>
+    </tr>
+    <tr>
+      <td>Nomura</td>
+      <td>July</td>
+      <td>50 BPS</td>
+      <td>3/15/2024</td>
+    </tr>
+    <tr>
+      <td>Oxford Economics</td>
+      <td>June</td>
+      <td>75 BPS</td>
+      <td>3/14/2024</td>
+    </tr>
+    <tr>
+      <td>RBC</td>
+      <td>December</td>
+      <td>25 BPS</td>
+      <td>4/10/2024</td>
+    </tr>
+    <tr>
+      <td>TD Securities</td>
+      <td>September</td>
+      <td>50 BPS</td>
+      <td>4/10/2024</td>
+    </tr>
+    <tr>
+      <td>UBS</td>
+      <td>September</td>
+      <td>50 BPS</td>
+      <td>4/10/2024</td>
+    </tr>
+    <tr>
+      <td>Wells Fargo</td>
+      <td>September</td>
+      <td>25 BPS</td>
+      <td>4/11/2024</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="detailed-sep-stats">Detailed SEP stats</h4>
+<p><strong>Common q: When are the projections collected?</strong> <a href="https://www.federalreserve.gov/monetarypolicy/fomc_projectionsfaqs.htm">Source</a></p>
+
+<p>Initial projections are due by the end of the day on the Friday before the FOMC meeting. Policymakers may revise their projections at any time until the evening of the first day of the meeting. Once the projections are finalized, the charts and figures are assembled for public release.</p>
+
+<p><strong>BUT</strong> according to the press conference of the Dec 2023 meeting<a href="https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20231213.pdf">(Page 19)</a>, Participants are allowed to update till “mid to late morning” on the second day of the meeting. Here’s the quote:</p>
+
+<p>“CHAIR POWELL: Right. So we got—we got CPI the morning of the first day, and we got PPI the next day, which informs the, you know, the translation into PCE [inflation]. So it’s very late in the game, you know, to—but <strong>nonetheless, participants are allowed to, encouraged to update their SEP forecast until probably midmorning today. After that, so staff has to—has to cumulate all of that and create the documents that you see. So until about midmorning, a little, maybe late morning, it’s okay to update, and I believe some people did update their forecast
+based on what we saw today.</strong>”</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Federal funds rate</th>
+      <th>2023</th>
+      <th>2024</th>
+      <th>2025</th>
+      <th>2026</th>
+      <th>Longer run</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dec 2023</td>
+      <td>5.4</td>
+      <td>4.6</td>
+      <td>3.6</td>
+      <td>2.9</td>
+      <td>2.5</td>
+    </tr>
+    <tr>
+      <td>Sep 2023</td>
+      <td>5.6</td>
+      <td>5.1</td>
+      <td>3.9</td>
+      <td>2.9</td>
+      <td>2.5</td>
+    </tr>
+    <tr>
+      <td>June 2023</td>
+      <td>5.6</td>
+      <td>4.6</td>
+      <td>3.4</td>
+      <td> </td>
+      <td>2.5</td>
+    </tr>
+    <tr>
+      <td>Mar 2023</td>
+      <td>5.1</td>
+      <td>4.3</td>
+      <td>3.1</td>
+      <td> </td>
+      <td>2.5</td>
+    </tr>
+    <tr>
+      <td>Dec 2022</td>
+      <td>5.1</td>
+      <td>4.1</td>
+      <td>3.1</td>
+      <td> </td>
+      <td>2.5</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Core PCE inflation</th>
+      <th>2023</th>
+      <th>2024</th>
+      <th>2025</th>
+      <th>2026</th>
+      <th>Longer run</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dec 2023</td>
+      <td>3.2</td>
+      <td>2.4</td>
+      <td>2.2</td>
+      <td>2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Sep 2023</td>
+      <td>3.7</td>
+      <td>2.6</td>
+      <td>2.3</td>
+      <td>2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>June 2023</td>
+      <td>3.9</td>
+      <td>2.6</td>
+      <td>2.2</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Mar 2023</td>
+      <td>3.6</td>
+      <td>2.6</td>
+      <td>2.1</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Dec 2022</td>
+      <td>3.5</td>
+      <td>2.5</td>
+      <td>2.1</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PCE inflation</th>
+      <th>2023</th>
+      <th>2024</th>
+      <th>2025</th>
+      <th>2026</th>
+      <th>Longer run</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dec 2023</td>
+      <td>2.8</td>
+      <td>2.4</td>
+      <td>2.1</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Sep 2023</td>
+      <td>3.3</td>
+      <td>2.5</td>
+      <td>2.2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>June 2023</td>
+      <td>3.2</td>
+      <td>2.5</td>
+      <td>2.1</td>
+      <td> </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Mar 2023</td>
+      <td>3.3</td>
+      <td>2.5</td>
+      <td>2.1</td>
+      <td> </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Dec 2022</td>
+      <td>3.3</td>
+      <td>2.5</td>
+      <td>2.1</td>
+      <td> </td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Unemployment rate</th>
+      <th>2023</th>
+      <th>2024</th>
+      <th>2025</th>
+      <th>2026</th>
+      <th>Longer run</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dec 2023</td>
+      <td>3.8</td>
+      <td>4.1</td>
+      <td>4.1</td>
+      <td>4.1</td>
+      <td>4.1</td>
+    </tr>
+    <tr>
+      <td>Sep 2023</td>
+      <td>3.8</td>
+      <td>4.1</td>
+      <td>4.1</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>June 2023</td>
+      <td>4.1</td>
+      <td>4.5</td>
+      <td>4.5</td>
+      <td> </td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Mar 2023</td>
+      <td>4.5</td>
+      <td>4.6</td>
+      <td>4.6</td>
+      <td> </td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Dec 2022</td>
+      <td>4.6</td>
+      <td>4.6</td>
+      <td>4.5</td>
+      <td> </td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Change in real GDP</th>
+      <th>2023</th>
+      <th>2024</th>
+      <th>2025</th>
+      <th>2026</th>
+      <th>Longer run</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dec 2023</td>
+      <td>2.6</td>
+      <td>1.4</td>
+      <td>1.8</td>
+      <td>1.9</td>
+      <td>1.8</td>
+    </tr>
+    <tr>
+      <td>Sep 2023</td>
+      <td>2.1</td>
+      <td>1.5</td>
+      <td>1.8</td>
+      <td>1.8</td>
+      <td>1.8</td>
+    </tr>
+    <tr>
+      <td>June 2023</td>
+      <td>1</td>
+      <td>1.1</td>
+      <td>1.8</td>
+      <td> </td>
+      <td>1.8</td>
+    </tr>
+    <tr>
+      <td>Mar 2023</td>
+      <td>0.4</td>
+      <td>1.2</td>
+      <td>1.9</td>
+      <td> </td>
+      <td>1.8</td>
+    </tr>
+    <tr>
+      <td>Dec 2022</td>
+      <td>0.5</td>
+      <td>1.6</td>
+      <td>1.8</td>
+      <td> </td>
+      <td>1.8</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="recent-presser-transcripts">Recent Presser Transcripts</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Meeting Date</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023</td>
+      <td>FOMC Press Conference - 2023/12/13</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20231213.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>FOMC Press Conference - 2023/11/01</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20231101.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>FOMC Press Conference - 2023/09/20</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20230920.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>FOMC Press Conference - 2023/07/26</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20230726.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>FOMC Press Conference - 2023/06/14</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20230614.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>FOMC Press Conference - 2023/05/03</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20230503.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>FOMC Press Conference - 2023/03/22</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20230322.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>FOMC Press Conference - 2023/02/01</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20230201.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>FOMC Press Conference - 2022/12/14</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20221214.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>FOMC Press Conference - 2022/11/02</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20221102.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>FOMC Press Conference - 2022/09/21</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20220921.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>FOMC Press Conference - 2022/07/27</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20220727.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>FOMC Press Conference - 2022/06/15</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20220615.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>FOMC Press Conference - 2022/05/04</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20220504.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>FOMC Press Conference - 2022/03/16</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20220316.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>FOMC Press Conference - 2022/01/26</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20220126.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>FOMC Press Conference - 2021/12/15</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20211215.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>FOMC Press Conference - 2021/11/03</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20211103.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>FOMC Press Conference - 2021/09/22</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20210922.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>FOMC Press Conference - 2021/07/28</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20210728.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>FOMC Press Conference - 2021/06/16</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20210616.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>FOMC Press Conference - 2021/04/28</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20210428.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>FOMC Press Conference - 2021/03/17</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20210317.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>FOMC Press Conference - 2021/01/27</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20210127.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>FOMC Press Conference - 2020/12/16</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20201216.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>FOMC Press Conference - 2020/11/05</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20201105.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>FOMC Press Conference - 2020/09/16</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20200916.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>FOMC Press Conference - 2020/07/29</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20200729.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>FOMC Press Conference - 2020/06/10</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20200610.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>FOMC Press Conference - 2020/04/29</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20200429.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>FOMC Press Conference - 2020/03/15</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20200315.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>FOMC Press Conference - 2020/03/03</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20200303.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>FOMC Press Conference - 2020/01/29</td>
+      <td><a href="https://www.federalreserve.gov/mediacenter/files/fomcpresconf20200129.pdf">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="quarterly-refunding-links">Quarterly Refunding Links</h2>
+<p><strong>Next PD question update:</strong> The next release is scheduled at 12:00 PM ET, January 12, 2024<br>
+<strong>Next refunding estimates update:</strong> The next release is scheduled for 3:00 PM ET, January 29, 2024<br>
+<strong>Next policy statement &amp; TBAC update:</strong> The next release is scheduled for 8:30 PM ET, January 31, 2024</p>
+
+<ul>
+  <li><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents">Most Recent Quarterly Refunding Documents</a></li>
+  <li><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/quarterly-refunding-archives">Quarterly Refunding Archives</a></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>TBAC pre + charge questions</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TBAC Presentation Q121</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ12021.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q221</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ22021.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q321</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ32021.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q421</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ42021.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q122</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ12022.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q222</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ22022.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q322</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ32022.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q422</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ42022.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q123</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ12023.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q223</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ22023.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q323</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ32023.pdf">Link</a></td>
+    </tr>
+    <tr>
+      <td>TBAC Presentation Q423</td>
+      <td><a href="https://home.treasury.gov/system/files/221/CombinedChargesforArchivesQ42023.pdf">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="primary-dealer-holdings-update-every-thursday-at-415pm-et">Primary Dealer Holdings update (Every Thursday at 4:15pm ET)</h2>
+<ul>
+  <li><a href="https://www.newyorkfed.org/markets/counterparties/primary-dealers-statistics">Primary Dealer Holdings Homepage</a></li>
+  <li>
+<a href="https://libertystreeteconomics.newyorkfed.org/2023/02/understanding-the-inconvenience-of-u-s-treasury-bonds/">NY Fed Liberty Economics Blog(Feb 6th, 2023):</a> PD net holdings corr with swap spreads</li>
+</ul>
+
+<div style="min-height:400px">
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/fv5l6/embed.js?v=3" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/fv5l6/full.png" alt=""></noscript>
+</div>
+
+<h2 id="h41-update-every-thursday-at-430pm-et">H.4.1 update (Every Thursday at 4:30pm ET)</h2>
+<ul>
+  <li><a href="https://www.federalreserve.gov/releases/h41/">H.4.1 Homepage</a></li>
+  <li><a href="https://www.federalreserve.gov/releases/h41/current/default.htm/">H.4.1 Current Release</a></li>
+  <li><a href="https://www.federalreserve.gov/monetarypolicy/bst_fedsbalancesheet.htm">H.4.1 Official Explainer</a></li>
+</ul>
+
+<div style="min-height:400px">
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/OZh7N/embed.js?v=7" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/OZh7N/full.png" alt=""></noscript>
+</div>
+
+<h2 id="h8-update-every-friday-at-415pm-et">H.8 update (every Friday at 4:15pm ET)</h2>
+<ul>
+  <li><a href="https://www.federalreserve.gov/releases/h8/">H.8 Homepage</a></li>
+</ul>
+
+<h2 id="fed-apis">Fed APIs</h2>
+<ul>
+  <li><a href="https://markets.newyorkfed.org/static/docs/markets-api.html">NY Fed Markets Data API</a></li>
+</ul>
+
+<h2 id="other-useful-links">Other useful links</h2>
+<ul>
+  <li>Minutes Dictionary
+    <ul>
+      <li><a href="https://www.federalreserve.gov/econres/notes/feds-notes/the-fomc-meeting-minutes-an-update-of-counting-words-20170803.html">Updated version(2017, added some &gt; several)</a></li>
+      <li><a href="https://www.federalreserve.gov/econresdata/notes/feds-notes/2015/fomc-meeting-minutes-an-assessment-of-counting-words-and-the-diversity-of-views-20150526.html">The original(2015)</a></li>
+    </ul>
+  </li>
+  <li><a href="https://www.federalreserve.gov/pubs/bulletin/2005/spring05_fomc.pdf">Minutes revision, official note(2005)</a></li>
+  <li><a href="https://www.federalreserve.gov/foia/files/FOIA-response-september-2012-FOMC-meeting.pdf#page=273">Minutes revision timeline chart, page 273(2012)</a></li>
+</ul>
+
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<span></span><span></span>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        </ul>
+    </div>
+<div class="post-comments"></div></section>
+
+</div>
+
+
+  </section>
+  
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main>
+    
+    <button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
+    <input type="text" id="commentInput" style="display: none;"><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2023-2024 Contact at emsun at stanford dot edu</div>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/textSelection.js"></script>
+    <script src="/assets/js/videopip.js"></script>
+  </body>
+</html>

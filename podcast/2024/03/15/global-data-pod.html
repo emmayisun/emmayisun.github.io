@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Global Data Pod 03/15/24 | Fedbot</title>
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Global Data Pod 03/15/24">
+<meta name="author" content="Contact at emsun at stanford dot edu">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Editor’s note: This is a variation of the podcast summarization experiment. This post is published to perform systematic prompt engineering evaluation further.">
+<meta property="og:description" content="Editor’s note: This is a variation of the podcast summarization experiment. This post is published to perform systematic prompt engineering evaluation further.">
+<link rel="canonical" href="/jekyll-theme-yat/podcast/2024/03/15/global-data-pod.html">
+<meta property="og:url" content="/jekyll-theme-yat/podcast/2024/03/15/global-data-pod.html">
+<meta property="og:site_name" content="Fedbot">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-03-15T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Global Data Pod 03/15/24">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Contact at emsun at stanford dot edu"},"dateModified":"2024-03-15T00:00:00+00:00","datePublished":"2024-03-15T00:00:00+00:00","description":"Editor’s note: This is a variation of the podcast summarization experiment. This post is published to perform systematic prompt engineering evaluation further.","headline":"Global Data Pod 03/15/24","mainEntityOfPage":{"@type":"WebPage","@id":"/jekyll-theme-yat/podcast/2024/03/15/global-data-pod.html"},"url":"/jekyll-theme-yat/podcast/2024/03/15/global-data-pod.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="canonical" href="">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="/jekyll-theme-yat/feed.xml" title="Fedbot">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="Fedbot" src="" onerror="this.style.display='none'">
+  Fedbot
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a><a class="page-link" href="/jekyll-theme-yat/paper.html">PAPER</a><a class="page-link" href="/jekyll-theme-yat/others.html">OTHERS</a><a class="page-link" href="/jekyll-theme-yat/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+              </span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<!--<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+--><div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
+<input type="text" id="commentInput" style="display: none;">
+    
+<script src="/assets/js/textSelection.js"></script>
+<script src="/assets/js/videopip.js"></script>
+
+
+
+<div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Global Data Pod 03/15/24</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2024-03-15T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Mar 15, 2024
+    </time>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+  </div>
+<div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#test">#test</a></div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p><em>Editor’s note: This is a variation of the podcast summarization experiment. This post is published to perform systematic prompt engineering evaluation further.</em></p>
+
+<h4 id="bullet-point-style">bullet point style</h4>
+<ul>
+  <li>
+<strong>Global Economic Growth and Inflation Concerns:</strong>
+    <ul>
+      <li>Optimism about global growth holding up, with the U.S. slowing minimally.</li>
+      <li>Discussion on the need for a consumption lift in Europe and a global manufacturing lift.</li>
+      <li>Observations of sticky inflation, especially highlighted by recent U.S. data.</li>
+      <li>Anticipation of a shallow central bank easing cycle starting mid-year.</li>
+      <li>Bruce and Joe deliberated on whether central banks’ desire to ease in June is supported by inflation trends, suggesting a prospective outlook.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Central Bank Easing Cycle and Inflation Dynamics:</strong>
+    <ul>
+      <li>Debate over the strength of the case for central banks to ease in June given current inflation levels.</li>
+      <li>Mention of U.S. Core CPI tracking close to 4% for the first quarter, with an expected decrease to around 2.5% for the Core PCE in the second quarter.</li>
+      <li>Discussion on the pivotal inflation range of 2.5% to 3%, where below 2.5% would likely prompt central banks to ease, whereas figures around 3% would not.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Financial Conditions and Corporate Sector Health:</strong>
+    <ul>
+      <li>Analysis of how easing financial conditions might fuel growth but also sustain inflationary pressures.</li>
+      <li>Review of the profit cycle showing corporate margins at record highs, contradicting expectations of margin compression.</li>
+      <li>Speculation on unit labor costs moving sideways at around 3%, questioning the impact on margins and central banks’ decision-making.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Reevaluation of Neutral Interest Rates:</strong>
+    <ul>
+      <li>Discussion on the potential reassessment of neutral interest rates due to better-than-expected economic conditions and corporate health.</li>
+      <li>Bruce and Joe considered the market and Fed’s easing forecasts beyond 2024, questioning the realism of 170 basis points of easing projected by the market up to the end of 2025.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Global Central Banks’ Policy Outlook:</strong>
+    <ul>
+      <li>Insights into BOJ’s policy adjustments, with a unique call for a potential hike in June, contrary to widespread expectations of an earlier move.</li>
+      <li>Analysis of European Central Banks, especially the ECB, indicating a shift towards easing by mid-year.</li>
+      <li>Mention of the Bank of England’s expected policy adjustment, possibly waiting until August to ease.</li>
+    </ul>
+  </li>
+  <li>
+<strong>PMI Forecasts and Manufacturing Outlook:</strong>
+    <ul>
+      <li>Expectation of improvements in European March PMIs and a slight pullback in the U.S.</li>
+      <li>Forecasting a continuation of economic rotation, particularly if manufacturing shows resilience.</li>
+      <li>Joe predicts a 2% annualized growth rate in manufacturing output over the next six months, aligning closely with Bruce’s 2-3% range.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="report-style">report style</h4>
+
+<ul>
+  <li>
+<strong>Global Economic and Inflation Outlook:</strong>
+    <ul>
+      <li>Bruce Kasman expressed confidence in the global economy’s resilience, with particular attention on whether Europe will see a consumption increase and a global manufacturing lift. Despite a slight slowdown, the U.S. economy’s broadening base and persistent sticky inflation support the projection of a mid-year start for a shallow central bank easing cycle. “We are getting a sense that global growth is holding up” and “sticky inflation news coming in.”</li>
+    </ul>
+  </li>
+  <li>
+<strong>Central Bank Policy and Inflation Dynamics:</strong>
+    <ul>
+      <li>Discussion on central banks’ readiness to ease by June amid current inflation trends. The U.S. Core CPI is “probably something close to 4% for the first quarter,” with a projection of “something like 2.5 for Core PCE for the second quarter.” There’s an ongoing debate on the adequacy of inflation moderation to trigger central bank easing, focusing on the “2.5 to 3%” inflation range as pivotal for policy decisions.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Financial Conditions and Corporate Health:</strong>
+    <ul>
+      <li>Analyzed the double-edged sword of easing financial conditions, suggesting that while they relieve economic pressure, they also fuel growth that can sustain inflation. High corporate margins, contrary to expectations of compression, indicate a robust corporate sector, potentially undermining the need for significantly lower policy rates. “Margins in both the U.S. and the rest of the DM are pretty much sitting at record high levels.”</li>
+    </ul>
+  </li>
+  <li>
+<strong>Reevaluation of Neutral Rates and Market Expectations:</strong>
+    <ul>
+      <li>The conversation pivoted to whether the equilibrium interest rate is higher than anticipated due to improved economic and corporate conditions. This speculation questions the realism of the market’s and the Fed’s substantial easing forecasts (170 basis points by end of 2025), given the economy’s resilience. “Are we at risk of seeing high for long actually not boil the frog because financial conditions are just not tight enough?”</li>
+    </ul>
+  </li>
+  <li>
+<strong>Global Central Banks’ Policy Adjustments:</strong>
+    <ul>
+      <li>Focus on BOJ’s potential policy changes, with JP Morgan holding an outlier view of a rate hike in June. The ECB’s shift to a more dovish tone and the BOE’s potential delay in easing until August were also highlighted. “The most just about anyone you talk to says they’re either going to hike next week or in April and we’re still holding out for June.”</li>
+    </ul>
+  </li>
+  <li>
+<strong>Manufacturing Outlook and PMI Forecasts:</strong>
+    <ul>
+      <li>Expectations for March PMIs include an improvement in Europe and a slight decline in the U.S., signaling a continuing economic rotation. The discussion ends with a prediction of 2% annualized growth in manufacturing output over the next six months, amidst a backdrop of inventory adjustments and solid final demand. “I’ll still stick with two percent.”</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/jekyll-theme-yat/podcast/2024/03/15/at-any-rate-march-fomc-preview.html" title="At Any Rate, JPM's March FOMC Preview">At Any Rate, JPM's March FOMC...</a><a class="next" href="/jekyll-theme-yat/presser/2024/03/20/fomc.html" title="March 2024 FOMC Press Conference">March 2024 FOMC Press Conference</a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/03/powell.html" title="Fed Maintains Cautious Stance as Inflation Trends Downward">
+            Fed Maintains Cautious Stance as Inflation Trends Downward<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/jekyll-theme-yat/2020/04/18/bostic.html" title="Bostic">
+            Bostic<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/05/logan.html" title="Dallas Fed's Logan Sees Risks to Inflation Progress, Says Rate Cuts &quot;Much Too Soon&quot;">
+            Dallas Fed's Logan Sees Risks to Inflation Progress, Says Rate Cuts "Much...<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/jekyll-theme-yat/presser/2024/05/01/powell.html" title="Fed Chair Sees Possible Rate Cut Paths, But Timing Hinges on Inflation Data">
+            Fed Chair Sees Possible Rate Cut Paths, But Timing Hinges on Inflation...<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments"></div></section>
+
+</div>
+
+
+  </section>
+  
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main>
+    
+    <button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
+    <input type="text" id="commentInput" style="display: none;"><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2023-2024 Contact at emsun at stanford dot edu</div>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/textSelection.js"></script>
+    <script src="/assets/js/videopip.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Home | Fedbot</title>
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Home">
+<meta name="author" content="Contact at emsun at stanford dot edu">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<link rel="canonical" href="/jekyll-theme-yat/">
+<meta property="og:url" content="/jekyll-theme-yat/">
+<meta property="og:site_name" content="Fedbot">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Home">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Contact at emsun at stanford dot edu"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Home","name":"Fedbot","url":"/jekyll-theme-yat/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="canonical" href="">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="/jekyll-theme-yat/feed.xml" title="Fedbot">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="Fedbot" src="" onerror="this.style.display='none'">
+  Fedbot
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a><a class="page-link" href="/jekyll-theme-yat/paper.html">PAPER</a><a class="page-link" href="/jekyll-theme-yat/others.html">OTHERS</a><a class="page-link" href="/jekyll-theme-yat/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+              </span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(/jekyll-theme-yat/assets/images/banners/home.jpeg)"></div>
+        <img class="img-placeholder" src="/jekyll-theme-yat/assets/images/banners/home.jpeg">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner"><div class="page-banner-default">
+            <h1 class="page-banner-heading">
+              V2.0
+            </h1>
+            <h2 class="page-banner-subheading">
+              Site Under Construction
+            </h2>
+          </div></div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<!--<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+--><div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="articles">
+  
+
+  
+
+
+  
+
+
+
+
+<div class="pagination">
+  <!-- Post list links -->
+  <ul class="post-list z-image-style">
+    <!-- Top list item --><!-- Normal list item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/05/03/goolsbee.html">
+      Goolsbee Sees Solid Job Market, But Bumpy Inflation Path Clouds Rate Cut Timing<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> May 03, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 15 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/05/03/goolsbee.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/05/03/goolsbee.html">
+      <p>Chicago Fed President Austan Goolsbee expressed optimism about the job market, stating that the recent 175,000 jobs report is 'very solid' and 'clearly moving back into something that looks like pre-COVID and conventional times.' However, he remains cautious about rate cuts, saying 'I don't like committing to in our hands of even for the next meeting, much less when it comes to the fall and going into next year.' Goolsbee acknowledged that inflation 'hit a bump for sure at the start of the year' and emphasized the need to ensure it's not a sign of economic reacceleration. He believes current monetary policy is restrictive, noting 'if you look at the real federal funds rate, it's high. It's as high as it's been in some decades.' Goolsbee also warned that remaining overly restrictive for too long could negatively impact employment, stating 'If we remain as restrictive as this for too long, we're in my view, definitely going to have to be thinking about the employment side of the mandate.' <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Goolsbee">#Goolsbee</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/presser/2024/05/01/powell.html">
+      Fed Chair Sees Possible Rate Cut Paths, But Timing Hinges on Inflation Data<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> May 01, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 53 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/presser/2024/05/01/powell.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/presser/2024/05/01/powell.html">
+      <p>Fed Chair Powell indicated that while rate cuts are possible, the timing will depend on further progress on inflation. He stated 'we don't think it would be appropriate to dial back our restrictive policy stance until we've gained greater confidence that inflation is moving down sustainably toward 2 percent.' Powell noted 'So far this year, the data have not given us that greater confidence' and 'It is likely that gaining such greater confidence will take longer than previously expected.' However, he mentioned potential paths for rate cuts, saying 'I think there's also other paths that the economy could take which would cause us to want to consider rate cuts and those would be, two of those paths would be that we do gain greater confidence, as we've said, if that inflation is moving sustainably down to 2 percent and another path could be an unexpected weakening in the labor market.' Powell emphasized the Fed's commitment to price stability, asserting 'We remain committed to bringing inflation back down to our 2 percent goal and to keeping longer-term inflation expectations well anchored.' <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Powell">#Powell</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#FOMC">#FOMC</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/19/goolsbee.html">
+      Chicago Fed President Goolsbee Sees Inflation Taking Longer to Return to 2%, Rates Remaining Restrictive<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 19, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 49 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/19/goolsbee.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/19/goolsbee.html">
+      <p>In a Q&amp;A session, Chicago Fed President Austan Goolsbee said that with inflation running firmer in the first three months of the year, 'Mechanically, yes. Just the way we add up the inflation. It's going to take longer' to get back to the Fed's 2% goal. Goolsbee noted that monetary policy is already quite restrictive, saying 'If you just look at the real Fed funds rate, the interest rate minus inflation, that's high, that's historically quite high, as high as it's been in some decades.' He cautioned, 'if you hold that, at that level of restrictiveness for too long, you will definitely have to start thinking about the employment side of the mandate.' While he sees challenges, Goolsbee still thinks a soft landing is possible thanks to factors like labor supply growth and immigration. However, he said 'It definitely becomes harder this year' compared to 2023. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Goolsbee">#Goolsbee</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/19/barkin.html">
+      Barkin Emphasizes Need for Restrictive Rates to Tame Stubborn Inflation<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 19, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 22 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/19/barkin.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/19/barkin.html">
+      <p>In an interview with Bloomberg's Odd Lots podcast, Richmond Fed President Tom Barkin struck a hawkish tone, emphasizing that inflation has remained 'stubbornly above 3%' despite some moderation. He stated, 'the policy path is pretty straightforward,' suggesting that restrictive rates are needed to bring inflation down. Barkin noted that demand remains robust but not overheating, and he sees no signs of inflation reaccelerating. However, he cautioned that letting expectations spiral out of control would be risky, drawing parallels to the 1970s: 'when the Fed doesn't look like it's resolute on inflation, inflation doesn't come back to where it was before. It comes to higher than it was before.' Barkin also defended the Fed's 2% inflation target, arguing that changing it before achieving it would undermine credibility. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Barkin">#Barkin</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/18/williams.html">
+      NY Fed's Williams Suggests Higher Rates for Longer as Strong Economy Outweighs Inflation Concerns<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 18, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 19 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/18/williams.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/18/williams.html">
+      <p>In an interview, NY Fed President John Williams emphasized that despite strong economic data, including robust job growth and consumer spending, the Fed's high interest rates haven't caused the economy to slow significantly. He stated, 'It seems like monetary policy is working the way we hoped it would.' While acknowledging that inflation and wage growth are coming down, Williams maintained that the Fed doesn't 'feel urgency to cut interest rates,' citing the need for inflation to reach the 2% target on a sustained basis before considering rate cuts. He reiterated his commitment to the 2% inflation goal, asserting that 'stable price stability is absolutely essential' for prosperity. Williams also highlighted the importance of supply-side factors, productivity growth, and the Fed's ability to adjust policy as needed in response to incoming data. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Williams">#Williams</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/18/kashkari.html">
+      Fed's Kashkari Stresses Inflation Stall-Out Necessitates Patience on Rate Cuts<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 18, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 12 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/18/kashkari.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/18/kashkari.html">
+      <p>In an interview, Minneapolis Fed President Neel Kashkari expressed a cautious stance on interest rate cuts, emphasizing the need for patience in light of recent inflation data. Kashkari noted that while the Fed had seen encouraging progress in inflation falling back towards their target in the latter half of last year, 'now things seem to have stalled out.' As a result, he stated, 'I'm in the view of we need to wait and see be patient as long as it takes until we get convinced that inflation is on its way back down to 2%.' Despite strong economic indicators, including GDP growth, consumer spending, and labor market performance, Kashkari maintained that the Fed's primary focus remains on achieving its 2% inflation target, asserting that 'ultimately, we know what we need to do, we need to get inflation back down to 2%.' <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Kashkari">#Kashkari</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/16/powell.html">
+      Powell Emphasizes Strong Labor Market and Persistent Inflation, Indicating Continued Restrictive Policy<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 16, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 17 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/16/powell.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/16/powell.html">
+      <p>Fed Chair Jerome Powell stated that despite solid growth and a strong labor market, there has been 'a lack of further progress so far this year on returning to our 2% inflation goal,' stating that '12 month core PCE inflation...is estimated to have been little changed in march over February at 2.8%.' Powell emphasized the need for 'greater confidence that inflation is moving sustainably toward 2% Before the appropriate to ease policy.' He added, 'The recent data have clearly not given us greater confidence and instead indicates that it's likely to take longer than expected to achieve that confidence.' Powell maintained a hawkish stance, asserting, 'If higher inflation does persist, we can maintain the current level of restriction for as long as needed.' While acknowledging the supply-side recovery in 2023, Powell reiterated the Fed's commitment to returning inflation to 2%, suggesting continued restrictive monetary policy in the near term. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Powell">#Powell</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/15/williams.html">
+      Williams Says Fed Policy Is in a Good Place as Inflation Gradually Slows<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 15, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 18 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/15/williams.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/15/williams.html">
+      <p>New York Fed President John Williams said the economy remains strong with solid job growth and real wage gains, but inflation is coming down slower than expected. 'Overall, I think the picture is one that the economy is getting in better balance,' Williams said. He is optimistic about the economy's potential growth, citing increases in labor force participation and productivity. Williams believes 'monetary policy is in a good place,' noting that real interest rates are considerably higher now due to lower inflation. Williams anticipates a gradual process of bringing rates back to normal levels, likely starting this year. 'We will need to start a process at some point to bring interest rates back to more normal levels. And my own view is that we will you know, that process will likely start this year, but again, it will be driven, driven by the data and achieving our goals,' he said. He emphasized that current policy is 'restrictive' and 'in a good place.' On the balance sheet, Williams said the Fed is 'decreasing the balance sheet quite rapidly' but slowing the pace 'makes a lot of sense' as a 'prudent course of action.' He noted the runoff is 'going exactly as planned.' <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Williams">#Williams</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/12/schmid.html">
+      Kansas City Fed President Schmid Urges Monetary Policy to Remain Restrictive Until Inflation Returns to Target<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 12, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 16 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/12/schmid.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/12/schmid.html">
+      <p>In remarks at the 2024 Agricultural Commodity Futures Conference, Kansas City Fed President Schimid emphasized the need for patience in monetary policy, stating that 'this recent data underscores what I believe is the need for the Federal Reserve to be patient as we wait for clear and convincing evidence that inflation is on track to sustainably return to 2 percent.' The speaker noted that despite improvements in labor supply, wage growth and a tight labor market continue to put upward pressure on inflation, particularly in services. With inflation above target and the economy showing resilience, the speaker said, 'it is appropriate that monetary policy remain restrictive,' and added, 'rather than preemptively adjust the policy rate, I would prefer to be patient and wait for clear and convincing evidence that inflation is on track to hit our 2 percent target before adjusting the stance of policy.' Schmid also discussed the Fed's balance sheet, noting that while runoff is proceeding, the balance sheet remains large and continues to put downward pressure on long-term rates. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Schmid">#Schmid</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/12/goolsbee.html">
+      Chicago Fed President Goolsbee Suggests Rate Cuts Depend on Inflation Path, Particularly Housing<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 12, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 15 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/12/goolsbee.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/12/goolsbee.html">
+      <p>In an interview with Neil Cavuto, Chicago Federal Reserve Bank President Austan Goolsbee emphasized that the Fed's decision on rate cuts will depend on the path of inflation, particularly housing inflation. Goolsbee noted, 'For me, the most important number to be watching on the inflation front here in the immediate term is what is happening with housing inflation.' He added, 'If that doesn't go down to something like what it was pre COVID will have a hard time getting the overall back to target.' While acknowledging progress in reducing inflation in 2023, Goolsbee cautioned that 'at the start of this year, we've gotten multiple inflation readings that are higher than where we wanted them to be.' He also highlighted the potential impact of oil prices on inflation, stating, 'The price of oil and the price of gasoline go into the cost of living so for headline inflation, that goes in there.' Goolsbee emphasized that the Fed's decisions will be data-driven, stating, 'The way to square the circle, I think is we're mostly gonna just follow the data and see what happens.' <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Goolsbee">#Goolsbee</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/11/williams.html">
+      Fed's Williams In No Rush to Cut<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 11, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 12 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/11/williams.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/11/williams.html">
+      <p>There's no clear need to adjust monetary policy in the very near term, New York Fed President John Williams told reporters on Thursday, a day after disappointingly strong consumer price inflation prompted traders and some analysts to predict a later start to Fed rate cuts, and likely fewer of them. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Williams">#Williams</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/11/collins.html">
+      Boston Fed's Collins Expects Rate Cuts This Year, but Risks Remain and Patience Is Key<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 11, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 19 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/11/collins.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/11/collins.html">
+      <p>In a speech at the Economic Club of New York, Boston Fed President Susan Collins stated, 'I do expect it will be appropriate to begin lowering the federal funds rate later this year.' However, she cautioned that 'recent data suggest it may take more time than I had previously thought to gain greater confidence in inflation's downward trajectory, before beginning to ease policy.' Collins noted that while supply improvements have helped rebalance the economy, demand has remained elevated. She highlighted that 'the current level of interest rates may provide less restraint than expected,' and 'current financial conditions may be only modestly restrictive.'Regarding the labor market, Collins pointed to 'indicators – including an unemployment rate that remains below 4 percent and quit rates that are back to their pre-pandemic range – point to a labor market that, while coming into better balance, is still robust.' Collins emphasized that 'less easing of policy this year than previously thought may be warranted,' citing robust payroll growth and a recent uptick in core inflation. She stressed the importance of a 'patient and methodical approach' in assessing incoming data and determining the appropriate timing for rate cuts. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Collins">#Collins</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/ecb/2024/04/11/Lagarde.html">
+      ECB Keeps Rates Unchanged, Signals Potential Rate Cut if Inflation Confidence Rises<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 11, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 34 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/ecb/2024/04/11/Lagarde.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/ecb/2024/04/11/Lagarde.html">
+      <p>The European Central Bank (ECB) decided to maintain its key interest rates, stating that they 'are at levels that are making a substantial contribution to the ongoing disinflation process.' However, the ECB signaled a potential rate reduction, noting that 'if our updated assessment of the inflation outlook, the dynamics of underlying inflation and the strength of monetary policy transmission were to further increase our confidence that inflation is converging to our target in a sustained manner, it would be appropriate to reduce the current level of monetary policy restriction.' The central bank emphasized its data-dependent approach, stating that it is 'not pre-committing to a particular rate path.' The ECB expects inflation to fluctuate around current levels in the coming months before declining to its target next year, citing factors such as weaker labor cost growth, restrictive monetary policy effects, and the fading impact of the energy crisis and the pandemic. The bank also highlighted that while domestic inflation remains high, wage growth and unit profits grew less strongly than anticipated in the last quarter of 2023. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Lagarde">#Lagarde</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/09/bostic.html">
+      Atlanta Fed's Bostic Expects Slower Economic Growth, One Rate Cut in Q4<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 09, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 15 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/09/bostic.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/09/bostic.html">
+      <p>In an exclusive interview, Atlanta Fed President Raphael Bostic said he expects the US economy to slow, 'but not nearly as much as I had anticipated, say, in January.' Despite the economy's resilience, Bostic maintains his outlook for 'one rate cut' in the fourth quarter, stating, 'at this point, I think it's one.' However, he acknowledged balanced risks, noting that 'given that the US economy has been so robust, and so strong, and so resilient, you can't take off the possibility that the rate cuts may even have to move further out.' Bostic expects inflation 'is only going to come down at a very slow pace through the course of this year.' He pointed out that while 'goods inflation has come down very fast,' it's 'on the services side that we've seen the struggles in terms of inflation persistently being higher than it usually is.' Regarding the labor market, Bostic said recent job growth has been 'pretty broad based.' He noted that businesses 'are feeling like they have less pricing power' compared to a year ago, which could constrain inflation. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Bostic">#Bostic</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/05/logan.html">
+      Dallas Fed's Logan Sees Risks to Inflation Progress, Says Rate Cuts "Much Too Soon"<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 05, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 15 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/05/logan.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/05/logan.html">
+      <p>In a speech at Duke University, Dallas Fed President Lorie Logan struck a hawkish tone, warning of 'meaningful risks to continued progress' on inflation despite some improvement. She noted that 'inflation data surprised to the upside' in early 2024, with core and trimmed mean PCE inflation around 3%. Logan expressed concern that 'the stance of monetary policy may not be as restrictive as most forecasts assume,' citing evidence that the neutral rate has moved up. She stated, 'I believe it's much too soon to think about cutting interest rates,' adding that 'the FOMC should remain prepared to respond appropriately if inflation stops falling.' Regarding the balance sheet, Logan suggested it will 'soon be appropriate for the FOMC to decide when to slow—not stop—the runoff of our asset holdings' to ensure smooth policy implementation. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Logan">#Logan</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/05/bowman.html">
+      Governor Bowman Highlights Upside Inflation Risks, Caution Needed on Rate Cuts<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 05, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 51 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/05/bowman.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/05/bowman.html">
+      <p>In a speech to the Shadow Open Market Committee, Federal Reserve Governor Michelle Bowman discussed the challenges of conducting monetary policy amid uncertainties. While noting progress on lowering inflation, Bowman emphasized upside risks, stating, 'I continue to see the risk that at a future meeting we may need to increase the policy rate further should progress on inflation stall or even reverse.' She also suggested that the neutral policy rate may be higher than pre-pandemic levels due to structural economic changes. Bowman supported maintaining the current restrictive policy stance, cautioning that 'reducing our policy rate too soon or too quickly could result in a rebound in inflation, requiring further future policy rate increases.' The speech highlighted the Fed's hawkish stance and readiness to take further action if needed to restore price stability. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Bowman">#Bowman</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/05/bostic.html">
+      Fed's Bostic Cautious on Rate Cuts Amid Economic Resilience<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 05, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 11 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/05/bostic.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/05/bostic.html">
+      <p>Atlanta Fed President Raphael Bostic emphasizes continued economic strength and resilience, signaling only a potential for one rate cut towards the end of 2024, deviating from earlier multi-cut forecasts. Despite a robust job market and ongoing strong economic momentum, Bostic advises patience in monetary policy adjustments due to a slower-than-expected decrease in inflation. 'I think it'll be appropriate for us to start moving down at the end of this year, the fourth quarter,' Bostic stated, highlighting that inflation is only expected to incrementally decline through 2024 and beyond. He also noted the need for a more extended period of data assessment before initiating rate cuts, suggesting that the Fed might need to remain vigilant against latent pricing pressures evidenced in CPI and PCE measures. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Bostic">#Bostic</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/03/powell.html">
+      Fed Maintains Cautious Stance as Inflation Trends Downward<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 03, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 40 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/03/powell.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/03/powell.html">
+      <p>Fed Chair Powell provided a nuanced view on the current state of inflation and monetary policy, emphasizing the unusual blend of factors influencing the economy. 'Inflation has come down sharply,' Powell stated, attributing the decline to a mix of tight monetary policy and significant supply side recovery, including increased labor force participation and immigration. He highlighted that 'inflation expectations...are an important part of driving actual inflation,' maintaining at levels consistent with a 2% target, bolstered by public confidence in the Fed's actions. Powell acknowledged the economy's growth exceeding 3% as a remarkable performance, hinting at a cautious but proactive approach to future policy decisions with an eye on maintaining balance. Despite the substantial progress, he stressed the importance of a restrictive policy stance to ensure inflation's return to the 2% target, navigating carefully between the risks of premature easing and undue economic slowdown. Powell's comments reflect a commitment to steering the economy through recovery with a balanced and data-driven approach, while closely monitoring inflation trends and labor market conditions. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Powell">#Powell</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/02/mester.html">
+      Cleveland Fed President Mester Sees Potential Rate Cuts Later This Year, but Warns Against Moving Too Soon<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 02, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/04/02/mester.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/04/02/mester.html">
+      <p>In a speech at the National Association for Business Economics, Cleveland Fed President Loretta Mester acknowledged substantial progress on inflation since its peak in 2022, but noted that it remains above the 2% objective. Mester expects inflation to continue its downward trajectory, stating, 'If the economy evolves as expected, then in my view it will be appropriate for the FOMC to begin reducing the fed funds rate later this year, as inflation continues on its downward path toward 2 percent, and labor markets and economic growth remain solid.' However, she cautioned against cutting rates prematurely, saying, 'On the other hand, moving rates down too soon or too quickly without sufficient evidence to give us confidence that inflation is on a sustainable and timely path back to 2 percent would risk undoing the progress we have made on inflation.' Mester revised her growth projection upward and raised her estimate of the longer-run federal funds rate to 3%. She emphasized that the actual path of policy will depend on economic developments and that the FOMC's job is to calibrate monetary policy to sustainably return inflation to 2% while maintaining healthy labor markets. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Mester">#Mester</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/03/29/powell.html">
+      Fed Chair Powell Signals Higher Rates for Longer, Remains Confident in Inflation Progress<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 29, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 57 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/03/29/powell.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/03/29/powell.html">
+      <p>In an interview, Fed Chair Jerome Powell emphasized that while inflation has been coming down, the central bank wants to be more confident before cutting rates. He stated, 'we haven't reduced interest rates. What we've said is we want to be more confident before we take that step.' He referenced the core PCE inflation at 2.8%, aligning with Fed expectations, as a signal that policy moves must be data-dependent. Despite keeping rates at 5.3%, the highest in decades, Powell highlighted that the economy saw 'very strong growth' in 2023. He remains optimistic about the labor market, with unemployment under 4% for more than two years. On the balance sheet, Powell said the Fed is slowing the pace of runoff to avoid being disruptive, emphasizing that it's 'not at all in any way related to a concern about the economy.' While acknowledging challenges in the commercial real estate sector, particularly for small banks, Powell believes the banking system is "definitely in a good place' overall. The strong performance of the U.S. economy compared to other developed nations gives the Fed 'the chance to just be a little more confident about inflation coming down before we take the important step of cutting rates', according to Powell." <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Powell">#Powell</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/03/27/waller.html">
+      Fed's Waller Calls for Patience, Suggests Fewer Rate Cuts Amid Inflation Concerns<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 27, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 19 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/03/27/waller.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/03/27/waller.html">
+      <p>Fed Governor Christopher Waller urges a cautious approach to monetary policy, emphasizing the need to maintain the current restrictive stance longer than previously expected due to persistent inflation and robust job growth. Highlighting recent data, Waller points out, 'there is no rush to cut the policy rate,' suggesting that patience is essential to ensure inflation's sustainable trajectory toward the 2% target. Despite earlier progress, Waller signals a potential reduction in the number of rate cuts for 2024, indicating a shift in the FOMC's expectations in response to recent economic developments. This stance reflects a broader consensus within the FOMC to adjust policy projections cautiously, with Waller noting, 'In my view, it is appropriate to reduce the overall number of rate cuts or push them further into the future in response to the recent data.' Recent shifts in financial markets and FOMC projections reflect a recalibrated outlook, with fewer anticipated rate cuts in 2024, emphasizing data-driven policy decisions in a fluctuating economic landscape. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Waller">#Waller</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/03/25/goolsbee.html">
+      Goolsbee Aligns with Median Forecast for Three Rate Cuts, Emphasizes Data-Driven Monetary Policy<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 25, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 16 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/03/25/goolsbee.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/03/25/goolsbee.html">
+      <p>Austan Goolsbee, in his discussion, provided insights into several critical areas of monetary policy and economic forecasting, demonstrating a balanced and data-dependent perspective. On policy forecast, he subtly endorsed the median forecast of three rate cuts for the year, suggesting a cautious but proactive approach to monetary adjustments: 'That was in line with my thinking this time'. His outlook on inflation is dovish, recognizing early-year high CPI and PCE readings but anticipating a reversion to the Fed's 2% target, emphasizing the importance of this goal: 'We're going to get to 2%.' On the balance sheet, Goolsbee shares Chair Powell's view on the necessity of moderating its reduction pace, highlighting a strategic decoupling of balance sheet strategies from rate decisions to maintain monetary control and transparency. As for the timing of the first rate cut, Goolsbee remains deliberately vague, underscoring a reliance on evolving economic data to guide decisions: 'it just depends.' This approach accentuates a flexible strategy, prioritizing adaptability and careful analysis over rigid policy pathways, even as he concurs with the broader consensus on potential rate adjustments. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#dot">#dot</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Goolsbee">#Goolsbee</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/03/25/bostic.html">
+      Atlanta Fed's Bostic Expects One Rate Cut in Q4, Cites Slower Inflation Decline<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 25, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/03/25/bostic.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/03/25/bostic.html">
+      <p>Atlanta Fed President Raphael Bostic reiterated his expectation for just one interest-rate cut this year, likely in the fourth quarter, citing the strength of the economy and a slower decline in inflation. 'I think it will be appropriate for us to start moving down at the end of this year, the fourth quarter,' Bostic said, adding, 'If that trajectory slows down in terms of inflation, then we're going to have to be more patient than I think many have expected.' Bostic noted that he is less confident about the trajectory of inflation compared to December, pointing to 'some troubling things' in the underlying data, particularly the breadth of items in the consumer basket rising at an elevated rate. Regarding the Fed's balance sheet, Bostic supports slowing the pace of asset runoff 'relatively soon' to avoid sparking market volatility. While Bostic isn't currently hearing of many cracks in employment from his contacts, he signaled that a negative turn in the labor market could impact his call for just one cut, stating, 'If employment starts to degrade, then I will have to take that on board.' <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Bostic">#Bostic</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/emma's/2024/03/21/fairly-soon.html">
+      Use of "Fairly Soon" in Fed Minutes<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 21, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/emma's/2024/03/21/fairly-soon.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/emma's/2024/03/21/fairly-soon.html">
+      <p>Note: Scrapped all the minutes data and asked GPT4 to summarize for me with some prompts. The relevant minutes information and quotes should be accurate, but the next meeting action was less sophisticated. It was based on GPT4’s own knowledge, plus historical statements, press conference transcripts, and SEP I’ve fed him. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#test">#test</a></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/presser/2024/03/20/fomc.html">
+      March 2024 FOMC Press Conference<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 20, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 49 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/presser/2024/03/20/fomc.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/presser/2024/03/20/fomc.html">
+      <p>Transcript of Chair Powell’s Press Conference on March 20, 2024. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#FOMC">#FOMC</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Powell">#Powell</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#test">#test</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/podcast/2024/03/15/global-data-pod.html">
+      Global Data Pod 03/15/24<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 15, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/podcast/2024/03/15/global-data-pod.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/podcast/2024/03/15/global-data-pod.html">
+      <p>prompt test <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#test">#test</a></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/podcast/2024/03/15/at-any-rate-march-fomc-preview.html">
+      At Any Rate, JPM's March FOMC Preview<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 15, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 17 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/podcast/2024/03/15/at-any-rate-march-fomc-preview.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/podcast/2024/03/15/at-any-rate-march-fomc-preview.html">
+      <p>In this episode of At Any Rate, Phoebe White and Mike Feroli delve into the nuances of recent U.S. inflation data and its implications for future Federal Reserve policy decisions. They discuss February's inflation figures, highlighting a 0.4% rise in both headline and core CPI, with the PPI also showing strength. This has led to an increase in 10-year Treasury yields by 20 basis points. The discussion evolves around the Fed's upcoming meeting, with speculation on minor adjustments to economic forecasts and the dot plot, which could indicate two to three rate cuts this year, and a potential upward revision of the long-term interest rate projection from 2.5% to 2.75%. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#test">#test</a></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/03/07/powell-hh.html">
+      Placeholder - Powell Testimony<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 07, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 16 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/03/07/powell-hh.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/03/07/powell-hh.html">
+      <p>Notes and quotes by human analyst. Fedbot is busy transcribing... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Powell">#Powell</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/03/01/Waller-speech.html">
+      Fed's Waller Advocates for Continued QT, Eyes Shift in Treasury Holdings<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 01, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 26 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/03/01/Waller-speech.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/03/01/Waller-speech.html">
+      <p>Waller supports the continuation of the quantitative tightening (QT) program, highlighting the use of an overnight reverse repurchase agreement facility and a standing repurchase agreement facility as tools to manage excess liquidity and ensure stability in the money markets. He also notes Chair Powell's announcement that the pace of asset redemptions may slow, a move separate from interest rate policy decisions. Furthermore, Waller advocates for the eventual elimination of the Fed's agency MBS holdings and a shift towards holding a larger proportion of shorter-dated Treasury securities to align the maturity structure more closely with the policy rate and facilitate future asset purchase programs. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Waller">#Waller</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/03/01/Logan-uchi.html">
+      Dallas Fed President Logan Advocates for Cautious Balance Sheet Reduction<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 01, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 26 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/03/01/Logan-uchi.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/03/01/Logan-uchi.html">
+      <p>(We understand this is not very good. WIP.) In her address, Dallas Fed President Lorie Logan underscored the challenges in precisely determining the optimal level of bank reserves due to the evolving economic landscape and regulatory environment. Logan emphasized the importance of adaptability in the Federal Reserve's approach to managing the asset runoff and the Overnight Reverse Repurchase Agreement (ON RRP) facility. Advocating for a cautious pace in reducing the Fed's balance sheet, she highlighted the need to mitigate liquidity risks without completely ceasing the runoff. This measured strategy, Logan noted, allows for a balanced adjustment in banking reserves, ensuring stability while accommodating market dynamics. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Logan">#Logan</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/29/mester-banking.html">
+      Mester Advocates for Enhanced Use of Discount Window to Boost Financial System Resilience<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 29, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 29 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/29/mester-banking.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/29/mester-banking.html">
+      <p>In her keynote address at the Columbia University/Bank Policy Institute 2024 Bank Regulation Research Conference, Loretta Mester, President and CEO of the Federal Reserve Bank of Cleveland, emphasized the importance of building a resilient financial system to withstand economic shocks. Reflecting on the lessons from the global financial crisis and the COVID-19 pandemic, she highlighted the need for dynamic risk management and supervision in a rapidly changing financial landscape. Mester pointed out that the recent banking stresses underscore the critical need for better risk management, particularly in terms of liquidity and interest rate risks. She advocated for systematic, transparent regulatory and supervisory approaches that align with market discipline, emphasizing the role of academic research in informing policy. Mester called for a financial resilience goal that allows the banking system to absorb and recover from shocks, ensuring it continues to support economic growth and stability. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#finreg">#finreg</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Mester">#Mester</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/29/Mester-Yahoo.html">
+      Fed's Mester Eyes Economic Balance and Labor Market Moderation Ahead of Potential Rate Cuts<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 29, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 11 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/29/Mester-Yahoo.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/29/Mester-Yahoo.html">
+      <p>In an interview with Yahoo Finance Live, Cleveland Federal Reserve President Loretta Mester discussed the January PCE data, indicating it aligned with expectations and does not alter the Fed's course towards achieving a 2% inflation target. Despite recent inflationary pressures, Mester emphasized ongoing efforts to balance supply and demand, noting improvements in labor market participation. She noted an anticipated moderation in the labor market, viewing it as essential for inflation control, while maintaining a healthy overall employment outlook. She maintains her baseline forecast of three rate cuts this year, contingent on the economy's performance, with a focus on risk management balancing the Fed's dual mandate. Mester's comments suggest a cautious yet proactive approach to monetary policy amidst evolving economic conditions. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#dot">#dot</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#labor_market">#labor_market</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Mester">#Mester</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/28/williams.html">
+      Fed's Williams Re-iterated Rates to Stay High Until Job Is Done<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 28, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/28/williams.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/28/williams.html">
+      <p>In a speech, New York Fed President John Williams highlighted the 'significant progress' made in bringing down inflation and restoring economic balance. However, he emphasized that 'the journey is not yet over,' noting that despite progress, 'job vacancies...are still quite elevated relative to pre-pandemic norms' and 'wage growth...remain[s] above pre-Covid averages.' Williams stated that the FOMC 'has put in place a restrictive stance of monetary policy with the aim of bringing inflation back to 2 percent on a sustained basis.' He reiterated the Committee's stance that it 'does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.' Williams expects inflation 'to continue its return journey to 2 percent, although there will likely be bumps along the way,' forecasting PCE inflation 'to be around 2 to 2-1/4 percent this year and 2 percent next year' <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Williams">#Williams</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/27/bowman.html">
+      Bowman Stresses Caution Amid Inflation Risks, Warning Against Premature Easing<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 27, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 34 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/27/bowman.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/27/bowman.html">
+      <p>In a recent speech, Fed Governor Bowman elaborated on the challenges faced by the Fed in navigating the current economic environment, particularly the difficulty in assessing the economy's state and future trajectory due to frequent data revisions. She emphasized that the Fed's decisions would remain data-dependent and that, while the goal is to move sustainably towards a 2 percent inflation target, it is premature to consider lowering the policy rate. 'Reducing our policy rate too soon could result in requiring further future policy rate increases to return inflation to 2 percent in the longer run,' Bowman cautioned. She also left the door open for potential rate hikes if data indicates that inflation is not on a downward trajectory towards the Fed's target. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Bowman">#Bowman</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/26/schmid-econkc.html">
+      Kansas City Fed President Advocates Patience in Policy, Signals Cautious Balance Sheet Reduction Amid Inflation Watch<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 26, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 17 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/26/schmid-econkc.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/26/schmid-econkc.html">
+      <p>In a recent speech, Kansas City Federal Reserve President Schmid outlined a cautious approach to the Fed's large balance sheet, warning of potential market distortions and threats to the central bank's independence. Schmid underscored the delicate balance the Fed must strike in unwinding its crisis-era asset purchases without unsettling financial markets. Amid an improving but still uncertain inflation outlook, with pressures from energy prices and supply chain disruptions lingering, Schmid stressed the importance of patience in policy adjustments. Despite a robust job market and strong consumer demand, the Kansas City Fed chief sees no immediate need to alter the policy course, advocating instead for a watchful eye on inflation's trajectory. Schmid's comments suggest a measured continuation of the balance sheet reduction, as he doesn’t favor 'an overly cautious approach to balance sheet runoff for the sake of avoiding any volatility in interest rates.' <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Schmid">#Schmid</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/23/williams-axios.html">
+      Williams Signals Steady Policy Amid Inflation Fluctuations, Downplays Rate Hike Speculation<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 23, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 36 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/23/williams-axios.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/23/williams-axios.html">
+      <p>John Williams, President of the Federal Reserve Bank of New York, is maintaining a steady policy outlook and does not currently see a rate hike as his base case, despite recent unsettling inflation and job growth data. He acknowledges these developments but believes in a broader view, emphasizing that one month of data won't sway the Fed's long-term policy direction. Williams remains focused on seeing inflation consistently move towards the Fed's 2% target before considering easing restrictive monetary policies, likely later in the year. His interpretation of inflation trends suggests a cautious optimism, with movements in the right direction, albeit acknowledging the path can be 'bumpy'. On the topic of the neutral interest rate, or r-star, Williams expresses skepticism about significant shifts post-pandemic, suggesting that while high fiscal deficits might push the rate higher, demographic and other factors could have a counterbalancing effect, essentially keeping it aligned with pre-pandemic trends. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Williams">#Williams</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/22/waller-nd.html">
+      Fed's Waller wants more evidence inflation is cooling before cutting interest rates<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 22, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 17 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/22/waller-nd.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/22/waller-nd.html">
+      <p>Fed's Waller advocates a cautious stance on interest rates, stressing the importance of further data to confirm sustained inflation progress before considering rate cuts. Recent strong economic indicators, such as GDP growth and job creation, suggest no immediate need for rate reductions. Waller highlights the uncertainty around inflation's trajectory, indicating a preference to wait and observe more data. He acknowledges the potential for policy easing within the year but emphasizes that decisions will be data-dependent. Waller's approach is careful, aiming to balance economic growth with the goal of achieving the Fed's 2% inflation target. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Waller">#Waller</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/22/cook-princeton.html">
+      Federal Reserve's Cook Advocates for Prudence in Policy Easing Amid Disinflation Trends<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 22, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 23 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/22/cook-princeton.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/22/cook-princeton.html">
+      <p>Fed's Cook emphasizes a cautious approach to monetary policy, focusing on achieving a balance between the risks of premature easing, which could keep inflation persistently high, and delaying policy adjustments, potentially harming the economy. Cook advocates for maintaining current restrictive policy until there's greater confidence that inflation is sustainably converging to the 2% target. This stance reflects a shift towards two-sided risks in monetary policy considerations, acknowledging recent disinflation and labor market adjustments. Cook suggests future policy adjustments will reflect changing risk assessments, aiming to sustain price stability and economic health. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Cook">#Cook</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/22/Jefferson-PIIE.html">
+      Federal Reserve's Jefferson Advocates for Prudent Policy Adjustments Amid Economic Uncertainties<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 22, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 36 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/22/Jefferson-PIIE.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/22/Jefferson-PIIE.html">
+      <p>In his address, Fed's Jefferson outlined a nuanced approach to monetary policy, emphasizing caution against easing too much in response to inflation improvements to avoid undermining the progress towards price stability. He articulated a stance of cautious optimism about inflation, stressing the Federal Reserve's commitment to remain vigilant and nimble in the face of unforeseen economic shocks. Jefferson highlighted the importance of a comprehensive review of economic data, including labor market conditions and productivity gains, to guide decisions on interest rates. He underscored the need for policy adjustments to be informed by a broad spectrum of indicators, aiming for a balanced approach that supports economic growth while steering inflation towards the Fed's target. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Jefferson">#Jefferson</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/21/kashkari-marketplace.html">
+      Kashkari Cautious on Rate Cuts<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 21, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/21/kashkari-marketplace.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/21/kashkari-marketplace.html">
+      <p>Kashkari expressed a cautious approach towards adjusting interest rates amidst ongoing efforts to manage inflation. While acknowledging the progress in reducing inflation, Kashkari conveyed hesitation to immediately proceed with rate cuts, emphasizing the importance of ensuring inflation is reliably on a downward path before making such decisions. His cautious stance stems from historical instances where premature rate cuts led to a resurgence of inflation. Conversely, Kashkari did not express a direct inclination towards raising rates again but did not rule out the possibility if inflationary pressures re-emerge. He suggested that maintaining the current rate for a longer period could be a strategy to exert downward pressure on demand, indicating a preference for a watchful waiting approach to further assess the economic indicators and inflation trends before considering either rate cuts or hikes. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#dot">#dot</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Kashkari">#Kashkari</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/16/daly-nabe.html">
+      Fed’s Daly Says Patience is Needed to Finish the Job on Inflation<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 16, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 50 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/16/daly-nabe.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/16/daly-nabe.html">
+      <p>The Federal Reserve should take its time before cutting interest rates, given the risks that some of the factors that have been pushing down inflation might peter out or even reverse, San Francisco Fed President Mary Daly said on Friday. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#dot">#dot</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Daly">#Daly</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/07/Kugler-Brookings.html">
+      Fed Governor Kugler Optimistic on Disinflation, Signals Openness to Future Rate Cuts Amid Balanced Risks<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 07, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 49 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/07/Kugler-Brookings.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/07/Kugler-Brookings.html">
+      <p>Fed Governor Kugler highlighted the dramatic slowdown in both total and core PCE inflation, indicating a hopeful outlook for the economy's inflation trajectory. Despite this positive trend, she noted the persistence of services inflation but sees potential for improvement, especially in core services excluding housing. Kugler also addressed the labor market's resilience, emphasizing that the cooling demand has not led to significant layoffs, contributing positively to the disinflationary process. She indicated that monetary policy has played a crucial role in the progress made and suggested that if the cooling of inflation and labor markets continues, it might become appropriate to reduce the federal funds rate in the future. However, she cautioned that the Federal Reserve's job is not done, and they remain focused on returning inflation durably to the 2% target while being mindful of employment. Kugler's remarks reflect a balanced approach to managing monetary policy, acknowledging both progress and potential risks ahead. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Kugler">#Kugler</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/06/mester.html">
+      Cleveland Fed's Mester Cautions Against Premature Easing of Monetary Policy<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 06, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 26 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/02/06/mester.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/02/06/mester.html">
+      <p>Cleveland Fed President Loretta Mester's comments on monetary policy underscore a careful and strategic approach by the Federal Open Market Committee (FOMC) towards adjusting monetary policy amid evolving economic conditions. Mester emphasized the importance of not prematurely lowering interest rates without clear evidence that inflation is on a sustainable path back to the Fed's 2 percent target. She highlighted the risk that moving rates down too hastily could negate the progress made in controlling inflation and potentially destabilize inflation expectations. Conversely, she acknowledged that if inflation expectations continue to decline, maintaining the current rate could inadvertently tighten policy, posing risks to employment. Furthermore, she discussed the Fed's balance sheet and the consideration of reducing the pace of asset runoff, distinguishing between the implementation of monetary policy through balance sheet adjustments and the stance of monetary policy primarily determined by the fed funds rate target. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#dot">#dot</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Mester">#Mester</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/presser/2024/01/31/fomc-presser.html">
+      Jan'24 FOMC Press Conference<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 31, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 52 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/presser/2024/01/31/fomc-presser.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/presser/2024/01/31/fomc-presser.html">
+      <p>Transcript of Chair Powell’s Press Conference on January 31, 2024. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#FOMC">#FOMC</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Powell">#Powell</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/emma's/2024/01/30/jan-fomc-preview.html">
+      Jan FOMC Preview - Is It Over Now?<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 30, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 17 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/emma's/2024/01/30/jan-fomc-preview.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/emma's/2024/01/30/jan-fomc-preview.html">
+      <p>I so wish I could say this is written by the Fedbot... When he does, it'll be better than mine. Consider this as a warm-up exercise. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#test">#test</a></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/podcast/2024/01/26/podcast-at-any-rate.html">
+      At Any Rate, JPM's FOMC and QRA Preview<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 26, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 25 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/podcast/2024/01/26/podcast-at-any-rate.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/podcast/2024/01/26/podcast-at-any-rate.html">
+      <p>Rates strategist Jay Barry and Chief US economist Mike Feroli discuss the outlook for policy in the week ahead, including expectations for the FOMC meeting, the Treasury’s quarterly refunding announcement, and the implications for US rates markets. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#test">#test</a></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/emma's/2024/01/25/BTFP-sunset.html">
+      Bank Term Funding Program Scheduled to Sunset Mid-March<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 25, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/emma's/2024/01/25/BTFP-sunset.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/emma's/2024/01/25/BTFP-sunset.html">
+      <p>Editor’s note: This quick note is written by a human analyst with assistance from the Fedbot :)
+
+The Federal Reserve announced at 7 p.m. on Wednesday that the Bank Term Funding Program (BTFP) will conclude as scheduled on March 11, 2024. This decision follows earlier indications by Federal Reserve Vice Chair for Supervision Michael Barr and New ... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#btfp">#btfp</a></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/19/goolsbee-cnbc.html">
+      Goolsbee Optimistic on 'Golden Path', Eyes Inflation Trends for Rate Decisions<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 19, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 8 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/19/goolsbee-cnbc.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/19/goolsbee-cnbc.html">
+      <p>Chicago Fed President Goolsbee, emphasizing the importance of real restrictiveness, suggests that the Federal Reserve's decision-making is heavily reliant on actual inflation trends. He underscores that as inflation decreases, it logically opens the path for potential rate cuts. Goolsbee also points out the notable progress in goods price inflation, returning to pre-COVID levels, and observes encouraging developments in services inflation. However, he highlights the need for more progress in housing inflation. His commentary indicates a belief that the economy is on a 'golden path' towards balancing growth and labor market indicators, with the potential to lessen the level of restrictiveness if these positive trends continue. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Goolsbee">#Goolsbee</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/19/daly-sd.html">
+      Daly Advocates for Gradualism and Patience in Monetary Policy with Labor Market in Focus<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 19, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 13 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/19/daly-sd.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/19/daly-sd.html">
+      <p>Federal Reserve Bank of San Francisco President Mary Daly emphasizes the importance of patience and gradualism in monetary policy. She believes that the current policy is appropriately set to influence the economy effectively. Daly stresses the need for balance, avoiding premature easing of policy which could lead to inflation remaining above target—a scenario she describes as 'scarring.' With signs of the labor market slowing, Daly highlights the necessity of careful calibration to ensure inflation is reduced gently, without undue harm to the labor market. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Daly">#Daly</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/19/daly-fox.html">
+      Daly Cautious on Rate Cuts; Inflation and Labor Market Key to Future Policy Decisions<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 19, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 11 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/19/daly-fox.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/19/daly-fox.html">
+      <p>Federal Reserve official Mary Daly stressed that it's too soon to declare victory in their efforts to stabilize prices. While the Fed is considering cutting rates, she said 'it's premature to think that that's around the corner.' She outlined two critical factors the Fed is closely monitoring before deciding on any rate adjustments: consistent evidence of inflation moving sustainably back towards the 2% target, and early signs of faltering in the labor market. Daly's approach is centered on closely monitoring inflation trends and labor market conditions, emphasizing the Fed's commitment to achieving price stability while avoiding abrupt policy changes that could adversely affect the economy. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#BTFP">#BTFP</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Daly">#Daly</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/18/Bostic-speech.html">
+      Bostic Signals Openness to Cut Before July with Convincing Downshift in Data<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 18, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 16 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/18/Bostic-speech.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/18/Bostic-speech.html">
+      <p>Atlanta Fed President Bostic said he has revised his outlook for normalizing the federal funds rate to the third quarter of this year, citing progress in inflation reduction. He warned against overly restrictive policy, which could harm the labor market and economy. Emphasizing the need for balance, he cautioned against delaying policy easing and risking economic overtightening. Bostic advocated for a flexible, data-driven approach, ready to adjust based on evolving economic conditions. He remains committed to the 2 percent inflation target and open to earlier normalization if convincing data emerges. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Bostic">#Bostic</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/16/waller-brookings.html">
+      Waller Advocates Moving ‘Methodically and Carefully’ With Rate Cuts in Fed’s 2024 Policy Adjustment<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 16, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 59 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/16/waller-brookings.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/16/waller-brookings.html">
+      <p>Fed Governor Waller conveyed growing confidence in achieving a 2% inflation target and the decision on rate cuts will be data-dependent, with economic activity, labor market conditions, and inflation trends as key factors. Waller emphasized the importance of upcoming CPI inflation revisions in shaping policy decisions. Advocating a cautious approach, Waller proposed methodical rate reductions, unlike the rapid cuts in past economic downturns. The current robust state of the economy allows for a deliberate adjustment of rates, with future decisions being driven by incoming economic data. On balance sheet reduction, Waller suggested considering tapering 'sometime this year', but only for its Treasury holdings. He suggested letting MBS continue to run off at its current pace. Consistent with his previous view, Waller said he considers '10 to 11% of GDP as an approximate endpoint for draining reserves out of the system'. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Waller">#Waller</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/12/goolsbee-fox.html">
+      Goolsbee Downplays December CPI Report, Hinting No Immediate Intention to Halt Runoff<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 12, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 8 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/12/goolsbee-fox.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/12/goolsbee-fox.html">
+      <p>Chicago Fed President Goolsbee, signals potential interest rate cuts in 2024, depending on the continued decline in inflation. He downplayed today's CPI report, citing 'I don't think we want to get too hung up on any one month's report' and pointed to Fed's target PCE, which 'continued to show good progress'. He reiterated his stance, noting, 'I wasn't the lowest (on the dot plot), I was closer to the median,' indicating a moderate position on future rate adjustments. Regarding the Federal Reserve's balance sheet, Goolsbee supports the ongoing strategy of gradual reduction, hinting no immediate intention to halt the runoff. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Goolsbee">#Goolsbee</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/11/mester-bbg.html">
+      Mester Suggested March is Too Early For a Cut<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 11, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 16 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/11/mester-bbg.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/11/mester-bbg.html">
+      <p>Cleveland Fed President Loretta Mester, who holds a critical voting role this year and is slated for retirement in June, expressed skepticism about the possibility of a rate cut in March, suggesting that it might be too soon for such a move. She emphasized the need for more concrete evidence on the economy's progress before considering adjustments to the current rate. Regarding the Federal Reserve's balance sheet, Mester echoed William's recent remarks and mentioned that discussions are anticipated this year about the pace of reduction, but emphasized that no immediate changes are necessary due to the ample reserves still in the system. Mester also reflected on the December CPI report, noting that it doesn't suggest to her that inflation progress is stalling out. She highlighted the ongoing need for a restrictive monetary policy to achieve the Fed's 2% inflation target. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Mester">#Mester</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/10/williams-rules-of-three.html">
+      Williams Indicates Fed Not Near Reducing Pace of Balance Sheet Runoff<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 10, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 15 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/10/williams-rules-of-three.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/10/williams-rules-of-three.html">
+      <p>In his 2024 outlook, Federal Reserve Bank President John Williams forecasts a GDP growth slowdown to 1.25%, an unemployment rise to 4%, and a decrease in PCE inflation to around 2.25%. This indicated a slightly more bearish growth view compared to the median view in Dec SEP. Williams also notes that while the Fed plans to slow and eventually stop the balance sheet reduction 'when reserve balances are somewhat above the level it judges to be consistent with ample reserves', but 'we don’t seem to be close to that point'. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Williams">#Williams</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/08/Bowman.html">
+      Bowman Strikes Hawkish Stance While Signaling Openness to Future Rate Cuts<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 08, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 25 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/08/Bowman.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/08/Bowman.html">
+      <p>Governor Michelle Bowman of the Federal Reserve signals a cautiously adaptive approach to rate adjustments. While recently open to the possibility of rate cuts as inflation nears the 2% target, her views are tempered by her earlier stance, where she suggested the post-pandemic neutral rate might need to be higher to effectively manage the economy. This implies a delicate balance in policy: rate cuts could be on the table if inflation consistently eases, but a generally higher rate environment might persist long-term. Bowman's position reflects a nuanced response to evolving economic trends, underpinned by her belief in potentially higher neutral rates to counter future economic shocks and ensure financial stability. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Bowman">#Bowman</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/08/Bostic-Rotary.html">
+      Bostic Anticipates Two Rate Cuts in 3Q24; No Rush to Slow Down Runoff<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 08, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/08/Bostic-Rotary.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/08/Bostic-Rotary.html">
+      <p>Bostic on Monday repeated his expectation for two rate cuts this year, and told reporters after the event that he expects the first cut in the third quarter; Bostic also told reporters it’s an “open question” if and when the Fed should alter the pace at which it reduces its portfolio of assets, adding that the current pace is appropriate. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Bostic">#Bostic</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/06/logan-AEA.html">
+      Logan Advocates for Reduced Fed Asset Reduction Amid Shrinking Reverse Repos<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 06, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 11 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/06/logan-AEA.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/06/logan-AEA.html">
+      <p>Dallas Fed President Lorie Logan, addressing the rapid decline in ON RRP balances, emphasizes the importance of adapting the Federal Reserve's asset runoff strategy. Logan states, "It’s appropriate to consider the parameters that will guide a decision to slow the runoff of our assets. As ON RRP balances approach a low level, we should slow the pace of runoff." Her comments reflect a proactive stance towards ensuring financial stability. This perspective aligns with the recent Fed minutes, which highlight a notable decrease in ON RRP usage, and "several" participants suggested early discussions on the technical factors guiding a decision to moderate the pace of the balance sheet reduction. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Logan">#Logan</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/minutes/2024/01/03/fomcminutes12132023.html">
+      Dec'23 FOMC Minutes<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 03, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 13 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/minutes/2024/01/03/fomcminutes12132023.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/minutes/2024/01/03/fomcminutes12132023.html">
+      <p>(Fedbot's summary failed my quality test for this one) - tbu <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#Minutes">#Minutes</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/01/03/barkin.html">
+      Barkin Supports Adjusting Rates to Normal Levels as Inflation Declines<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Jan 03, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 12 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2024/01/03/barkin.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2024/01/03/barkin.html">
+      <p>Richmond Fed President Thomas Barkin, a voting member this year, recognizes ongoing inflation in services and shelter, but doesn't express significant concern. He suggests cautiously adjusting interest rates towards normal levels, a process he refers to as "toggling," to balance controlling inflation with maintaining economic stability. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Barkin">#Barkin</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2023/12/19/mester-FT.html">
+      Mester Push Back on Early Rate Cuts<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Dec 19, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2023/12/19/mester-FT.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2023/12/19/mester-FT.html">
+      <p>Federal Reserve Bank of Cleveland President Loretta Mester, a 2024 FOMC voter, cautioned against market optimism over early 2024 interest rate cuts. Mester, who retires in June, anticipates three rate cuts next year, aligning with her view of easing inflation amid slower growth and slight unemployment increase. Mester stressed the necessity for the Fed to adjust its policy rate to a neutral level as inflation approaches the target, to avoid unintended tightening effects in real interest rate terms. She also highlighted the significance of one-year forward inflation expectations in guiding future rate adjustments. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#dot">#dot</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Mester">#Mester</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2023/12/19/barkin-yahoo.html">
+      Barkin Views Inflation Sticker<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Dec 19, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 10 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2023/12/19/barkin-yahoo.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2023/12/19/barkin-yahoo.html">
+      <p>Richmond Federal Reserve President Tom Barkin said Tuesday the central bank has made good progress on bringing down inflation, but he needs to see more consistency in the data before rate cuts can begin. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#dot">#dot</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Barkin">#Barkin</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2023/12/15/williams-cnbc.html">
+      Williams Pushes Back on Market's Dovish Response Post FOMC<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Dec 15, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 10 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2023/12/15/williams-cnbc.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2023/12/15/williams-cnbc.html">
+      <p>New York Federal Reserve President John Williams said Friday rate cuts are not a topic of discussion at the moment for the central bank. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#policy">#policy</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Williams">#Williams</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2023/12/15/post-dec-goolsbee-bostic-daly.html">
+      Recent Fedspeak from Goolsbee, Bostic, and Daly<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Dec 15, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2023/12/15/post-dec-goolsbee-bostic-daly.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2023/12/15/post-dec-goolsbee-bostic-daly.html">
+      <p>Dot detective: Goolsbee - 4 cuts...? Bostic - 2 cuts in Q3. Daly - Median <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#dot">#dot</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Goolsbee">#Goolsbee</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Daly">#Daly</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Bostic">#Bostic</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/presser/2023/12/13/powell-press-conference.html">
+      Powell's Press Conference<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Dec 13, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 46 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/presser/2023/12/13/powell-press-conference.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/presser/2023/12/13/powell-press-conference.html">
+      <p>Transcript of Chair Powell’s Press Conference on December 13, 2023. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#FOMC">#FOMC</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Powell">#Powell</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2023/11/28/waller-speech.html">
+      Waller Suggested Fed is Ready to Cut If Inflation Continues Falling<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Nov 28, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 43 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2023/11/28/waller-speech.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2023/11/28/waller-speech.html">
+      <p>With Fed likely done hiking rates, Waller flags pivot ahead. <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#cut">#cut</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#Waller">#Waller</a>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/2020/04/18/bostic.html">
+      Bostic<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Apr 18, 2020</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 51 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/2020/04/18/bostic.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/2020/04/18/bostic.html">
+      <p>
+Andrea: I don't know if anybody saw on 60 Minutes 3-4 weeks ago, they did a story on Jerome Powell, but they had a shot of the Federal Open Market Committee meeting, and who was right there in the middle of the picture, but my longtime friend and colleague, Rafael Bostic, who is the president of the Federal Reserve Bank of Atlanta and has been ... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/2000/03/01/Barkin-CNBC.html">
+      Barkin Cnbc<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Mar 01, 2000</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/2000/03/01/Barkin-CNBC.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/2000/03/01/Barkin-CNBC.html">
+      <p>
+(2) Richmond Fed President Tom Barkin: Got a shot to bring inflation down ‘very close to our target’ - YouTube
+https://www.youtube.com/watch?v=tL-ecCTFwfI
+
+Transcript:
+Liesman: Tom Barkin the Richmond fed president Tom thanks for joining us around the table takes a bit of Courage for you to be here um right and face this Rogues Gallery here but... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/jekyll-theme-yat/fedspeak/2000/02/05/Kashkari-Essay.html">
+      Kashkari Essay<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> Feb 05, 2000</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+  </div>
+  <div class="post-excerpt">
+<!-- Commented out start
+    <a  class="post-image" href="/jekyll-theme-yat/fedspeak/2000/02/05/Kashkari-Essay.html" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/jekyll-theme-yat/assets/images/default-image.jpeg); height: 160px"></div>
+    </a>
+    Commented out end --><a class="post-text" href="/jekyll-theme-yat/fedspeak/2000/02/05/Kashkari-Essay.html">
+      <p> <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#kashkari">#kashkari</a></div>
+</li>
+</ul>
+
+  <!-- Pagination links -->
+</div>
+</div>
+
+
+  </section>
+  
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="/jekyll-theme-yat/index.html">
+        All<span>69</span>
+      </a>
+    </li>
+
+    
+      <li>
+        <a href="/jekyll-theme-yat/categories.html#h-ECB">
+          ECB <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/categories.html#h-Emma's">
+          Emma's <span>3</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/categories.html#h-Fedspeak">
+          Fedspeak <span>55</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/categories.html#h-Minutes">
+          Minutes <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/categories.html#h-Podcast">
+          Podcast <span>3</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/jekyll-theme-yat/categories.html#h-Presser">
+          Presser <span>4</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+</section>
+</div>
+
+      </div>
+    </main>
+    
+    <button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
+    <input type="text" id="commentInput" style="display: none;"><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2023-2024 Contact at emsun at stanford dot edu</div>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/textSelection.js"></script>
+    <script src="/assets/js/videopip.js"></script>
+  </body>
+</html>

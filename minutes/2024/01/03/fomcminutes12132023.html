@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Dec’23 FOMC Minutes | Fedbot</title>
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Dec’23 FOMC Minutes">
+<meta name="author" content="Contact at emsun at stanford dot edu">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Link">
+<meta property="og:description" content="Link">
+<link rel="canonical" href="/jekyll-theme-yat/minutes/2024/01/03/fomcminutes12132023.html">
+<meta property="og:url" content="/jekyll-theme-yat/minutes/2024/01/03/fomcminutes12132023.html">
+<meta property="og:site_name" content="Fedbot">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-01-03T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Dec’23 FOMC Minutes">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Contact at emsun at stanford dot edu"},"dateModified":"2024-01-03T00:00:00+00:00","datePublished":"2024-01-03T00:00:00+00:00","description":"Link","headline":"Dec’23 FOMC Minutes","mainEntityOfPage":{"@type":"WebPage","@id":"/jekyll-theme-yat/minutes/2024/01/03/fomcminutes12132023.html"},"url":"/jekyll-theme-yat/minutes/2024/01/03/fomcminutes12132023.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="canonical" href="">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="/jekyll-theme-yat/feed.xml" title="Fedbot">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="Fedbot" src="" onerror="this.style.display='none'">
+  Fedbot
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a><a class="page-link" href="/jekyll-theme-yat/paper.html">PAPER</a><a class="page-link" href="/jekyll-theme-yat/others.html">OTHERS</a><a class="page-link" href="/jekyll-theme-yat/about.html">ABOUT</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+              </span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<!--<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+--><div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
+<input type="text" id="commentInput" style="display: none;">
+    
+<script src="/assets/js/textSelection.js"></script>
+<script src="/assets/js/videopip.js"></script>
+
+
+
+<div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Dec'23 FOMC Minutes</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2024-01-03T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Jan 03, 2024
+    </time>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 13 mins</span>
+  </div>
+<div class="post-tags">
+<a class="post-tag" href="/jekyll-theme-yat/tags.html#Minutes">#Minutes</a><a class="post-tag" href="/jekyll-theme-yat/tags.html#QT">#QT</a>
+</div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <h4 id="link">Link</h4>
+
+<p><a href="https://www.federalreserve.gov/monetarypolicy/files/fomcminutes20231213.pdf">Minutes</a></p>
+
+<h4 id="excerpt---section-participants-views-on-current-conditions-and-the-economic-outlook">Excerpt - Section: “Participants’ Views on Current Conditions and the Economic Outlook”</h4>
+
+<p>In conjunction with this FOMC meeting, participants submitted their projections of the most likely outcomes for real GDP growth, the unemployment rate, and inflation for each year from 2023 through 2026 and over the longer run. The projections were based on their individual assessments of appropriate monetary policy, including the path of the federal funds rate. The longer-run projections represented each participant’s assessment of the rate to which each variable would be expected to converge, over time, under appropriate monetary policy and in the absence of further shocks to the economy. A Summary of Economic Projections (SEP) was released to the public following the conclusion of the meeting.</p>
+
+<p>In their discussion of current economic conditions, participants observed that after stronger than expected growth of real GDP in the third quarter, recent indicators suggested that growth in economic activity had slowed. While still strong, job gains had moderated since earlier this year, and the unemployment rate had remained low. Participants observed that inflation had eased over the past year but remained elevated and above the Committee’s longer-run goal of 2 percent.</p>
+
+<p>Regarding the economic outlook, participants generally judged that, in 2024, real GDP growth would cool and that rebalancing of the labor market would continue, with the unemployment rate rising somewhat from its current level. Based on better-than-expected data on inflation, participants revised down their inflation projections for 2023 and, to a lesser extent, in subsequent years. Participants judged that the current stance of monetary policy was restrictive and appeared to be restraining economic activity and inflation. In light of the policy restraint in place, along with more favorable data on inflation, participants generally viewed risks to inflation and employment as moving toward greater balance. However, participants remained highly attentive to inflation risks.</p>
+
+<p>In their discussion of inflation, all participants observed that clear progress had been made in 2023 toward the Committee’s 2 percent inflation objective. They remained concerned that elevated inflation continued to harm households, especially those with limited means to absorb higher prices. Participants observed that inflation remained above the Committee’s objective and that they would need to see more evidence that inflation pressures were abating to become confident in a sustained return of inflation to 2 percent.</p>
+
+<p>In reviewing progress to date in reducing inflation, participants noted the improvement in both headline and core inflation and discussed the developments in components of these aggregate measures. They observed that progress had been uneven across components, with energy and core goods prices falling or changing little recently, but core services prices still increasing at an elevated pace. Several participants observed that the ongoing rebalancing of labor supply and demand would help reduce core services inflation. Several participants assessed that housing services inflation would fall further over time as the earlier deceleration in rents on new leases continued to pass through to broader rent measures. Participants also discussed the role played by various supply and demand factors in the progress on reducing inflation thus far. They assessed that the contribution of improved supply had come from supply chain normalization, boosts to labor supply due to a higher labor force participation rate and immigration, better productivity growth, or increased domestic oil production. They also noted that restrictive monetary policy had helped restrain growth of demand, particularly in interest-sensitive sectors such as business fixed investment, housing, and autos and other durable goods. Several participants assessed that healing in supply chains and labor supply was largely complete, and therefore that continued progress in reducing inflation may need to come mainly from further softening in product and labor demand, with restrictive monetary policy continuing to play a central role. A few others saw potential for further improvements in supply. Several participants noted that longer-term inflation expectations remained well anchored and that near-term inflation expectations of households had declined recently.</p>
+
+<p>In their comments about the household sector, participants observed that consumer spending had been strong, supported by the healthy balance sheets of many households, a strong labor market, and robust income growth. Retail sales growth had stepped down noticeably in October, though a few participants remarked that contacts reported strong sales in November, notably related to holiday spending. Participants mentioned several factors that may contribute to softer consumer spending, including slower growth of labor income and diminishing pandemic-related excess savings. Relatedly, many participants noted increased usage of credit by households, including from credit cards, buy-now-pay-later borrowing, and payday loans, as well as increased delinquency rates for many types of consumer loans.</p>
+
+<p>Reports from participants’ business-sector contacts were mixed, with some contacts remaining relatively optimistic and others expecting slower growth for 2024. Several participants observed that higher interest rates were leading firms to reassess future projects and were contributing to softer business investment and hiring. A couple of participants commented on small businesses, noting that such businesses were experiencing tighter credit conditions and increasing delinquencies. A few participants noted that contacts in manufacturing reported slowing growth, while a couple of participants expected that low prices for some commodities and drought conditions would reduce agricultural incomes this year. Regarding concerns about CRE, several participants noted that a significant share of properties would need to be refinanced in 2024 against a backdrop of higher interest rates, continued weakness in the office sector, and balance sheet pressures faced by some lenders.</p>
+
+<p>Participants assessed that while the labor market remained tight, it continued to come into better balance. Many noted that nominal wage growth had continued to slow broadly and that business contacts expected a further reduction in wage growth. A few participants observed that payroll growth had slowed substantially since the beginning of the year. Some participants remarked that their contacts reported larger applicant pools for vacancies, and some participants highlighted that the ratio of vacancies to unemployed workers had declined to a value only modestly above its level just before the pandemic. Participants viewed improvements in labor supply and the easing of labor demand as both having contributed to the labor market coming into better balance. Supply had improved because of higher labor force participation and immigration, with continued solid productivity growth also supporting the productive capacity of the economy. As evidence for the softening of the growth of labor demand during 2023, many participants noted the decline in job openings, and a few remarked on the lower quits rate. Several participants noted the risk that, if labor demand were to weaken substantially further, the labor market could transition quickly from a gradual easing to a more abrupt downshift in conditions.</p>
+
+<p>Participants generally perceived a high degree of uncertainty surrounding the economic outlook. As an upside risk to both inflation and economic activity, participants noted that the momentum of economic activity may be stronger than currently assessed, possibly on account of the continued balance sheet strength of many households. Furthermore, participants observed that, after a sharp tightening since the summer, financial conditions had eased over the intermeeting period. Many participants remarked that an easing in financial conditions beyond what is appropriate could make it more difficult for the Committee to reach its inflation goal. Participants also noted other sources of upside risks to inflation, including possible effects on global energy and food prices of geopolitical developments, a potential rebound in core goods prices following the period of supply chain improvements, or the effects of nearshoring and onshoring activities on labor demand and inflation. Downside risks to economic activity noted by participants included the possibility that effects of past policy tightening may be larger than expected, the risk of a marked weakening of household balance sheets, possible negative spillovers from lower growth in some foreign economies, geopolitical risks, and lingering risks of further tightening in bank credit. Relatedly, several participants noted that the weakness in gross domestic income growth relative to GDP growth over the past few quarters may suggest that economic momentum during that period was not as strong as indicated by the GDP readings.</p>
+
+<p>In their consideration of appropriate monetary policy actions at this meeting, participants noted that recent indicators suggested that growth of economic activity had slowed from its strong pace in the third quarter. Job gains had moderated since earlier in the year but remained strong, the unemployment rate had remained low, and there were continuing signs that supply and demand in the labor market were coming into better balance. Inflation had eased over the past year but remained elevated. Participants also noted that tighter financial and credit conditions facing households and businesses would likely weigh on economic activity, hiring, and inflation, al­though the extent of these effects remained uncertain. Participants continued to be resolute in their commitment to bring inflation down to the Committee’s 2 percent objective.</p>
+
+<p>In light of current economic conditions and their implications for the outlook for economic activity and inflation, as well as the balance of risks, all participants judged it appropriate to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent at this meeting. All participants also agreed that it was appropriate to continue the process of reducing the Federal Reserve’s securities holdings, as described in the previously announced Plans for Reducing the Size of the Federal Reserve’s Balance Sheet.</p>
+
+<p>Participants assessed that maintaining the current policy stance was supported by intermeeting data indicating that inflation had continued to move toward the Committee’s 2 percent objective and that the labor market had continued to move into better balance. They judged that maintaining the target range for the federal funds rate at this meeting would promote further progress toward the Committee’s goals and allow participants more time to gather additional information to evaluate this progress.</p>
+
+<p>In discussing the policy outlook, participants viewed the policy rate as likely at or near its peak for this tightening cycle, though they noted that the actual policy path will depend on how the economy evolves. Participants pointed to the decline in inflation seen during 2023, noting the recent shift down in six-month inflation readings in particular, and to growing signs of demand and supply coming into better balance in product and labor markets as informing that view. Several participants remarked that the Committee’s past policy actions were having their intended effect of helping to slow the growth of aggregate demand and cool labor market conditions. They judged that, in combination with improvements in the supply situation, these developments were helping to bring inflation back to 2 percent over time. Most participants noted that, as indicated in their submissions to the SEP, they expected the Committee’s restrictive policy stance to continue to soften household and business spending, helping to promote further reductions in inflation over the next few years.</p>
+
+<p>In their submitted projections, almost all participants indicated that, reflecting the improvements in their inflation outlooks, their baseline projections implied that a lower target range for the federal funds rate would be appropriate by the end of 2024. Participants also noted, however, that their outlooks were associated with an unusually elevated degree of uncertainty and that it was possible that the economy could evolve in a manner that would make further increases in the target range appropriate. Several also observed that circumstances might warrant keeping the target range at its current value for longer than they currently anticipated. Participants generally stressed the importance of maintaining a careful and data-dependent approach to making monetary policy decisions and reaffirmed that it would be appropriate for policy to remain at a restrictive stance for some time until inflation was clearly moving down sustainably toward the Committee’s objective.</p>
+
+<p>Participants discussed several risk-management considerations that could bear on future policy decisions. Participants saw upside risks to inflation as having diminished but noted that inflation was still well above the Committee’s longer-run goal and that a risk remained that progress toward price stability would stall. A number of participants highlighted the uncertainty associated with how long a restrictive monetary policy stance would need to be maintained, and pointed to the downside risks to the economy that would be associated with an overly restrictive stance. A few suggested that the Committee potentially could face a tradeoff between its dual-mandate goals in the period ahead.</p>
+
+<p>Participants observed that the continuing process of reducing the size of the Federal Reserve’s balance sheet was an important part of the Committee’s overall approach to achieving its macroeconomic objectives and that balance sheet runoff had so far proceeded smoothly. Several participants noted that, amid the ongoing balance sheet normalization, there had been a further decline over the intermeeting period in use of the ON RRP facility and that this reduced usage largely reflected portfolio shifts by money market mutual funds toward higher-yielding investments, including Treasury bills and private-market repo. Several participants remarked that the Committee’s balance sheet plans indicated that it would slow and then stop the decline in the size of the balance sheet when reserve balances are somewhat above the level judged consistent with ample reserves. These participants suggested that it would be appropriate for the Committee to begin to discuss the technical factors that would guide a decision to slow the pace of runoff well before such a decision was reached in order to provide appropriate advance notice to the public.</p>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/jekyll-theme-yat/fedspeak/2024/01/03/barkin.html" title="Barkin Supports Adjusting Rates to Normal Levels as Inflation Declines">Barkin Supports Adjusting Rates to Normal...</a><a class="next" href="/jekyll-theme-yat/fedspeak/2024/01/06/logan-AEA.html" title="Logan Advocates for Reduced Fed Asset Reduction Amid Shrinking Reverse Repos">Logan Advocates for Reduced Fed Asset...</a>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link" href="/jekyll-theme-yat/2000/03/01/Barkin-CNBC.html" title="Barkin Cnbc">
+            Barkin Cnbc<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/02/23/williams-axios.html" title="Williams Signals Steady Policy Amid Inflation Fluctuations, Downplays Rate Hike Speculation">
+            Williams Signals Steady Policy Amid Inflation Fluctuations, Downplays Rate Hike Speculation<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/jekyll-theme-yat/fedspeak/2024/04/18/williams.html" title="NY Fed's Williams Suggests Higher Rates for Longer as Strong Economy Outweighs Inflation Concerns">
+            NY Fed's Williams Suggests Higher Rates for Longer as Strong Economy Outweighs...<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+<li class="">
+          <a class="post-link" href="/jekyll-theme-yat/presser/2024/01/31/fomc-presser.html" title="Jan'24 FOMC Press Conference">
+            Jan'24 FOMC Press Conference<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li>
+</ul>
+    </div>
+<div class="post-comments"></div></section>
+
+</div>
+
+
+  </section>
+  
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main>
+    
+    <button id="saveButton" class="saveButton" onclick="saveTextAndComment()">Save</button>
+    <input type="text" id="commentInput" style="display: none;"><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2023-2024 Contact at emsun at stanford dot edu</div>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/textSelection.js"></script>
+    <script src="/assets/js/videopip.js"></script>
+  </body>
+</html>
